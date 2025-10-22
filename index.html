@@ -1,38 +1,28 @@
 <!doctype html>
 <html lang="ru">
-<!--
-  ✓ Сайт в продакшене
-  URL: https://paris-art-deco-2026.surge.sh
-  Хостинг: Surge.sh (бесплатно, навсегда)
-  Формы: formspree.io/f/xvgwnvkb
--->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   
-  <!-- SEO Meta Tags -->
-  <title>Париж: индивидуальный почерк ар-деко — 4 дня с кураторами (январь 2026)</title>
-  <meta name="description" content="4 дня в Париже. Фактуры, материалы, атмосфера. Ольга и Наталья. Галереи, отели, шоу-румы. Малые группы." />
-  <meta name="keywords" content="Paris Art Deco, ар-деко Париж, Palais de Tokyo, Nolinski, Galerie Vallois, Maison Louis Carré" />
+  <title id="page-title">Загрузка...</title>
+  <meta name="description" content="" id="page-description" />
+  <meta name="keywords" content="" id="page-keywords" />
   
-  <!-- Open Graph -->
-  <meta property="og:title" content="Париж: индивидуальный почерк ар-деко" />
-  <meta property="og:description" content="4 дня. Фактуры, материалы, атмосфера. То, что не видно в публикациях." />
+  <meta property="og:title" content="" id="og-title" />
+  <meta property="og:description" content="" id="og-description" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://paris-art-deco-2026.surge.sh" />
-  <meta property="og:image" content="https://paris-art-deco-2026.surge.sh/og-image.jpg" />
+  <meta property="og:url" content="" id="og-url" />
+  <meta property="og:image" content="" id="og-image" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:site_name" content="Индивидуальный почерк ар-деко" />
   <meta property="og:locale" content="ru_RU" />
   
-  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Париж: индивидуальный почерк ар-деко" />
-  <meta name="twitter:description" content="4 дня. Фактуры, материалы, атмосфера. То, что не видно в публикациях." />
-  <meta name="twitter:image" content="https://paris-art-deco-2026.surge.sh/og-image.jpg" />
+  <meta name="twitter:title" content="" id="twitter-title" />
+  <meta name="twitter:description" content="" id="twitter-description" />
+  <meta name="twitter:image" content="" id="twitter-image" />
   
-  <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23E31B1B'/%3E%3Cpath d='M25 50L75 50 M50 25L50 75' stroke='%23C0C0C0' stroke-width='4'/%3E%3Ccircle cx='50' cy='50' r='15' fill='none' stroke='%23C0C0C0' stroke-width='2'/%3E%3C/svg%3E" />
   
   <style>
@@ -231,15 +221,11 @@
       font-weight: 600;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      font-weight: 600;
       text-decoration: none;
       border-radius: 4px;
       transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       border: none;
       cursor: pointer;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
     }
 
     .btn-primary {
@@ -386,8 +372,9 @@
     }
 
     .day-date {
-      font-size: 0.95rem;
-      opacity: 0.8;
+      font-size: 1.125rem;
+      opacity: 0.85;
+      font-weight: 600;
     }
 
     .day-toggle {
@@ -449,6 +436,7 @@
       line-height: 1.7;
       letter-spacing: -0.011em;
       max-width: 60ch;
+      white-space: pre-line;
     }
 
     .day-evening {
@@ -569,65 +557,7 @@
       font-size: 2rem;
       color: var(--accent-red);
       font-weight: 700;
-    }
-
-    /* === FAQ === */
-    .faq {
-      background-color: var(--bg-secondary);
-    }
-
-    .faq-container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .faq-item {
-      margin-bottom: 1rem;
-      border: 1px solid var(--border-light);
-      border-radius: 8px;
-      background-color: white;
-      overflow: hidden;
-    }
-
-    .faq-question {
-      padding: 1.25rem 1.5rem;
-      font-weight: 600;
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      transition: background-color 0.3s ease;
-      font-size: 1.05rem;
-    }
-
-    .faq-question:hover {
-      background-color: var(--bg-secondary);
-    }
-
-    .faq-toggle {
-      font-size: 1.25rem;
-      transition: transform 0.3s ease;
-      color: var(--accent-red);
-    }
-
-    .faq-item.active .faq-toggle {
-      transform: rotate(180deg);
-    }
-
-    .faq-answer {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease-out, padding 0.4s ease-out;
-    }
-
-    .faq-item.active .faq-answer {
-      max-height: 500px;
-      padding: 0 1.5rem 1.5rem;
-    }
-
-    .faq-answer p {
-      color: var(--text-muted);
-      line-height: 1.7;
+      margin: 0.5rem 0;
     }
 
     /* === BOOKING FORM === */
@@ -672,7 +602,7 @@
       border-radius: 6px;
       font-size: 1rem;
       transition: border-color 0.3s ease;
-      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-family: var(--font-body);
     }
 
     .form-group input:focus {
@@ -730,12 +660,6 @@
       color: white;
     }
 
-    .footer-copyright {
-      margin-top: 2rem;
-      font-size: 0.875rem;
-      opacity: 0.7;
-    }
-
     /* === RESPONSIVE === */
     @media (max-width: 768px) {
       section {
@@ -773,17 +697,12 @@
 </head>
 <body>
 
-  <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-content">
-      <h1>Париж:<br>индивидуальный почерк ар-деко</h1>
-      <p class="hero-subtitle">4 дня.<br>Фактуры, материалы, атмосфера.<br>То, что не видно в публикациях.</p>
+      <h1 id="hero-title"></h1>
+      <p class="hero-subtitle" id="hero-subtitle"></p>
       
-      <div class="hero-meta">
-        <div class="hero-meta-item">15–18 января 2026</div>
-        <div class="hero-meta-item">до 12 человек</div>
-        <div class="hero-meta-item">1 550 €</div>
-      </div>
+      <div class="hero-meta" id="hero-meta"></div>
 
       <div class="hero-cta">
         <a href="#booking" class="btn btn-primary">Забронировать место</a>
@@ -792,281 +711,48 @@
     </div>
   </section>
 
-  <!-- PHILOSOPHY SECTION -->
   <section class="philosophy">
     <div class="container-narrow">
       <div class="section-title">
         <h2>Программа</h2>
       </div>
       
-      <div class="philosophy-content">
-        <p>Денье, Legré, Эйлин Грей, Аалто. У каждого свой почерк. Все берут коды ар-деко, но применяют по-разному.</p>
-        
-        <p>В интерьерах видны соотношения фактур, тонкости цвета, работа с материалами. В публикациях этого нет.</p>
-        
-        <div class="philosophy-highlight">
-          Парижские дизайнеры смешивают новое с винтажом. Интерьер без предметов с историей выглядит как салон.
-        </div>
-
-        <p>Первый день — современные мастера. Второй — исторический слой: 20–30-е, Эйлин Грей, выставка 1937. Третий — Maison & Objet. Четвёртый — Аалто.</p>
-
-        <p>Программа для дизайнеров, декораторов, архитекторов.</p>
-      </div>
+      <div class="philosophy-content" id="program-intro"></div>
     </div>
-    </section>
+  </section>
 
-  <!-- PROGRAM SECTION -->
   <section id="program" class="program">
     <div class="container">
       <div class="section-title">
         <h2>По дням</h2>
       </div>
 
-      <div class="days-container">
-        <!-- Day I -->
-        <div class="day">
-          <div class="day-header" onclick="toggleDay(this)" role="button" tabindex="0" aria-expanded="false" aria-label="День I: Правый берег — Отрицание и преемственность, 15 января">
-            <div class="day-header-left">
-              <div class="day-number">ДЕНЬ I</div>
-              <div class="day-title">Правый берег — Отрицание и преемственность</div>
-              <div class="day-date">15 января</div>
-            </div>
-            <div class="day-toggle" aria-hidden="true">▼</div>
-          </div>
-          <div class="day-content">
-            <div class="day-theme">Современная интерпретация ар-деко.</div>
-            
-            <ul class="locations-list">
-              <li class="location-item">
-                <div class="location-name">Printemps</div>
-                <div class="location-description">
-                  Здание перестраивалось несколько раз: есть ар-нуво (1900-е), есть ар-деко (1920-30-е). Видна преемственность. Материалы: металл, камень, текстиль.
-                </div>
-              </li>
-
-              <li class="location-item">
-                <div class="location-name">Отель Nolinski (дизайнер: Жан-Луи Денье)</div>
-                <div class="location-description">
-                  Денье специализируется на ар-деко. Отель перестроен недавно. Острая геометрия, молдинги, зеркала, разбивка стен.
-                </div>
-              </li>
-
-              <li class="location-item">
-                <div class="location-name">Шоу-рум Legré (4 этажа)</div>
-                <div class="location-description">
-                  Формат: дом (спальни, кабинеты). Предметы 1920–40-х. Дорогие материалы, антиквариат.
-                </div>
-              </li>
-
-              <li class="location-item">
-                <div class="location-name">Музей (по выбору куратора)</div>
-                <div class="location-description">
-                  Зависит от актуальных выставок.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Day II -->
-        <div class="day">
-          <div class="day-header" onclick="toggleDay(this)" role="button" tabindex="0" aria-expanded="false" aria-label="День II: Левый берег — буржуазия и пафос, 16 января">
-            <div class="day-header-left">
-              <div class="day-number">ДЕНЬ II</div>
-              <div class="day-title">Левый берег — буржуазия и пафос</div>
-              <div class="day-date">16 января</div>
-            </div>
-            <div class="day-toggle" aria-hidden="true">▼</div>
-          </div>
-          <div class="day-content">
-            <div class="day-theme">Ар-деко 1920–30-х. Предметы эпохи, галереи, выставка 1937.</div>
-            
-            <ul class="locations-list">
-              <li class="location-item">
-                <div class="location-name">Галереи Saint-Germain</div>
-                <div class="location-description">
-                  Галереи: винтаж, текстиль, мебель 20-30-х годов.
-                </div>
-              </li>
-
-              <li class="location-item">
-                <div class="location-name">Galerie Vallois</div>
-                <div class="location-description">
-                  Ар-деко 20–30-х. Коллекционирует и продаёт Эйлин Грей (1878–1976): столик E1027 (1927), хром, эргономика. Грей работала через наблюдение за поведением: столик с бортиком — чтобы крошки не падали при завтраке в кровати. Встреча с владелицей.
-                </div>
-              </li>
-
-              <li class="location-item">
-                <div class="location-name">Palais de Tokyo + Трокадеро</div>
-                <div class="location-description">
-                  Всемирная выставка 1937. Ар-деко на стыке с модернизмом.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Day III -->
-        <div class="day">
-          <div class="day-header" onclick="toggleDay(this)" role="button" tabindex="0" aria-expanded="false" aria-label="День III: Maison & Objet, 17 января">
-            <div class="day-header-left">
-              <div class="day-number">ДЕНЬ III</div>
-              <div class="day-title">Maison & Objet</div>
-              <div class="day-date">17 января</div>
-            </div>
-            <div class="day-toggle" aria-hidden="true">▼</div>
-          </div>
-          <div class="day-content">
-            <div class="day-theme">Связь 1925–2026.</div>
-            
-            <ul class="locations-list">
-              <li class="location-item">
-                <div class="location-name">Maison & Objet, Paris Nord Villepinte (15–19 января)</div>
-                <div class="location-description">
-                  Тема: «Прошлое раскрывает будущее». Четыре тренда: Метаморфоза, Мутация, Переосмысленное барокко, Неофольклор.<br><br>
-                  • Что нового в декоре (Элизабет Лериш)<br>
-                  • Дизайнер года: Гарри Нуриев — «Трансформизм» (зал 3)<br>
-                  • Мануфактуры мастерства — 20 французских ремесленников<br>
-                  • Курация (Томас Хаарманн) — 60 участников
-                </div>
-              </li>
-
-              <li class="location-item">
-                <div class="location-name">Маршрут по трассе выставки 1925 года</div>
-                <div class="location-description">
-                  Места павильонов Exposition Internationale des Arts Décoratifs (1925). Раздел: «декоративный» поток (орнаменты, роскошь) и «модернистский» (Ле Корбюзье, Грей — очищенные формы, эргономика).
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Day IV -->
-        <div class="day">
-          <div class="day-header" onclick="toggleDay(this)" role="button" tabindex="0" aria-expanded="false" aria-label="День IV: Аалто — Человечный модернизм, 18 января">
-            <div class="day-header-left">
-              <div class="day-number">ДЕНЬ IV</div>
-              <div class="day-title">Аалто — Человечный модернизм</div>
-              <div class="day-date">18 января</div>
-            </div>
-            <div class="day-toggle" aria-hidden="true">▼</div>
-          </div>
-          <div class="day-content">
-            <div class="day-theme">«Человечный модернизм» Альвара Аалто.</div>
-            
-            <ul class="locations-list">
-              <li class="location-item">
-                <div class="location-name">Maison Louis Carré (1956–59, арх. Алвар Аалто)</div>
-                <div class="location-description">
-                  Аалто (1898–1976). Дерево, свет, акустика. Эргономика как забота. Направленный свет, ламперии, V-образная ножка (гнутое дерево). Дом коллекционера: жилье и галерея.
-                </div>
-              </li>
-
-              <li class="location-item">
-                <div class="location-name">Парк виллы</div>
-                <div class="location-description">
-                  Ландшафт вокруг виллы.
-                </div>
-              </li>
-            </ul>
-
-            <div class="day-evening">
-              <strong>Итоговый ужин и фидбек.</strong>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="days-container" id="days-container"></div>
     </div>
   </section>
 
-  <!-- CURATORS SECTION -->
   <section class="curators">
     <div class="container">
       <div class="section-title">
         <h2>Кураторы</h2>
       </div>
 
-      <div class="curators-grid">
-        <!-- Olga -->
-        <div class="curator-card">
-          <h3 class="curator-name">Ольга</h3>
-          <div class="curator-role">Дизайнер, декоратор, искусствовед</div>
-          
-          <ul class="curator-bio">
-            <li>30+ лет в дизайне интерьеров и кураторской работе</li>
-            <li>Куратор программ в Высшей Британской школе дизайна</li>
-            <li>Авторские путешествия с 2008 года</li>
-            <li>Материалы, геометрия, история стиля</li>
-            <li>Диалог, а не лекция. Показывает то, что работает</li>
-          </ul>
-        </div>
+      <div class="curators-grid" id="curators-grid"></div>
+    </div>
+  </section>
 
-        <!-- Natalia -->
-        <div class="curator-card">
-          <h3 class="curator-name">Наталья</h3>
-          <div class="curator-role">Журналист, писатель, гид</div>
-          
-          <ul class="curator-bio">
-            <li>Эксперт парижского дизайна</li>
-            <li>Живет в Париже, знает места и людей</li>
-            <li>Истории людей и мест</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <!-- INCLUSIONS SECTION -->
   <section class="inclusions">
     <div class="container">
       <div class="section-title">
         <h2>Что в(ы)ключено</h2>
       </div>
 
-      <div class="inclusions-grid">
-        <div class="inclusion-card">
-          <div class="inclusion-icon">✓</div>
-          <div class="inclusion-title">Кураторское сопровождение</div>
-          <div class="inclusion-description">Все 4 дня с экспертами</div>
-        </div>
+      <div class="inclusions-grid" id="inclusions-grid"></div>
+    </div>
+  </section>
 
-        <div class="inclusion-card">
-          <div class="inclusion-icon">✓</div>
-          <div class="inclusion-title">Входы и встречи</div>
-          <div class="inclusion-description">Галереи, музеи, отели, шоу-румы, специальные встречи</div>
-        </div>
-
-        <div class="inclusion-card">
-          <div class="inclusion-icon">✓</div>
-          <div class="inclusion-title">Материалы</div>
-          <div class="inclusion-description">Гайдбук, список локаций, рекомендации</div>
-        </div>
-
-        <div class="inclusion-card">
-          <div class="inclusion-icon">✓</div>
-          <div class="inclusion-title">Чат-поддержка</div>
-          <div class="inclusion-description">До и после программы</div>
-        </div>
-
-        <div class="inclusion-card">
-          <div class="inclusion-icon">✗</div>
-          <div class="inclusion-title">Не включено</div>
-          <div class="inclusion-description">Перелет, проживание, питание, транспорт</div>
-        </div>
-
-        <div class="inclusion-card">
-          <div class="inclusion-icon">💶</div>
-          <div class="inclusion-title">Стоимость</div>
-          <div class="price-highlight">1 550 €</div>
-          <div class="inclusion-description">Депозит: 0 €</div>
-        </div>
-        </div>
-      </div>
-    </section>
-
-  <!-- BOOKING SECTION -->
   <section id="booking" class="booking">
-      <div class="container">
+    <div class="container">
       <div class="section-title">
         <h2>Забронировать место</h2>
       </div>
@@ -1098,10 +784,9 @@
           </div>
         </form>
       </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-  <!-- FOOTER -->
   <footer class="main-footer">
     <div class="container">
       <div class="footer-content">
@@ -1110,19 +795,144 @@
           <a href="#curators">Кураторы</a>
           <a href="#booking">Бронирование</a>
         </div>
-        
       </div>
     </div>
   </footer>
 
-  <!-- JAVASCRIPT -->
+  <script src="content.js"></script>
   <script>
-    // Toggle Day Accordion
+    // Render content
+    function render() {
+      // Meta tags
+      document.getElementById('page-title').textContent = CONTENT.meta.title;
+      document.getElementById('page-description').content = CONTENT.meta.description;
+      document.getElementById('page-keywords').content = CONTENT.meta.keywords;
+      document.getElementById('og-title').content = CONTENT.meta.ogTitle;
+      document.getElementById('og-description').content = CONTENT.meta.ogDescription;
+      document.getElementById('og-url').content = CONTENT.meta.url;
+      document.getElementById('og-image').content = CONTENT.meta.ogImage;
+      document.getElementById('twitter-title').content = CONTENT.meta.ogTitle;
+      document.getElementById('twitter-description').content = CONTENT.meta.ogDescription;
+      document.getElementById('twitter-image').content = CONTENT.meta.ogImage;
+
+      // Hero
+      document.getElementById('hero-title').innerHTML = CONTENT.hero.title;
+      document.getElementById('hero-subtitle').innerHTML = CONTENT.hero.subtitle;
+      document.getElementById('hero-meta').innerHTML = `
+        <div class="hero-meta-item">${CONTENT.hero.dates}</div>
+        <div class="hero-meta-item">${CONTENT.hero.group}</div>
+        <div class="hero-meta-item">${CONTENT.hero.price}</div>
+      `;
+
+      // Program intro
+      const programIntro = document.getElementById('program-intro');
+      CONTENT.program.intro.forEach(item => {
+        if (typeof item === 'string') {
+          const p = document.createElement('p');
+          p.textContent = item;
+          programIntro.appendChild(p);
+        } else if (item.type === 'highlight') {
+          const div = document.createElement('div');
+          div.className = 'philosophy-highlight';
+          div.textContent = item.text;
+          programIntro.appendChild(div);
+        }
+      });
+
+      // Days
+      const daysContainer = document.getElementById('days-container');
+      CONTENT.days.forEach((day, index) => {
+        const dayEl = document.createElement('div');
+        dayEl.className = 'day';
+        
+        const locationsHTML = day.locations.map(loc => `
+          <li class="location-item">
+            <div class="location-name">${loc.name}</div>
+            <div class="location-description">${loc.description}</div>
+          </li>
+        `).join('');
+
+        const eveningHTML = day.evening ? `
+          <div class="day-evening">
+            <strong>${day.evening}</strong>
+          </div>
+        ` : '';
+
+        dayEl.innerHTML = `
+          <div class="day-header" role="button" tabindex="0" aria-expanded="false" aria-label="${day.number}: ${day.title}, ${day.date}">
+            <div class="day-header-left">
+              <div class="day-number">${day.number}</div>
+              <div class="day-title">${day.title}</div>
+              <div class="day-date">${day.date}</div>
+            </div>
+            <div class="day-toggle" aria-hidden="true">▼</div>
+          </div>
+          <div class="day-content">
+            <div class="day-theme">${day.theme}</div>
+            <ul class="locations-list">
+              ${locationsHTML}
+            </ul>
+            ${eveningHTML}
+          </div>
+        `;
+        
+        daysContainer.appendChild(dayEl);
+      });
+
+      // Curators
+      const curatorsGrid = document.getElementById('curators-grid');
+      CONTENT.curators.forEach(curator => {
+        const curatorEl = document.createElement('div');
+        curatorEl.className = 'curator-card';
+        
+        const bioHTML = curator.bio.map(item => `<li>${item}</li>`).join('');
+        
+        curatorEl.innerHTML = `
+          <h3 class="curator-name">${curator.name}</h3>
+          <div class="curator-role">${curator.role}</div>
+          <ul class="curator-bio">
+            ${bioHTML}
+          </ul>
+        `;
+        
+        curatorsGrid.appendChild(curatorEl);
+      });
+
+      // Inclusions
+      const inclusionsGrid = document.getElementById('inclusions-grid');
+      CONTENT.inclusions.forEach(inc => {
+        const incEl = document.createElement('div');
+        incEl.className = 'inclusion-card';
+        
+        const priceHTML = inc.price ? `<div class="price-highlight">${inc.price}</div>` : '';
+        
+        incEl.innerHTML = `
+          <div class="inclusion-icon">${inc.icon}</div>
+          <div class="inclusion-title">${inc.title}</div>
+          ${priceHTML}
+          <div class="inclusion-description">${inc.description}</div>
+        `;
+        
+        inclusionsGrid.appendChild(incEl);
+      });
+
+      // Add event listeners for day accordions
+      document.querySelectorAll('.day-header').forEach(header => {
+        header.addEventListener('click', () => toggleDay(header));
+        header.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            toggleDay(header);
+          }
+        });
+      });
+    }
+
     function toggleDay(header) {
       const day = header.parentElement;
       const isActive = day.classList.contains('active');
       
-      // Close all days and update aria-expanded
+      // Close all days
       document.querySelectorAll('.day').forEach(d => {
         d.classList.remove('active');
         const dayHeader = d.querySelector('.day-header');
@@ -1135,18 +945,6 @@
         header.setAttribute('aria-expanded', 'true');
       }
     }
-    
-    // Keyboard support for accordions
-    document.querySelectorAll('.day-header').forEach(header => {
-      header.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          toggleDay(this);
-        }
-      });
-    });
-
-    // Form handled by Formspree
 
     // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -1161,6 +959,9 @@
         }
       });
     });
+
+    // Initialize
+    render();
   </script>
 
 </body>
