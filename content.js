@@ -13,8 +13,8 @@ const CONTENT = {
     keywords: "Paris Art Deco, ар-деко Париж, Palais de Tokyo, Nolinski, Galerie Vallois, Maison Louis Carré",
     ogTitle: "Индивидуальный почерк ар-деко. 100 лет",
     ogDescription: "4 дня. Фактуры, материалы, атмосфера. То, что не видно в публикациях.",
-    ogImage: "https://paris-art-deco-2026.surge.sh/og-image.jpg",
-    url: "https://paris-art-deco-2026.surge.sh"
+    ogImage: "https://www.parisinjanuary.ru/og-image.jpg",
+    url: "https://www.parisinjanuary.ru"
   },
 
   program: {
