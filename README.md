@@ -57,6 +57,9 @@ const CONTENT = {
 2. **[CAMPAIGN_AESTHETICS.md](CAMPAIGN_AESTHETICS.md)** — визуальная система  
    Эстетика кампании, преемственность с parisinseptember.ru, гайд для всех каналов
 
+3. **[ERROR_PREVENTION.md](ERROR_PREVENTION.md)** — ⚠️ предотвращение ошибок  
+   Как избегать критических ошибок, контрольные списки, извлечённые уроки
+
 ### Архив всех кампаний:
 
 4. **[CAMPAIGNS_LEGACY.md](CAMPAIGNS_LEGACY.md)** — легаси-архив  
