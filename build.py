@@ -116,10 +116,11 @@ def parse_content(md_path):
     
     # DAYS
     data['days'] = []
-    day_pattern = r'## (ДЕНЬ [IVX]+) • (.+?)\n### (.+?)\n\*\*Тема:\*\* (.+?)\n\n(.*?)(?=\n---|\n## [КЧ]|$)'
+    day_pattern = r'## (ДЕНЬ [IVX]+) • (.+?)\n### (.+?)(?:\n\*\*Тема:\*\* (.+?))?\n\n(.*?)(?=\n---|\n## [КЧ]|$)'
     
     for match in re.finditer(day_pattern, body, re.DOTALL):
-        day_num, date, title, theme, locations_text = match.groups()
+        day_num, date, title, theme_optional, locations_text = match.groups()
+        theme = theme_optional if theme_optional else ""
         
         locations = []
         location_pattern = r'\*\*(.+?)\*\*\s*\n(.+?)(?=\n\*\*|\n---|\n## |$)'
