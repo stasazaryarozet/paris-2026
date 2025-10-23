@@ -683,25 +683,28 @@ section {
 .footer-content {
   max-width: 800px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.footer-links {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 1.5rem 0;
-  font-size: 0.95rem;
-}
-
-.footer-links a {
+.back-to-top {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
   color: var(--chrome);
+  background: transparent;
+  border: 1px solid var(--chrome);
+  border-radius: 50%;
   text-decoration: none;
-  transition: color 0.3s ease;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
 }
 
-.footer-links a:hover {
+.back-to-top:hover {
   color: white;
+  border-color: white;
+  transform: translateY(-2px);
 }
 
 /* === MODAL === */

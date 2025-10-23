@@ -46,7 +46,7 @@ const CONTENT = {
         },
         {
           name: "Музей",
-          description: "На&nbsp;выбор Ольги."
+          description: "На&nbsp;выбор Натальи. Она еще сообщит."
         }
       ]
     },
