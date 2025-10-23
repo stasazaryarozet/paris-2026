@@ -355,6 +355,17 @@
       outline-offset: 2px;
     }
 
+    @media (max-width: 767px) {
+      .day-header {
+        cursor: default;
+        background: linear-gradient(135deg, var(--midnight-blue) 0%, #2a4a6a 100%);
+      }
+      
+      .day-header:hover {
+        background: linear-gradient(135deg, var(--midnight-blue) 0%, #2a4a6a 100%);
+      }
+    }
+
     .day-header-left {
       flex: 1;
     }
@@ -380,21 +391,35 @@
     .day-toggle {
       font-size: 1.5rem;
       transition: transform 0.3s ease;
+      display: none;
     }
 
-    .day.active .day-toggle {
-      transform: rotate(180deg);
+    @media (min-width: 768px) {
+      .day-toggle {
+        display: block;
+      }
+
+      .day.active .day-toggle {
+        transform: rotate(180deg);
+      }
     }
 
     .day-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+      padding: 2rem 1.5rem;
     }
 
-    .day.active .day-content {
-      max-height: 2000px;
-      padding: 2rem 1.5rem;
+    @media (min-width: 768px) {
+      .day-content {
+        max-height: 0;
+        overflow: hidden;
+        padding: 0 1.5rem;
+        transition: max-height 0.4s ease-out, padding 0.4s ease-out;
+      }
+
+      .day.active .day-content {
+        max-height: 2000px;
+        padding: 2rem 1.5rem;
+      }
     }
 
     .day-theme {
@@ -660,6 +685,65 @@
       color: white;
     }
 
+    /* === FLOATING CTA === */
+    .floating-cta {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 100;
+      opacity: 0;
+      transform: translateY(100px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      pointer-events: none;
+    }
+
+    .floating-cta.visible {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: all;
+    }
+
+    .floating-cta-btn {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem 1.5rem;
+      background: rgba(227, 27, 27, 0.95);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 8px 32px rgba(227, 27, 27, 0.4);
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+      font-family: var(--font-body);
+      text-decoration: none;
+    }
+
+    .floating-cta-btn:hover {
+      background: rgba(199, 23, 23, 0.98);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(227, 27, 27, 0.5);
+    }
+
+    .floating-cta-btn:focus-visible {
+      outline: 3px solid var(--chrome);
+      outline-offset: 3px;
+    }
+
+    .floating-cta-text {
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .floating-cta-hint {
+      font-size: 0.75rem;
+      opacity: 0.85;
+      margin-top: 0.25rem;
+    }
+
     /* === RESPONSIVE === */
     @media (max-width: 768px) {
       section {
@@ -691,6 +775,23 @@
 
       .booking-form {
         padding: 2rem 1.5rem;
+      }
+
+      .floating-cta {
+        bottom: 1rem;
+        right: 1rem;
+      }
+
+      .floating-cta-btn {
+        padding: 0.875rem 1.25rem;
+      }
+
+      .floating-cta-text {
+        font-size: 0.85rem;
+      }
+
+      .floating-cta-hint {
+        font-size: 0.7rem;
       }
     }
   </style>
@@ -794,6 +895,14 @@
       </div>
     </div>
   </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta" id="floatingCta">
+    <a href="#booking" class="floating-cta-btn" aria-label="Перейти к бронированию">
+      <span class="floating-cta-text">Забронировать место</span>
+      <span class="floating-cta-hint">Визы оформлять долго</span>
+    </a>
+  </div>
 
   <script src="content.js"></script>
   <script>
@@ -956,8 +1065,42 @@
       });
     });
 
+    // Floating CTA logic
+    function updateFloatingCTA() {
+      const floatingCta = document.getElementById('floatingCta');
+      const hero = document.querySelector('.hero');
+      const booking = document.getElementById('booking');
+      
+      if (!floatingCta || !hero || !booking) return;
+      
+      const scrollY = window.scrollY;
+      const heroBottom = hero.offsetTop + hero.offsetHeight;
+      const bookingTop = booking.offsetTop;
+      const bookingVisible = scrollY + window.innerHeight > bookingTop + 100;
+      
+      // Show CTA when: past hero AND before booking is visible
+      if (scrollY > heroBottom && !bookingVisible) {
+        floatingCta.classList.add('visible');
+      } else {
+        floatingCta.classList.remove('visible');
+      }
+    }
+
+    // Throttle scroll events
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          updateFloatingCTA();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+
     // Initialize
     render();
+    updateFloatingCTA();
   </script>
 
 </body>

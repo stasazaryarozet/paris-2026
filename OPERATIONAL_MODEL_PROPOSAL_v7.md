@@ -118,11 +118,34 @@ TDD. Тест перед кодом.
 - Директивы, не просьбы
 - Факты, не мнения
 - Действия, не намерения
+- Нет «I hope this helps», «Would you like», «Let me know»
 
 **Логирование:**
 - Каждое решение в reasoning.log
 - Только критические события — не спам
 - Формат: `[timestamp] ДЕЙСТВИЕ: причина → результат`
+
+**АНТИ-AI ДИРЕКТИВЫ:**
+
+Не использовать LLM-паттерны (ref: Wikipedia:Signs of AI writing):
+
+Запрещено:
+- Вертикальные списки с жирными заголовками + перенос + описание
+- Чекмарки (✓✗) в списках
+- Промо-язык: «vibrant», «rich tapestry», «groundbreaking», «showcasing», «ensuring»
+- Дидактизм: «it's important to note», «you should remember»
+- Резюме: «In summary», «In conclusion», «Overall»
+- Отрицательные параллелизмы: «not only... but...», «it's not just about...»
+- Title Case В Заголовках
+- Избыточное использование em-дашей (—)
+- «Rule of three»: adjective, adjective, and adjective
+
+Разрешено:
+- Простые bullet points без избыточного форматирования
+- Em-дaши там, где естественно (не везде)
+- Списки без жирных заголовков на каждой строке
+
+Текст должен быть неотличим от человеческого письма.
 
 ---
 
