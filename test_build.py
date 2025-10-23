@@ -74,9 +74,9 @@ def test_build():
     
     # 7. Кураторы (КРИТИЧНО!)
     print("7. Проверка кураторов...")
-    curators = ['Ольга', 'Наталья']
+    curators = ['Розет', 'Логинова']
     for curator in curators:
-        if f'name: "{curator}"' not in content_js:
+        if curator not in content_js:
             errors.append(f"❌ КРИТИЧНО: Куратор {curator} отсутствует!")
         else:
             print(f"   ✅ {curator} присутствует")

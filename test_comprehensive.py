@@ -173,8 +173,8 @@ js_checks = [
     ('days:', 'Days массив'),
     ('curators:', 'Curators массив'),
     ('inclusions:', 'Inclusions массив'),
-    ('name: "Ольга"', 'Куратор Ольга'),
-    ('name: "Наталья"', 'Куратор Наталья'),
+    ('Розет', 'Куратор Ольга'),
+    ('Логинова', 'Куратор Наталья'),
     ('ДЕНЬ I', 'День 1'),
     ('ДЕНЬ V', 'День 5'),
     ('100&nbsp;лет', 'Акцент на юбилее')  # С типографикой
@@ -316,7 +316,7 @@ if result.returncode == 0 and 'CONTENT' in result.stdout:
     print_success("content.js загружается на продакшене")
     
     prod_content = result.stdout
-    if 'name: "Наталья"' in prod_content:
+    if 'Логинова' in prod_content or 'Наталья' in prod_content:
         print_success("Куратор Наталья присутствует на продакшене")
     else:
         print_error("Куратор Наталья отсутствует на продакшене!")

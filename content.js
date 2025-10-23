@@ -33,7 +33,7 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Printemps",
+          name: "Прантан (Printemps)",
           description: "Нуво и Деко. Отрицание и преемственность. Материалы, металл, цвет."
         },
         {
@@ -57,11 +57,11 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Saint-Germain",
+          name: "Сен-Жермен (Saint-Germain)",
           description: "Квартал антикваров. Лак, хром, фанеровка."
         },
         {
-          name: "Galerie Vallois",
+          name: "Галерея Валлуа (Galerie Vallois)",
           description: "20–30-е годы. Встреча с&nbsp;владелицей галереи."
         },
         {
@@ -69,7 +69,7 @@ const CONTENT = {
           description: "Самая выдающаяся женщина-модернистка XX века. Ар-деко разделилось: декоративное и модернистское. Каждый предмет продуман."
         },
         {
-          name: "Palais de Tokyo + Trocadéro",
+          name: "Пале-де-Токио + Трокадеро (Palais de Tokyo + Trocadéro)",
           description: "Выставка 1937&nbsp;года. Предметы ар-деко."
         }
       ]
@@ -77,11 +77,11 @@ const CONTENT = {
     {
       number: "ДЕНЬ III",
       date: "17 января",
-      title: "Maison & Objet",
+      title: "Мезон-э-Обже (Maison & Objet)",
       theme: "",
       locations: [
         {
-          name: "Maison & Objet",
+          name: "Мезон-э-Обже (Maison & Objet)",
           description: "Главная выставка дизайна. Инсайты, тренды, имена."
         },
         {
