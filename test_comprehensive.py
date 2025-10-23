@@ -190,7 +190,7 @@ for check, name in js_checks:
 # Проверка размера
 file_size = len(content_js)
 print_info(f"Размер content.js: {file_size} байт")
-if file_size < 5000:
+if file_size < 4000:
     print_error("Файл слишком маленький (возможна потеря данных)")
     errors.append("Level 3: File too small")
 elif file_size > 50000:

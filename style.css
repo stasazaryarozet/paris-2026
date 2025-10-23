@@ -85,6 +85,7 @@ h1 {
 }
 
 .hero-accent {
+  font-size: clamp(4rem, 14vw, 8rem);
   background: linear-gradient(135deg, 
     #CD7F32 0%,
     #E1A95F 25%,
@@ -101,7 +102,6 @@ h1 {
   filter: brightness(1.2);
   display: inline-block;
   animation: bronzeShine 3s ease-in-out infinite;
-  font-size: clamp(4rem, 14vw, 8rem);
 }
 
 @keyframes bronzeShine {
@@ -212,7 +212,7 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   margin: 2rem 0;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
   opacity: 0.95;
   font-weight: 600;
 }

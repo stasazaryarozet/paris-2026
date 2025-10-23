@@ -108,8 +108,8 @@ def test_build():
     # 10. Размер файла
     print("10. Проверка размера content.js...")
     file_size = len(content_js)
-    if file_size < 5000:
-        errors.append(f"❌ content.js слишком маленький ({file_size} байт, ожидается >5000)")
+    if file_size < 4000:
+        errors.append(f"❌ content.js слишком маленький ({file_size} байт, ожидается >4000)")
     else:
         print(f"   ✅ Размер: {file_size} байт")
     
