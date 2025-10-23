@@ -70,7 +70,7 @@ const CONTENT = {
         },
         {
           name: "Пале-де-Токио + Трокадеро (Palais de Tokyo + Trocadéro)",
-          description: "Выставка 1937. Предметы."
+          description: "Выставка 1937&nbsp;года. Ар-деко."
         }
       ]
     },
