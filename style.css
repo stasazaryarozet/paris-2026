@@ -688,8 +688,9 @@ section {
 .main-footer {
   background-color: var(--midnight-blue);
   color: white;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   text-align: center;
+  min-height: 0;
 }
 
 .footer-content {
