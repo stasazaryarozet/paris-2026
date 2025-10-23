@@ -22,7 +22,16 @@
 📦 GITHUB RELEASE
   https://github.com/stasazaryarozet/paris-2026/releases/tag/v1.0-production-b4bc2807
 
-📖 ПОЛНАЯ ДОКУМЕНТАЦИЯ
-  cat RESTORE.md
+📖 ДОКУМЕНТАЦИЯ
+  README.md                — архитектура и quickstart
+  RESTORE.md               — восстановление версии
+
+📚 КЛЮЧЕВЫЕ ФАЙЛЫ КАМПАНИИ
+  SOURCE_MATERIALS.md      — все исходники (транскрипты, скриншоты, ноты)
+  WEBSITE_CONTENT.md       — весь текст сайта, эволюция формулировок
+  CAMPAIGN_AESTHETICS.md   — визуальная система, преемственность с parisinseptember.ru
+
+🗂 АРХИВ ВСЕХ КАМПАНИЙ
+  CAMPAIGNS_LEGACY.md      — база знаний September 2025, January 2026 и будущих
   
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
