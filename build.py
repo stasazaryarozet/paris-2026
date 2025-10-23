@@ -204,10 +204,25 @@ def parse_content(md_path):
     
     # PROGRAM
     data['program'] = {'intro': []}
-    prog_match = re.search(r'## Программа\n\n(.+?)---', body, re.DOTALL)
+    prog_match = re.search(r'## Программа по дням\n\n(.+?)---', body, re.DOTALL)
     if prog_match:
         intro_text = prog_match.group(1).strip()
         for para in intro_text.split('\n\n'):
+            para = para.strip()
+            if para.startswith('>'):
+                text = para.strip('> ').strip('*').strip()
+                data['program']['intro'].append({
+                    'type': 'highlight',
+                    'text': text
+                })
+            elif para:
+                data['program']['intro'].append(para)
+    
+    # APPROACH (Подход)
+    approach_match = re.search(r'## Подход\n\n(.+?)---', body, re.DOTALL)
+    if approach_match:
+        approach_text = approach_match.group(1).strip()
+        for para in approach_text.split('\n\n'):
             para = para.strip()
             if para.startswith('>'):
                 text = para.strip('> ').strip('*').strip()
