@@ -165,7 +165,7 @@ def parse_content(md_path):
     data = {}
     
     # HERO — ПЕРВЫЙ (как в оригинале)
-    hero_match = re.search(r'^# (.+?)\n\n\*\*Subtitle:\*\*\s*\n(.+?)\n\n\*\*Dates:\*\* (.+?)\n\*\*Group:\*\* (.+?)\n\*\*Price:\*\* (.+?)(?:\n|$)', body, re.DOTALL)
+    hero_match = re.search(r'^# (.+?)\n\n\*\*Subtitle:\*\*.*?\n(.+?)\n\n\*\*Dates:\*\* (.+?)\s*\n\*\*Group:\*\* (.+?)\s*\n\*\*Price:\*\* (.+?)(?:\n|$)', body, re.DOTALL | re.MULTILINE)
     if hero_match:
         title_raw = hero_match.group(1).strip()
         # Сохраняем class="hero-accent" для CSS бронзы

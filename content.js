@@ -1,7 +1,7 @@
 const CONTENT = {
   hero: {
-    title: "Индивидуальный почерк ар-деко.<br><span class=\"hero-accent\">100&nbsp;лет</span>.",
-    subtitle: "4&nbsp;дня с&nbsp;кураторами.<br>Фактуры, материалы, атмосфера.<br>То, что не&nbsp;видно в&nbsp;публикациях.",
+    title: "Индивидуальный почерк ар-деко<br><span class=\"hero-accent\">100<br>лет</span><br>•",
+    subtitle: "Фактуры, материалы, атмосфера. <br>То, что не&nbsp;видно в&nbsp;публикациях. <br>4&nbsp;дня с&nbsp;кураторами.",
     dates: "15–18+ января 2026",
     group: "до&nbsp;12 человек",
     price: "1 550&nbsp;€"
