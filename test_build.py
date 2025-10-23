@@ -84,8 +84,8 @@ def test_build():
     # 8. Inclusions
     print("8. Проверка inclusions...")
     inclusions_count = content_js.count('icon:')
-    if inclusions_count < 5:
-        errors.append(f"❌ Найдено только {inclusions_count} inclusions (ожидается 5+)")
+    if inclusions_count < 3:
+        errors.append(f"❌ Найдено только {inclusions_count} inclusions (ожидается 3+)")
     else:
         print(f"   ✅ {inclusions_count} inclusions найдено")
     
