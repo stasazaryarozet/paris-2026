@@ -381,6 +381,11 @@ section {
   .day-header:hover {
     background: linear-gradient(135deg, var(--midnight-blue) 0%, #2a4a6a 100%);
   }
+  
+  .day-number {
+    color: white;
+    opacity: 1;
+  }
 }
 
 .day-header-left {
