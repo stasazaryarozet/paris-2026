@@ -66,8 +66,8 @@ def apply_russian_typography(text):
     # 5.4. После двухбуквенных предлогов
     text = re.sub(r'\b(во|до|из|ко|на|не|ни|об|от|по|со|то|уж|за|да|но|ли|же|бы)\s+', r'\1&nbsp;', text, flags=re.IGNORECASE)
     
-    # 5.5. После трехбуквенных предлогов
-    text = re.sub(r'\b(без|для|над|под|при|про|или|еще|уже|это)\s+', r'\1&nbsp;', text, flags=re.IGNORECASE)
+    # 5.5. После трехбуквенных предлогов и союзов
+    text = re.sub(r'\b(без|для|над|под|при|про|или|еще|уже|это|что|как|где|кто|чем|чей|все|вся|всё|два|три|раз|год|том|тот|эта|эту|эти)\s+', r'\1&nbsp;', text, flags=re.IGNORECASE)
     
     # 5.6. В сокращениях
     text = re.sub(r'\bи\s+т\.\s*д\.', 'и&nbsp;т.&nbsp;д.', text)
@@ -89,6 +89,9 @@ def apply_russian_typography(text):
     
     # 5.9. Перед "года" (20-е года → 20-е&nbsp;года)
     text = re.sub(r'([0-9]+[-–—][еи])\s+года', r'\1&nbsp;года', text)
+    
+    # 5.10. После союзов "а", "и", "но" перед короткими словами
+    text = re.sub(r'\b(а|и)\s+([А-Яа-яЁё]{1,3})\s+', lambda m: f'{m.group(1)}&nbsp;{m.group(2)}&nbsp;', text)
     
     # 6. Спецсимволы
     text = re.sub(r'\(c\)', '©', text, flags=re.IGNORECASE)
