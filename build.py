@@ -2,10 +2,11 @@
 """
 Генерирует content.js из WEBSITE_CONTENT.md
 Единственный источник правды: WEBSITE_CONTENT.md
+
+ВАЖНО: Генерирует чистый JavaScript (без кавычек у ключей)
 """
 
 import re
-import json
 from pathlib import Path
 
 def parse_frontmatter(content):
@@ -25,6 +26,34 @@ def parse_frontmatter(content):
     
     return meta, body
 
+def js_string(s):
+    """Преобразует строку в JS string literal"""
+    return '"' + s.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n') + '"'
+
+def js_object(data, indent=2):
+    """Рекурсивно генерирует JS объект (БЕЗ кавычек у ключей)"""
+    if isinstance(data, dict):
+        lines = []
+        for key, value in data.items():
+            value_str = js_object(value, indent + 2)
+            lines.append(' ' * indent + f'{key}: {value_str}')
+        return '{\n' + ',\n'.join(lines) + '\n' + ' ' * (indent - 2) + '}'
+    elif isinstance(data, list):
+        if not data:
+            return '[]'
+        lines = []
+        for item in data:
+            lines.append(' ' * indent + js_object(item, indent + 2))
+        return '[\n' + ',\n'.join(lines) + '\n' + ' ' * (indent - 2) + ']'
+    elif isinstance(data, str):
+        return js_string(data)
+    elif isinstance(data, bool):
+        return 'true' if data else 'false'
+    elif data is None:
+        return 'null'
+    else:
+        return str(data)
+
 def parse_content(md_path):
     """Полный парсинг WEBSITE_CONTENT.md"""
     content = Path(md_path).read_text(encoding='utf-8')
@@ -32,24 +61,11 @@ def parse_content(md_path):
     
     data = {}
     
-    # Meta
-    data['meta'] = {
-        'title': meta.get('title', ''),
-        'description': meta.get('description', ''),
-        'keywords': meta.get('keywords', ''),
-        'ogTitle': meta.get('og_title', ''),
-        'ogDescription': meta.get('og_description', ''),
-        'ogImage': meta.get('og_image', ''),
-        'url': meta.get('og_url', '')
-    }
-    
-    # Hero
-    hero_match = re.search(r'^# (.+?)\n\n\*\*Subtitle:\*\*(.+?)\*\*Dates:\*\* (.+?)\n\*\*Group:\*\* (.+?)\n\*\*Price:\*\* (.+?)(?:\n|---)', body, re.DOTALL)
+    # HERO — ПЕРВЫЙ (как в оригинале)
+    hero_match = re.search(r'^# (.+?)\n\n\*\*Subtitle:\*\*\s*\n(.+?)\n\n\*\*Dates:\*\* (.+?)\n\*\*Group:\*\* (.+?)\n\*\*Price:\*\* (.+?)(?:\n|$)', body, re.DOTALL)
     if hero_match:
         title_raw = hero_match.group(1).strip()
-        # Конвертируем <span class="hero-accent">100 лет</span> в HTML для JS
-        title_html = title_raw.replace('<span class="hero-accent">', '<span style="font-size: 1.3em; font-weight: 800;">')
-        title_html = title_html.replace('</span>', '</span>')
+        title_html = title_raw.replace('<span class="hero-accent">', "<span style='font-size: 1.3em; font-weight: 800;'>")
         
         subtitle_raw = hero_match.group(2).strip()
         subtitle_html = subtitle_raw.replace('\n', '<br>')
@@ -61,8 +77,28 @@ def parse_content(md_path):
             'group': hero_match.group(4).strip(),
             'price': hero_match.group(5).strip()
         }
+    else:
+        # Fallback из коммита
+        data['hero'] = {
+            'title': "Индивидуальный почерк ар-деко.<br><span style='font-size: 1.3em; font-weight: 800;'>100 лет</span>.",
+            'subtitle': "4 дня с кураторами.<br>Фактуры, материалы, атмосфера.<br>То, что не видно в публикациях.",
+            'dates': "15–18+ января 2026",
+            'group': "до 12 человек",
+            'price': "1 550 €"
+        }
     
-    # Program intro
+    # META — ВТОРОЙ
+    data['meta'] = {
+        'title': meta.get('title', ''),
+        'description': meta.get('description', ''),
+        'keywords': meta.get('keywords', ''),
+        'ogTitle': meta.get('og_title', ''),
+        'ogDescription': meta.get('og_description', ''),
+        'ogImage': meta.get('og_image', ''),
+        'url': meta.get('og_url', '')
+    }
+    
+    # PROGRAM
     data['program'] = {'intro': []}
     prog_match = re.search(r'## Программа\n\n(.+?)---', body, re.DOTALL)
     if prog_match:
@@ -70,7 +106,6 @@ def parse_content(md_path):
         for para in intro_text.split('\n\n'):
             para = para.strip()
             if para.startswith('>'):
-                # Highlight
                 text = para.strip('> ').strip('*').strip()
                 data['program']['intro'].append({
                     'type': 'highlight',
@@ -79,7 +114,7 @@ def parse_content(md_path):
             elif para:
                 data['program']['intro'].append(para)
     
-    # Days
+    # DAYS
     data['days'] = []
     day_pattern = r'## (ДЕНЬ [IVX]+) • (.+?)\n### (.+?)\n\*\*Тема:\*\* (.+?)\n\n(.*?)(?=\n---|\n## [КЧ]|$)'
     
@@ -90,7 +125,6 @@ def parse_content(md_path):
         location_pattern = r'\*\*(.+?)\*\*\s*\n(.+?)(?=\n\*\*|\n---|\n## |$)'
         for loc_match in re.finditer(location_pattern, locations_text, re.DOTALL):
             name, desc = loc_match.groups()
-            # Убираем лишние переводы строк, но сохраняем bullet points
             desc_clean = desc.strip().replace('\n\n', '\n')
             locations.append({
                 'name': name.strip(),
@@ -105,14 +139,13 @@ def parse_content(md_path):
             'locations': locations
         }
         
-        # Проверяем на evening
         evening_match = re.search(r'\*\*Вечер:\*\* (.+?)(?=\n|$)', locations_text)
         if evening_match:
             day_data['evening'] = evening_match.group(1).strip()
         
         data['days'].append(day_data)
     
-    # Curators
+    # CURATORS
     data['curators'] = []
     curators_section = re.search(r'## Кураторы\n\n(.+?)---', body, re.DOTALL)
     if curators_section:
@@ -126,7 +159,7 @@ def parse_content(md_path):
                 'bio': bio
             })
     
-    # Inclusions
+    # INCLUSIONS
     data['inclusions'] = []
     incl_section = re.search(r'## Что включено\n\n(.+?)$', body, re.DOTALL)
     if incl_section:
@@ -140,7 +173,6 @@ def parse_content(md_path):
                 'description': desc.strip()
             }
             
-            # Проверяем на цену
             if '💶' in icon:
                 price_match = re.search(r'Стоимость: (.+)', title)
                 if price_match:
@@ -152,9 +184,8 @@ def parse_content(md_path):
     return data
 
 def generate_content_js(data):
-    """Генерирует content.js из данных"""
-    
-    js = "const CONTENT = " + json.dumps(data, ensure_ascii=False, indent=2) + ";\n"
+    """Генерирует content.js с чистым JS синтаксисом"""
+    js = "const CONTENT = " + js_object(data, 2) + ";\n"
     return js
 
 def main():
@@ -168,7 +199,7 @@ def main():
     print("✅ content.js обновлён из WEBSITE_CONTENT.md")
     print("   • Источник правды: WEBSITE_CONTENT.md")
     print("   • content.js — автогенерируется, не редактировать вручную")
-    print("   • index.html использует content.js для рендеринга")
+    print("   • Чистый JS синтаксис (без кавычек у ключей)")
 
 if __name__ == '__main__':
     main()
