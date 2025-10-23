@@ -102,6 +102,11 @@ h1 {
   filter: brightness(1.2);
   display: inline-block;
   animation: bronzeShine 3s ease-in-out infinite;
+  line-height: 1;
+}
+
+.hero-accent br + * {
+  font-size: 0.65em;
 }
 
 @keyframes bronzeShine {
@@ -794,7 +799,7 @@ section {
 /* === FLOATING CTA === */
 .floating-cta {
   position: fixed;
-  bottom: 10rem;
+  bottom: 12rem;
   right: 2rem;
   z-index: 100;
   opacity: 0;
@@ -895,7 +900,7 @@ section {
   }
 
   .floating-cta {
-    bottom: 5rem;
+    bottom: 6rem;
     right: 1rem;
   }
 
