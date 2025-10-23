@@ -64,9 +64,12 @@ def apply_russian_typography(text):
     text = re.sub(r'\b([вкосуяВКОСУЯ])\s+', r'\1&nbsp;', text)
     
     # 5.4. После двухбуквенных предлогов
-    text = re.sub(r'\b(во|до|из|ко|на|не|ни|об|от|по|со|то|уж|за)\s+', r'\1&nbsp;', text, flags=re.IGNORECASE)
+    text = re.sub(r'\b(во|до|из|ко|на|не|ни|об|от|по|со|то|уж|за|да|но|ли|же|бы)\s+', r'\1&nbsp;', text, flags=re.IGNORECASE)
     
-    # 5.5. В сокращениях
+    # 5.5. После трехбуквенных предлогов
+    text = re.sub(r'\b(без|для|над|под|при|про|или|еще|уже|это)\s+', r'\1&nbsp;', text, flags=re.IGNORECASE)
+    
+    # 5.6. В сокращениях
     text = re.sub(r'\bи\s+т\.\s*д\.', 'и&nbsp;т.&nbsp;д.', text)
     text = re.sub(r'\bт\.\s*е\.', 'т.&nbsp;е.', text)
     text = re.sub(r'\bт\.\s*к\.', 'т.&nbsp;к.', text)
@@ -74,15 +77,18 @@ def apply_russian_typography(text):
     text = re.sub(r'\bи\s+др\.', 'и&nbsp;др.', text)
     text = re.sub(r'\bи\s+пр\.', 'и&nbsp;пр.', text)
     
-    # 5.6. Между инициалами и фамилией
+    # 5.7. Между инициалами и фамилией
     text = re.sub(r'\b([А-ЯЁ])\.\s+([А-ЯЁ])\.\s+([А-ЯЁ][а-яё]+)', 
                   r'\1.&nbsp;\2.&nbsp;\3', text)
     text = re.sub(r'\b([А-ЯЁ])\.\s+([А-ЯЁ][а-яё]+)', 
                   r'\1.&nbsp;\2', text)
     
-    # 5.7. После № и §
+    # 5.8. После № и §
     text = re.sub(r'№\s+', '№&nbsp;', text)
     text = re.sub(r'§\s+', '§&nbsp;', text)
+    
+    # 5.9. Перед "года" (20-е года → 20-е&nbsp;года)
+    text = re.sub(r'([0-9]+[-–—][еи])\s+года', r'\1&nbsp;года', text)
     
     # 6. Спецсимволы
     text = re.sub(r'\(c\)', '©', text, flags=re.IGNORECASE)
