@@ -268,7 +268,7 @@ def parse_content(md_path):
     data['inclusions'] = []
     incl_section = re.search(r'## Что включено\n\n(.+?)$', body, re.DOTALL)
     if incl_section:
-        incl_pattern = r'\*\*([+−€✓✗💶]) (.+?)\*\*(?:\s*\n(.+?))?(?=\n\*\*|\n\n|$)'
+        incl_pattern = r'\*\*([+−±€✓✗💶]) (.+?)\*\*(?:\s*\n(.+?))?(?=\n\*\*|\n\n|$)'
         for match in re.finditer(incl_pattern, incl_section.group(1), re.DOTALL):
             icon, title, desc = match.groups()
             

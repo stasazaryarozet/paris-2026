@@ -155,6 +155,11 @@ const CONTENT = {
       description: "Материалы, чат"
     },
     {
+      icon: "±",
+      title: "Входы и встречи",
+      description: "Часть включена, часть&nbsp;— отдельно"
+    },
+    {
       icon: "−",
       title: "Отдельно",
       description: "Перелет, проживание, питание"
