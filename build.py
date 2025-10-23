@@ -65,7 +65,8 @@ def parse_content(md_path):
     hero_match = re.search(r'^# (.+?)\n\n\*\*Subtitle:\*\*\s*\n(.+?)\n\n\*\*Dates:\*\* (.+?)\n\*\*Group:\*\* (.+?)\n\*\*Price:\*\* (.+?)(?:\n|$)', body, re.DOTALL)
     if hero_match:
         title_raw = hero_match.group(1).strip()
-        title_html = title_raw.replace('<span class="hero-accent">', "<span style='font-size: 1.3em; font-weight: 800;'>")
+        # Сохраняем class="hero-accent" для CSS бронзы
+        title_html = title_raw.replace('\n', '<br>')
         
         subtitle_raw = hero_match.group(2).strip()
         subtitle_html = subtitle_raw.replace('\n', '<br>')
@@ -80,7 +81,7 @@ def parse_content(md_path):
     else:
         # Fallback из коммита
         data['hero'] = {
-            'title': "Индивидуальный почерк ар-деко.<br><span style='font-size: 1.3em; font-weight: 800;'>100 лет</span>.",
+            'title': "Индивидуальный почерк ар-деко.<br><span class=\"hero-accent\">100 лет</span>.",
             'subtitle': "4 дня с кураторами.<br>Фактуры, материалы, атмосфера.<br>То, что не видно в публикациях.",
             'dates': "15–18+ января 2026",
             'group': "до 12 человек",
@@ -164,21 +165,19 @@ def parse_content(md_path):
     data['inclusions'] = []
     incl_section = re.search(r'## Что включено\n\n(.+?)$', body, re.DOTALL)
     if incl_section:
-        incl_pattern = r'\*\*([+−€✓✗💶]) (.+?)\*\*\s*\n(.+?)(?=\n\*\*|$)'
+        incl_pattern = r'\*\*([+−€✓✗💶]) (.+?)\*\*(?:\s*\n(.+?))?(?=\n\*\*|\n\n|$)'
         for match in re.finditer(incl_pattern, incl_section.group(1), re.DOTALL):
             icon, title, desc = match.groups()
             
             inc_data = {
                 'icon': icon.strip(),
                 'title': title.strip(),
-                'description': desc.strip()
+                'description': desc.strip() if desc else ''
             }
             
-            if '💶' in icon:
-                price_match = re.search(r'Стоимость: (.+)', title)
-                if price_match:
-                    inc_data['price'] = price_match.group(1).strip()
-                    inc_data['title'] = 'Стоимость'
+            if '💶' in icon or '€' in icon:
+                inc_data['price'] = title.strip()
+                inc_data['title'] = 'Стоимость'
             
             data['inclusions'].append(inc_data)
     
