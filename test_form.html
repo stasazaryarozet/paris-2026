@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест формы бронирования</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .test-result {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .success { background: #d4edda; color: #155724; }
+        .error { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+    </style>
+</head>
+<body>
+    <h1>🧪 Тест формы бронирования</h1>
+    
+    <form id="testForm" action="https://formspree.io/f/xvgwnvkb" method="POST">
+        <div>
+            <label>Имя *</label><br>
+            <input type="text" name="name" value="Тестовый Пользователь" required>
+        </div>
+        <br>
+        <div>
+            <label>Email *</label><br>
+            <input type="email" name="email" value="test@example.com" required>
+        </div>
+        <br>
+        <div>
+            <label>Телефон *</label><br>
+            <input type="tel" name="phone" value="+7 900 123-45-67" required>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="consent" id="consent" required>
+            <label for="consent">Я согласен(на) с обработкой данных</label>
+        </div>
+        <br>
+        <button type="submit">Отправить тестовую заявку</button>
+    </form>
+    
+    <div class="test-result info">
+        <strong>Инструкция:</strong>
+        <ol>
+            <li>Нажми "Отправить тестовую заявку"</li>
+            <li>Проверь email, указанный в Formspree</li>
+            <li>Убедись, что письмо пришло с данными формы</li>
+        </ol>
+    </div>
+    
+    <div class="test-result info">
+        <strong>Что проверить:</strong><br>
+        ✓ Форма отправляется без ошибок<br>
+        ✓ Email приходит на указанный адрес<br>
+        ✓ Все поля корректно передаются<br>
+        ✓ После отправки показывается благодарственная страница Formspree
+    </div>
+    
+    <script>
+        document.getElementById('testForm').addEventListener('submit', function(e) {
+            console.log('Форма отправляется...');
+        });
+    </script>
+</body>
+</html>
+
