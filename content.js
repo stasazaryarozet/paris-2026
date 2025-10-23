@@ -34,19 +34,19 @@ const CONTENT = {
       locations: [
         {
           name: "Прантан (Printemps)",
-          description: "От&nbsp;Нуво к&nbsp;Деко. Материалы, металл, цвет."
+          description: "Переход от&nbsp;Нуво к&nbsp;Деко. Материалы, металл, цвет."
         },
         {
           name: "Нолински (Nolinski)",
-          description: "Денье. Парижский шик, острая геометрия."
+          description: "Денье: острая геометрия, парижский шик."
         },
         {
           name: "Легре (Legré)",
-          description: "Шоу-рум как дом. Дорогие материалы&nbsp;— суть ар-деко."
+          description: "Шоу-рум как дом. Дорогие материалы."
         },
         {
           name: "Музей",
-          description: "На&nbsp;выбор Натальи."
+          description: "Выбор Натальи."
         }
       ]
     },
@@ -62,15 +62,15 @@ const CONTENT = {
         },
         {
           name: "Галерея Валлуа (Galerie Vallois)",
-          description: "Встреча с&nbsp;владелицей. 20–30-е годы."
+          description: "Встреча с&nbsp;владелицей. 20–30-е."
         },
         {
           name: "Эйлин Грей (Eileen Gray)",
-          description: "Самая выдающаяся женщина-модернистка XX века."
+          description: "Наблюдение за&nbsp;поведением человека. Эргономика через заботу."
         },
         {
           name: "Пале-де-Токио + Трокадеро (Palais de Tokyo + Trocadéro)",
-          description: "Выставка 1937. Предметы ар-деко."
+          description: "Выставка 1937. Предметы."
         }
       ]
     },
@@ -86,19 +86,19 @@ const CONTENT = {
         },
         {
           name: "Вечер: маршрут 1925",
-          description: "Трасса выставки, давшей имя ар-деко."
+          description: "Трасса выставки, давшей имя стилю."
         }
       ]
     },
     {
       number: "ДЕНЬ IV",
       date: "18+ января",
-      title: "Эргономика как забота",
+      title: "Аалто: тепло в&nbsp;модернизме",
       theme: "",
       locations: [
         {
           name: "Мезон Луи Карре (Maison Louis Carré, 1956–59)",
-          description: "Аалто принёс в&nbsp;модернизм тепло. Дерево, объём, свет."
+          description: "Дерево, объём, свет. Тепло в&nbsp;модернизме."
         },
         {
           name: "Парк",
@@ -113,12 +113,12 @@ const CONTENT = {
     {
       number: "ДЕНЬ V",
       date: "19 января (опционально)",
-      title: "Авторский гайд",
+      title: "Продолжение",
       theme: "",
       locations: [
         {
           name: "Маршрут от&nbsp;Ольги и Натальи",
-          description: "Авторский гайд. Места, которые не&nbsp;успели."
+          description: "Места, которые не&nbsp;успели. Авторский гайд."
         }
       ]
     }
