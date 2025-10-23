@@ -48,8 +48,23 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   width: 100%;
+  max-width: 100vw;
   font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "case" 1;
   font-variant-numeric: oldstyle-nums proportional-nums;
+}
+
+* {
+  max-width: 100%;
+}
+
+.container,
+section,
+.hero-content,
+.days-container,
+.curators-grid,
+.inclusions-grid {
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 /* === TYPOGRAPHY === */
@@ -790,22 +805,23 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 1rem 1.5rem;
-  background: rgba(227, 27, 27, 0.85);
+  background: rgba(227, 27, 27, 0.4);
   color: white;
-  border: none;
-  border-radius: 8px;
+  border: 1px solid rgba(227, 27, 27, 0.6);
+  border-radius: 2px;
   cursor: pointer;
-  box-shadow: 0 8px 32px rgba(227, 27, 27, 0.4);
-  backdrop-filter: blur(10px);
+  box-shadow: none;
+  backdrop-filter: blur(20px);
   transition: all 0.3s ease;
   font-family: var(--font-body);
   text-decoration: none;
 }
 
 .floating-cta-btn:hover {
-  background: rgba(199, 23, 23, 0.98);
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(227, 27, 27, 0.5);
+  background: rgba(227, 27, 27, 0.6);
+  border-color: rgba(227, 27, 27, 0.8);
+  transform: none;
+  box-shadow: none;
 }
 
 .floating-cta-btn:focus-visible {
