@@ -551,10 +551,11 @@ section {
 }
 
 .curator-bio li::before {
-  content: '→';
+  content: '■';
   position: absolute;
   left: 0;
-  color: var(--chrome);
+  color: #CD7F32;
+  font-size: 0.75rem;
 }
 
 /* === INCLUSIONS === */
