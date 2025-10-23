@@ -322,7 +322,7 @@ if result.returncode == 0 and 'CONTENT' in result.stdout:
         print_error("Куратор Наталья отсутствует на продакшене!")
         errors.append("Level 6: Natalia missing in production")
     
-    if '100 лет' in prod_content:
+    if '100&nbsp;лет' in prod_content or '100 лет' in prod_content:
         print_success("'100 лет' присутствует на продакшене")
     else:
         print_error("'100 лет' отсутствует на продакшене!")
