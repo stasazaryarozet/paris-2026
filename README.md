@@ -35,19 +35,30 @@ const CONTENT = {
 
 Сохрани файл. Готово.
 
-## Деплой
+## 🌐 Живой сайт
+
+- **Production:** https://parisinjanuary.ru
+- **Backup:** https://stasazaryarozet.github.io/paris-2026
+
+Автоматический деплой через GitHub Actions при пуше в `main`.
+
+## 📦 Восстановление версии
+
+Быстрое восстановление стабильного состояния:
 
 ```bash
-surge --project . --domain paris-art-deco-2026.surge.sh
+./restore.sh
 ```
 
-## URL
+**UUID текущей версии:** `b4bc2807-793a-4bc2-930f-646a904f9513`
 
-🔗 **https://paris-art-deco-2026.surge.sh**
+См. также: [RESTORE.md](RESTORE.md) | [QUICKREF.txt](QUICKREF.txt)
 
 ## Инструменты
 
-- **Хостинг**: Surge.sh (бесплатный, быстрый CDN)
+- **Хостинг**: GitHub Pages (кастомный домен + HTTPS)
+- **Домен**: parisinjanuary.ru (DNS настроен через 4 A-записи)
+- **CI/CD**: GitHub Actions (автоматический деплой)
 - **Формы**: Formspree (отправка на email)
 - **Транскрипция**: Whisper API (локально через `.venv`)
 
@@ -92,4 +103,6 @@ python3 tools/transcribe.py "source_materials/New Recording XX.m4a"
 
 ---
 
-Последнее обновление: 22 октября 2025
+**Последнее обновление:** 23 октября 2025  
+**Стабильная версия:** v1.0-production-b4bc2807  
+**GitHub Release:** [v1.0-production-b4bc2807](https://github.com/stasazaryarozet/paris-2026/releases/tag/v1.0-production-b4bc2807)
