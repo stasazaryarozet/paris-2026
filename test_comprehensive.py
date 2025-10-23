@@ -294,8 +294,7 @@ else:
 print_info("Проверка полей формы...")
 form_fields = [
     (r'name="name"', 'Поле "Имя"'),
-    (r'name="email"', 'Поле "Email"'),
-    (r'name="phone"', 'Поле "Телефон"'),
+    (r'name="contact"', 'Поле "Email или телефон" (упрощённая форма)'),
     (r'name="consent"', 'Чекбокс согласия'),
     (r'type="submit"', 'Кнопка отправки')
 ]
