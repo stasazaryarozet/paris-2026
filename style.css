@@ -85,7 +85,7 @@ h1 {
 }
 
 .hero-accent {
-  font-size: clamp(6rem, 18vw, 12rem);
+  font-size: clamp(4rem, 14vw, 8rem);
   background: linear-gradient(135deg, 
     #CD7F32 0%,
     #E1A95F 25%,
