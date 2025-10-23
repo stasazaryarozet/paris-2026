@@ -794,7 +794,7 @@ section {
 /* === FLOATING CTA === */
 .floating-cta {
   position: fixed;
-  bottom: 6rem;
+  bottom: 10rem;
   right: 2rem;
   z-index: 100;
   opacity: 0;
@@ -895,7 +895,7 @@ section {
   }
 
   .floating-cta {
-    bottom: 3rem;
+    bottom: 5rem;
     right: 1rem;
   }
 
