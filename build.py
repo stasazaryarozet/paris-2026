@@ -9,6 +9,109 @@
 import re
 from pathlib import Path
 
+def apply_russian_typography(text):
+    """
+    Применяет правила русской типографики во всей полноте:
+    - Тире, дефисы, минусы
+    - Кавычки-ёлочки
+    - Неразрывные пробелы
+    - Многоточие
+    - Спецсимволы
+    
+    Защищает HTML-теги от обработки
+    """
+    if not text or not isinstance(text, str):
+        return text
+    
+    # Защищаем HTML-теги: временно заменяем на плейсхолдеры
+    html_tags = []
+    def save_tag(match):
+        html_tags.append(match.group(0))
+        return f'___HTML_TAG_{len(html_tags)-1}___'
+    
+    text = re.sub(r'<[^>]+>', save_tag, text)
+    
+    # 1. Многоточие: три точки → один символ …
+    text = re.sub(r'\.\.\.', '…', text)
+    
+    # 2. Кавычки: " → «»
+    # Сначала заменяем парные кавычки
+    # Открывающая кавычка после пробела, начала строки или знака препинания
+    text = re.sub(r'(^|[\s\(\[\{])"', r'\1«', text, flags=re.MULTILINE)
+    # Закрывающая кавычка перед пробелом, концом строки или знаком препинания
+    text = re.sub(r'"([\s\)\]\}\.,;:!?]|$)', r'»\1', text)
+    # Оставшиеся " → « (открывающие)
+    text = re.sub(r'"', '«', text)
+    
+    # 3. Дефис с пробелами → длинное тире с пробелами
+    # НО: не заменять дефис в диапазонах дат и чисел без пробелов
+    text = re.sub(r'\s+-\s+', ' — ', text)
+    
+    # 4. Минус в математических выражениях и температуре
+    text = re.sub(r'(\s|^)-(\d)', r'\1−\2', text)  # −5
+    text = re.sub(r'(\d)\s*-\s*(\d)', r'\1−\2', text)  # 10-5 → 10−5
+    
+    # 5. Неразрывные пробелы
+    
+    # 5.1. Между числом и единицей измерения
+    text = re.sub(r'(\d+)\s+(кг|г|т|км|м|см|мм|л|мл|€|₽|\$|°C|°|%|лет|года?|дня|дней|день|часов|минут|секунд)', 
+                  r'\1&nbsp;\2', text)
+    
+    # 5.2. Перед длинным тире
+    text = re.sub(r'\s+—\s+', '&nbsp;— ', text)
+    
+    # 5.3. После однобуквенных предлогов и союзов
+    text = re.sub(r'\b([вкосуяВКОСУЯ])\s+', r'\1&nbsp;', text)
+    
+    # 5.4. После двухбуквенных предлогов
+    text = re.sub(r'\b(во|до|из|ко|на|не|ни|об|от|по|со|то|уж|за)\s+', r'\1&nbsp;', text, flags=re.IGNORECASE)
+    
+    # 5.5. В сокращениях
+    text = re.sub(r'\bи\s+т\.\s*д\.', 'и&nbsp;т.&nbsp;д.', text)
+    text = re.sub(r'\bт\.\s*е\.', 'т.&nbsp;е.', text)
+    text = re.sub(r'\bт\.\s*к\.', 'т.&nbsp;к.', text)
+    text = re.sub(r'\bт\.\s*п\.', 'т.&nbsp;п.', text)
+    text = re.sub(r'\bи\s+др\.', 'и&nbsp;др.', text)
+    text = re.sub(r'\bи\s+пр\.', 'и&nbsp;пр.', text)
+    
+    # 5.6. Между инициалами и фамилией
+    text = re.sub(r'\b([А-ЯЁ])\.\s+([А-ЯЁ])\.\s+([А-ЯЁ][а-яё]+)', 
+                  r'\1.&nbsp;\2.&nbsp;\3', text)
+    text = re.sub(r'\b([А-ЯЁ])\.\s+([А-ЯЁ][а-яё]+)', 
+                  r'\1.&nbsp;\2', text)
+    
+    # 5.7. После № и §
+    text = re.sub(r'№\s+', '№&nbsp;', text)
+    text = re.sub(r'§\s+', '§&nbsp;', text)
+    
+    # 6. Спецсимволы
+    text = re.sub(r'\(c\)', '©', text, flags=re.IGNORECASE)
+    text = re.sub(r'\(tm\)', '™', text, flags=re.IGNORECASE)
+    text = re.sub(r'\(r\)', '®', text, flags=re.IGNORECASE)
+    
+    # 7. Пробелы перед знаками препинания (убираем)
+    text = re.sub(r'\s+([,;:!?\)])', r'\1', text)
+    
+    # 8. Двойные/тройные пробелы → одинарные (но не &nbsp;)
+    text = re.sub(r'(?<!&nbsp) {2,}', ' ', text)
+    
+    # Восстанавливаем HTML-теги
+    for i, tag in enumerate(html_tags):
+        text = text.replace(f'___HTML_TAG_{i}___', tag)
+    
+    return text
+
+def apply_typography_recursive(data):
+    """Рекурсивно применяет типографику ко всем строкам в структуре данных"""
+    if isinstance(data, dict):
+        return {k: apply_typography_recursive(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [apply_typography_recursive(item) for item in data]
+    elif isinstance(data, str):
+        return apply_russian_typography(data)
+    else:
+        return data
+
 def parse_frontmatter(content):
     """Извлекает YAML frontmatter"""
     match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
@@ -181,7 +284,8 @@ def parse_content(md_path):
             
             data['inclusions'].append(inc_data)
     
-    return data
+    # Применяем типографику ко всем текстам рекурсивно
+    return apply_typography_recursive(data)
 
 def generate_content_js(data):
     """Генерирует content.js с чистым JS синтаксисом"""

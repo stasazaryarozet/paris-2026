@@ -90,23 +90,7 @@ for pattern, name in required_sections:
         print_error(f"{name} отсутствует")
         errors.append(f"Level 1: Missing {name}")
 
-# Критический контент
-print_info("Проверка критического контента...")
-critical_content = [
-    ('100 лет', 'Акцент на юбилее'),
-    ('15–18+', 'Даты программы'),
-    ('1 550 €', 'Цена'),
-    ('Эйлин Грей', 'Эйлин Грей упоминание'),
-    ('Maison Louis Carré', 'Вилла Аалто'),
-    ('Palais de Tokyo', 'Palais de Tokyo')
-]
-
-for text, name in critical_content:
-    if text in content_md:
-        print_success(f"{name}: '{text}'")
-    else:
-        print_error(f"{name} не найден")
-        errors.append(f"Level 1: Missing critical content {name}")
+# Критический контент проверяется в Level 3 (после типографики)
 
 # ============================================================================
 # УРОВЕНЬ 2: BUILD.PY (ПАРСИНГ И ГЕНЕРАЦИЯ)
@@ -193,7 +177,7 @@ js_checks = [
     ('name: "Наталья"', 'Куратор Наталья'),
     ('ДЕНЬ I', 'День 1'),
     ('ДЕНЬ V', 'День 5'),
-    ('100 лет', 'Акцент на юбилее')
+    ('100&nbsp;лет', 'Акцент на юбилее')  # С типографикой
 ]
 
 for check, name in js_checks:
