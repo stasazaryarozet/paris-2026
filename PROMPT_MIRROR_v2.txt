@@ -1,0 +1,27 @@
+=== ПРОМПТ v2 — ТОЧНЫЙ ФОНОВЫЙ ЦВЕТ ===
+
+Two Art Deco mirrors facing each other creating infinite recursion,
+geometric frames in midnight blue (#1a2332),
+copper accents on frame corners,
+BACKGROUND COLOR EXACTLY #f5f3ed (warm cream off-white),
+NOT pure white, NOT bright white,
+subtle warm beige undertone,
+cream white reflections inside mirrors,
+minimalist 1920s geometric aesthetic,
+aspect ratio 16:9,
+flat design professional composition
+
+=== КОРОТКАЯ ВЕРСИЯ ===
+
+Art Deco mirrors infinite recursion,
+midnight blue #1a2332 frames,
+copper corners,
+BACKGROUND #f5f3ed exact warm cream,
+16:9 minimalist
+
+=== КРИТИЧНО ===
+
+Фон ДОЛЖЕН быть #f5f3ed (тёплый кремовый)
+НЕ белый (#ffffff)
+Тёплый бежевый оттенок обязателен
+

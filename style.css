@@ -726,6 +726,28 @@ section {
   margin-top: 2rem;
 }
 
+/* === MIRROR SECTION === */
+.mirror-section {
+  background-color: var(--bg-primary);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.mirror-image {
+  max-width: 100%;
+  width: 1200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .mirror-section {
+    padding: 2rem 0;
+  }
+}
+
 /* === FOOTER === */
 .main-footer {
   background-color: var(--midnight-blue);

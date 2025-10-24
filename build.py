@@ -267,13 +267,14 @@ def parse_content(md_path):
     data['curators'] = []
     curators_section = re.search(r'## Кураторы\n\n(.+?)---', body, re.DOTALL)
     if curators_section:
-        curator_pattern = r'### (.+?)\n\*\*(.+?)\*\*\n\n(.*?)(?=\n### |\n---|\Z)'
+        # Роль (жирный текст) теперь опциональна
+        curator_pattern = r'### (.+?)(?:\n\*\*(.+?)\*\*)?\n\n(.*?)(?=\n### |\n---|\Z)'
         for match in re.finditer(curator_pattern, curators_section.group(1), re.DOTALL):
             name, role, bio_text = match.groups()
             bio = [line.strip('• ').strip() for line in bio_text.strip().split('\n') if line.strip()]
             data['curators'].append({
                 'name': name.strip(),
-                'role': role.strip(),
+                'role': role.strip() if role else '',
                 'bio': bio
             })
     
