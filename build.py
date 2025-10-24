@@ -266,8 +266,10 @@ def parse_content(md_path):
         for loc_match in re.finditer(location_pattern, locations_text, re.DOTALL):
             name, desc = loc_match.groups()
             desc_clean = desc.strip().replace('\n\n', '\n')
+            # Удаляем ** из name (они нужны только для парсинга)
+            name_clean = name.strip().replace('**', '')
             locations.append({
-                'name': name.strip(),
+                'name': name_clean,
                 'description': desc_clean
             })
         
