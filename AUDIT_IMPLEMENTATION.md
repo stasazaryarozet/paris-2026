@@ -106,15 +106,17 @@ Sitemap: https://www.parisinjanuary.ru/sitemap.xml
 
 **Было:**
 ```bash
-grep -qE '(build.py|content.js|index.html)'
+grep -qE '(WEBSITE_CONTENT.md|build.py|content.js)'
 ```
 
 **Стало:**
 ```bash
-grep -qE '(build.py|content.js|index.html|style.css)'
+grep -qE '(WEBSITE_CONTENT.md|build.py|content.js|index.html|style.css)'
 ```
 
-**Файлы:** `.git/hooks/pre-commit:20`
+**Файлы:** `pre-commit.sh:8` → `.git/hooks/pre-commit` (через symlink)
+
+**Примечание:** Исправлено после аудита GPT-5 (несоответствие в отчете vs факт)
 
 ---
 

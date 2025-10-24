@@ -5,7 +5,7 @@
 echo "🔍 Pre-commit валидация..."
 
 # Проверяем, изменялись ли критичные файлы
-if git diff --cached --name-only | grep -qE '(WEBSITE_CONTENT.md|build.py|content.js)'; then
+if git diff --cached --name-only | grep -qE '(WEBSITE_CONTENT.md|build.py|content.js|index.html|style.css)'; then
     echo "   Обнаружены изменения в критичных файлах"
     
     # Если изменился WEBSITE_CONTENT.md, регенерируем content.js
