@@ -24,7 +24,7 @@ og_url: "https://parisinjanuary.ru"
 
 В интерьерах видны соотношения фактур, тонкости цвета, работа с материалами.
 
-Не|обход|им ли<br><span class="emphasis">контакт с Реальностью</span><br>?
+Необходим ли<br><span class="emphasis">контакт с Реальностью</span><br>?
 
 <h2 class="material-title"><strong>Материал</strong> — главный источник вдохновения</h2>
 
