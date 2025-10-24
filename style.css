@@ -362,6 +362,17 @@ section {
   margin-bottom: 1.75rem;
 }
 
+.material-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 2rem 0 1.5rem;
+  text-align: left;
+}
+
+.material-title strong {
+  font-weight: 700;
+}
+
 .philosophy-highlight {
   background-color: white;
   padding: 2rem;
