@@ -383,6 +383,65 @@ section {
   margin-top: 1.5rem;
 }
 
+.philosophy-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 4rem 0;
+  opacity: 0.9;
+}
+
+.divider-ornament {
+  color: var(--copper);
+  font-size: 1rem;
+  font-weight: 400;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.divider-line {
+  flex: 0 0 120px;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--copper) 25%,
+    var(--copper) 75%,
+    transparent
+  );
+  position: relative;
+}
+
+.divider-line::before,
+.divider-line::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background: var(--copper);
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.divider-line::before {
+  left: 20%;
+}
+
+.divider-line::after {
+  right: 20%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
 .question-accent {
   text-align: center;
   font-size: 1.1rem;
