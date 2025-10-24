@@ -407,8 +407,15 @@ section {
 .day-title {
   font-size: 1.5rem;
   margin-bottom: 0.25rem;
-  color: #ffffff;
   font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .day-title { color: var(--midnight-blue); }
+}
+
+@media (max-width: 767px) {
+  .day-title { color: #ffffff; }
 }
 
 .day-date {

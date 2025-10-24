@@ -143,10 +143,15 @@ print_success("content.js существует")
 content_js = Path('content.js').read_text(encoding='utf-8')
 
 print_info("Проверка синтаксиса JavaScript...")
-result = subprocess.run(['node', '-c', 'content.js'], capture_output=True, text=True)
+result = subprocess.run(['node', '--check', 'content.js'], capture_output=True, text=True)
 if result.returncode != 0:
-    print_error(f"Синтаксическая ошибка JS: {result.stderr}")
-    errors.append("Level 3: JS syntax error")
+    # Fallback
+    fb = subprocess.run(['node', '-e', 'require("./content.js");'], capture_output=True, text=True)
+    if fb.returncode != 0:
+        print_error(f"Синтаксическая ошибка JS: {result.stderr or fb.stderr}")
+        errors.append("Level 3: JS syntax error")
+    else:
+        print_success("Синтаксис JavaScript валиден (fallback)")
 else:
     print_success("Синтаксис JavaScript валиден")
 

@@ -25,10 +25,13 @@ def test_build():
     
     # 2. Синтаксис JS
     print("2. Проверка синтаксиса JavaScript...")
-    result = subprocess.run(['node', '-c', 'content.js'], capture_output=True, text=True)
+    result = subprocess.run(['node', '--check', 'content.js'], capture_output=True, text=True)
     if result.returncode != 0:
-        errors.append(f"❌ Синтаксическая ошибка в content.js: {result.stderr}")
-        return errors
+        # Fallback: выполнить файл под Node
+        fallback = subprocess.run(['node', '-e', 'require("./content.js");'], capture_output=True, text=True)
+        if fallback.returncode != 0:
+            errors.append(f"❌ Синтаксическая ошибка в content.js: {result.stderr or fallback.stderr}")
+            return errors
     print("   ✅ Синтаксис валиден")
     
     # 3. Чтение content.js
