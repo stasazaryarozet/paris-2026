@@ -29,6 +29,22 @@ html {
   overflow-x: hidden;
 }
 
+/* A11y: отключить анимации для пользователей с вестибулярными расстройствами */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 16px;
@@ -53,8 +69,13 @@ body {
   font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
-* {
+/* Безопасное ограничение ширины для медиа-элементов (вместо опасного * { max-width: 100% }) */
+img,
+video,
+svg,
+iframe {
   max-width: 100%;
+  height: auto;
 }
 
 .container,
