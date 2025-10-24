@@ -849,7 +849,7 @@ section {
 /* === FOOTER === */
 .main-footer {
   background-color: #ffffff;
-  padding: 2rem 0;
+  padding: 2rem 0 0 0;
   text-align: center;
   margin: 0;
 }
@@ -907,15 +907,15 @@ section {
 
 .mirror-container {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
+  margin: 0 auto 0 auto;
+  padding: 0 2rem 0 2rem;
 }
 
 .mirror-image {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 @media (max-width: 768px) {
