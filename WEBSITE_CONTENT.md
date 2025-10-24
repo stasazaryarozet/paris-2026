@@ -8,7 +8,7 @@ og_image: "https://www.parisinjanuary.ru/og-image.jpg"
 og_url: "https://www.parisinjanuary.ru"
 ---
 
-# Индивидуальный почерк ар-деко<br><span class="hero-accent">100<br>лет</span><br>•
+# Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br>•
 
 **Subtitle:**  
 Фактуры, материалы, атмосфера.  

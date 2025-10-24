@@ -412,6 +412,10 @@ section {
     color: white;
     opacity: 1;
   }
+  
+  .day-date {
+    color: white;
+  }
 }
 
 .day-header-left {
