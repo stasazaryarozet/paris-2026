@@ -234,15 +234,18 @@ def parse_content(md_path):
         data['program']['approach']['title'] = approach_match.group(1).strip()
         approach_text = approach_match.group(2).strip()
         
-        # Первая строка — основной тезис
-        lines = approach_text.split('\n')
-        if lines:
-            data['program']['approach']['thesis'] = lines[0].strip()
-            
-            # Остальные — пункты (начинаются с букв или **)
-            for line in lines[1:]:
+        # Thesis — всё до первой пустой строки; items — всё после
+        parts = approach_text.split('\n\n', 1)
+        if len(parts) >= 1:
+            # Thesis может быть многострочным
+            data['program']['approach']['thesis'] = parts[0].strip().replace('\n', '<br>')
+        
+        if len(parts) == 2:
+            # Items — каждая непустая строка после thesis
+            items_text = parts[1].strip()
+            for line in items_text.split('\n'):
                 line = line.strip()
-                if line and (line.startswith('**') or not line.startswith(('•', '-'))):
+                if line:
                     data['program']['approach']['items'].append(line)
     
     # DAYS
