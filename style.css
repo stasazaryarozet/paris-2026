@@ -905,7 +905,7 @@ section {
 .mirror-container {
   max-width: 1200px;
   margin: 0 auto 0 auto;
-  padding: 0 2rem 0 2rem;
+  padding: 0 2rem 3rem 2rem;
 }
 
 .mirror-image {
