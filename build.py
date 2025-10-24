@@ -218,7 +218,7 @@ def parse_content(md_path):
     
     # PROGRAM
     data['program'] = {'intro': []}
-    prog_match = re.search(r'## Программа\n\n(.+?)---', body, re.DOTALL)
+    prog_match = re.search(r'## Программа\n\n(.+?)(?=\n## ДЕНЬ)', body, re.DOTALL)
     if prog_match:
         intro_text = prog_match.group(1).strip()
         for para in intro_text.split('\n\n'):
