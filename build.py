@@ -288,12 +288,31 @@ def parse_content(md_path):
         curator_pattern = r'### (.+?)(?:\n\*\*(.+?)\*\*)?\n\n(.*?)(?=\n### |\n---|\Z)'
         for match in re.finditer(curator_pattern, curators_section.group(1), re.DOTALL):
             name, role, bio_text = match.groups()
-            bio = [line.strip('• ').strip() for line in bio_text.strip().split('\n') if line.strip()]
-            data['curators'].append({
+            
+            # Разделяем обычные пункты и секцию "В программе:"
+            bio = []
+            in_program = None
+            
+            # Проверяем, есть ли секция "**В программе:**"
+            program_match = re.search(r'\*\*В программе:\*\*\s*\n(.+?)$', bio_text, re.DOTALL)
+            if program_match:
+                in_program = program_match.group(1).strip()
+                # Удаляем секцию "В программе:" из bio_text
+                bio_text = bio_text[:program_match.start()]
+            
+            # Парсим обычные пункты
+            bio = [line.strip('• ').strip() for line in bio_text.strip().split('\n') if line.strip() and line.strip().startswith('•')]
+            
+            curator_data = {
                 'name': name.strip(),
                 'role': role.strip() if role else '',
                 'bio': bio
-            })
+            }
+            
+            if in_program:
+                curator_data['inProgram'] = in_program
+            
+            data['curators'].append(curator_data)
     
     # INCLUSIONS
     data['inclusions'] = []

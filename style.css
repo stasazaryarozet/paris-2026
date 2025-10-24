@@ -657,6 +657,19 @@ section {
   font-size: 0.75rem;
 }
 
+.curator-in-program {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(205, 127, 50, 0.2);
+  font-size: 1rem;
+  line-height: 1.7;
+  letter-spacing: -0.011em;
+}
+
+.curator-in-program strong {
+  color: #CD7F32;
+}
+
 /* === INCLUSIONS === */
 .inclusions {
   background-color: white;

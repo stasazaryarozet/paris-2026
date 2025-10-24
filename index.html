@@ -272,6 +272,7 @@
         curatorEl.className = 'curator-card';
         
         const bioHTML = curator.bio.map(item => `<li>${item}</li>`).join('');
+        const inProgramHTML = curator.inProgram ? `<div class="curator-in-program"><strong>В программе:</strong> ${curator.inProgram}</div>` : '';
         
         curatorEl.innerHTML = `
           <h3 class="curator-name">${curator.name}</h3>
@@ -279,6 +280,7 @@
           <ul class="curator-bio">
             ${bioHTML}
           </ul>
+          ${inProgramHTML}
         `;
         
         curatorsGrid.appendChild(curatorEl);
