@@ -16,7 +16,10 @@ const CONTENT = {
     url: "https://parisinjanuary.ru"
   },
   program: {
-    intro: [],
+    intro: [
+      "Денье, Легре (Legré), Эйлин Грей, Аалто. У&nbsp;каждого свой почерк.",
+      "В&nbsp;интерьерах видны соотношения фактур, тонкости цвета, работа с&nbsp;материалами. Не|обход|им ли&nbsp;контакт с&nbsp;Реальностью?"
+    ],
     approach: {
       title: "Материал&nbsp;— главный источник вдохновения",
       items: [
@@ -75,7 +78,7 @@ const CONTENT = {
     {
       number: "ДЕНЬ III",
       date: "17 января",
-      title: "Villepinte: материал в&nbsp;действии",
+      title: "Maison & Objet: материал в&nbsp;действии",
       theme: "",
       locations: [
         {
