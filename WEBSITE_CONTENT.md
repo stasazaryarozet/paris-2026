@@ -10,14 +10,11 @@ og_url: "https://parisinjanuary.ru"
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
 
-**Subtitle:**  
 Фактуры, материалы, атмосфера.  
 <span class="emphasis">Можно ли ощутить словами?</span>  
 4 ДНЯ<br>с Ольгой Розет и Натальей Логиновой.
 
-**Dates:** 15–18+ января 2026  
-**Group:** до 12 человек  
-**Price:** 1 550 €
+15–18+ января 2026 | до 12 человек | 1 550 €
 
 ---
 
@@ -33,9 +30,7 @@ og_url: "https://parisinjanuary.ru"
 
 Не идея — физическая работа.
 
-<div class="question-accent">сделано <em>как</em>?</div> 
-
-<div class="section-divider">• • •</div>
+Парижские дизайнеры смешивают новое со старым. Интерьер без предметов с историей выглядит неживо.
 
 ## ДЕНЬ I • 15 января
 ### Правый берег

@@ -173,11 +173,16 @@ def parse_content(md_path):
     
     data = {}
     
-    # HERO — ПЕРВЫЙ (как в оригинале)
-    hero_match = re.search(r'^# (.+?)\n\n\*\*Subtitle:\*\*.*?\n(.+?)\n\n\*\*Dates:\*\* (.+?)\s*\n\*\*Group:\*\* (.+?)\s*\n\*\*Price:\*\* (.+?)(?:\n|$)', body, re.DOTALL | re.MULTILINE)
+    # HERO — новый формат без болдов
+    # Формат:
+    # # Title with <span class="hero-accent">100 лет</span>
+    # 
+    # Subtitle lines...
+    # 
+    # 15–18+ января 2026 | до 12 человек | 1 550 €
+    hero_match = re.search(r'^# (.+?)\n\n(.+?)\n\n([\d–+\s\w]+)\s*\|\s*(.+?)\s*\|\s*(.+?)(?:\n|$)', body, re.DOTALL | re.MULTILINE)
     if hero_match:
         title_raw = hero_match.group(1).strip()
-        # Сохраняем class="hero-accent" для CSS бронзы
         title_html = title_raw.replace('\n', '<br>')
         
         subtitle_raw = hero_match.group(2).strip()
@@ -191,10 +196,10 @@ def parse_content(md_path):
             'price': hero_match.group(5).strip()
         }
     else:
-        # Fallback из коммита
+        # Fallback
         data['hero'] = {
             'title': "Индивидуальный почерк ар-деко.<br><span class=\"hero-accent\">100 лет</span>.",
-            'subtitle': "4 дня с кураторами.<br>Фактуры, материалы, атмосфера.<br>То, что не видно в публикациях.",
+            'subtitle': "Фактуры, материалы, атмосфера.<br><span class=\"emphasis\">Можно ли ощутить словами?</span><br>4 ДНЯ<br>с Ольгой Розет и Натальей Логиновой.",
             'dates': "15–18+ января 2026",
             'group': "до 12 человек",
             'price': "1 550 €"
