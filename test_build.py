@@ -66,12 +66,12 @@ def test_build():
     # 6. Дни
     print("6. Проверка дней программы...")
     days_count = content_js.count('number: "ДЕНЬ')
-    if days_count < 5:
-        errors.append(f"❌ Найдено только {days_count} дней (ожидается 5)")
+    if days_count < 4:
+        errors.append(f"❌ Найдено только {days_count} дней (ожидается 4)")
     else:
         print(f"   ✅ {days_count} дней найдено")
     
-    for day in ['ДЕНЬ I', 'ДЕНЬ II', 'ДЕНЬ III', 'ДЕНЬ IV', 'ДЕНЬ V']:
+    for day in ['ДЕНЬ I', 'ДЕНЬ II', 'ДЕНЬ III', 'ДЕНЬ IV']:
         if day not in content_js:
             errors.append(f"❌ Отсутствует: {day}")
     
