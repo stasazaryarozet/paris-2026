@@ -373,6 +373,15 @@ section {
   font-weight: 700;
 }
 
+.section-divider {
+  text-align: center;
+  color: var(--copper);
+  font-size: 1.5rem;
+  margin: 3rem 0;
+  letter-spacing: 0.5rem;
+  opacity: 0.4;
+}
+
 .philosophy-highlight {
   background-color: white;
   padding: 2rem;
@@ -825,7 +834,7 @@ section {
 /* === FOOTER === */
 .main-footer {
   background-color: #ffffff;
-  padding: 2rem 0;
+  padding: 2rem 0 0;
   text-align: center;
 }
 
