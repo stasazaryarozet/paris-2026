@@ -227,9 +227,23 @@ def parse_content(md_path):
             elif para:
                 data['program']['intro'].append(para)
     
-    # APPROACH (Подход) - НЕ добавляем в program.intro, это скрытый баг
-    # Секция "Подход" уже включена в секцию "Программа по дням" в WEBSITE_CONTENT.md
-    # и парсится вместе с ней. Отдельный парсинг создаёт дублирование.
+    # APPROACH ("Материал — главный источник вдохновения")
+    data['program']['approach'] = {'title': '', 'items': []}
+    approach_match = re.search(r'## (Материал.+?)\n\n(.+?)(?=\n---|\n## ДЕНЬ)', body, re.DOTALL)
+    if approach_match:
+        data['program']['approach']['title'] = approach_match.group(1).strip()
+        approach_text = approach_match.group(2).strip()
+        
+        # Первая строка — основной тезис
+        lines = approach_text.split('\n')
+        if lines:
+            data['program']['approach']['thesis'] = lines[0].strip()
+            
+            # Остальные — пункты (начинаются с букв или **)
+            for line in lines[1:]:
+                line = line.strip()
+                if line and (line.startswith('**') or not line.startswith(('•', '-'))):
+                    data['program']['approach']['items'].append(line)
     
     # DAYS
     data['days'] = []
