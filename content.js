@@ -47,8 +47,8 @@ const CONTENT = {
           description: "(Legré)\nПалисандр, слоновая кость, лак&nbsp;— пышное ар-деко. Салоны 1920−30-х"
         },
         {
-          name: "Музей",
-          description: "Наталья выберет и сообщит\n~здесь."
+          name: "Musée des Arts Décoratifs",
+          description: "(MAD, 107 Rue de Rivoli)\nВыставка «100&nbsp;лет ар-деко». Ванная Ланвен (Рато). Лаки Дюнана. Эрбст. Шаро. Эталонные техники"
         }
       ]
     },
@@ -75,7 +75,7 @@ const CONTENT = {
     {
       number: "ДЕНЬ III",
       date: "17 января",
-      title: "Maison & Objet\nParis Nord Villepinte",
+      title: "Villepinte: От&nbsp;архива к&nbsp;почерку",
       theme: "",
       locations: [
         {

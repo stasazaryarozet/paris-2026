@@ -58,10 +58,10 @@ og_url: "https://parisinjanuary.ru"
 
 Палисандр, слоновая кость, лак — пышное ар-деко. Салоны 1920-30-х
 
-**Музей**
+**Musée des Arts Décoratifs**  
+(MAD, 107 Rue de Rivoli)
 
-Наталья выберет и сообщит
-~здесь.
+Выставка "100 лет ар-деко". Ванная Ланвен (Рато). Лаки Дюнана. Эрбст. Шаро. Эталонные техники
 
 ---
 
@@ -86,8 +86,7 @@ Rue de Seine. Квартал антикваров с 1970-х. Лак. Хром. 
 ---
 
 ## ДЕНЬ III • 17 января
-### Maison & Objet
-Paris Nord Villepinte
+### Villepinte: От архива к почерку
 
 **What's New? In Decor**  
 (Куратор: Elizabeth Leriche)
