@@ -22,7 +22,7 @@ const CONTENT = {
       "Не|обход|им ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
       "<h2 class=\"material-title\"><strong>Материал</strong>&nbsp;— главный источник вдохновения</h2>",
       "Не&nbsp;идея&nbsp;— физическая работа.",
-      "Соотношения фактур. \nТонкости цвета. \nсделано *как?*"
+      "<div class=\"question-accent\">сделано <em>как</em>?</div>"
     ],
     approach: {
       title: "",

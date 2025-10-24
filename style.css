@@ -383,6 +383,20 @@ section {
   margin-top: 1.5rem;
 }
 
+.question-accent {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 2.5rem 0;
+  color: var(--text-gray);
+  letter-spacing: 0.05em;
+}
+
+.question-accent em {
+  color: var(--copper);
+  font-style: normal;
+  font-weight: 600;
+}
+
 .philosophy-highlight {
   background-color: white;
   padding: 2rem;

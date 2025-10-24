@@ -33,9 +33,7 @@ og_url: "https://parisinjanuary.ru"
 
 Не идея — физическая работа.
 
-Соотношения фактур.  
-Тонкости цвета.  
-сделано *как?* 
+<div class="question-accent">сделано <em>как</em>?</div> 
 
 ---
 
