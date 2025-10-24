@@ -2,18 +2,18 @@ const CONTENT = {
   hero: {
     title: "Индивидуальный почерк ар-деко<br><span class=\"hero-accent\">100&nbsp;лет</span><br>•",
     subtitle: "Фактуры, материалы, атмосфера. <br>То, что&nbsp;не&nbsp;видно в&nbsp;публикациях. <br>4&nbsp;дня с&nbsp;кураторами.",
-    dates: "15–18+ января 2026",
+    dates: "15–18 января 2026",
     group: "до&nbsp;12 человек",
     price: "1 550&nbsp;€"
   },
   meta: {
     title: "Индивидуальный почерк ар-деко. 100&nbsp;лет&nbsp;— 4&nbsp;дня в&nbsp;Париже (январь 2026)",
-    description: "4&nbsp;дня в&nbsp;Париже. Фактуры, материалы, атмосфера. Ольга и Наталья. Галереи, отели, шоу-румы. Малые группы.",
+    description: "4&nbsp;дня в&nbsp;Париже. Фактуры, материалы, атмосфера. Ольга Розет и Наталья Логинова. Галереи, отели, шоу-румы. Малая группа.",
     keywords: "Paris Art Deco, ар-деко Париж, Palais de Tokyo, Nolinski, Galerie Vallois, Maison Louis Carré",
     ogTitle: "Индивидуальный почерк ар-деко. 100&nbsp;лет",
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. То, что&nbsp;не&nbsp;видно в&nbsp;публикациях.",
-    ogImage: "https://www.parisinjanuary.ru/og-image.jpg",
-    url: "https://www.parisinjanuary.ru"
+    ogImage: "https://parisinjanuary.ru/og-image.jpg",
+    url: "https://parisinjanuary.ru"
   },
   program: {
     intro: [
@@ -29,20 +29,20 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Прантан (Printemps)",
-          description: "→ Переход Нуво→Деко, материалы, металл, цвет"
+          name: "Прантан",
+          description: "(Printemps)\nИсторическое здание. Витражный купол. Переход Нуво → Деко. Металлические конструкции. Цвет в&nbsp;архитектуре"
         },
         {
-          name: "Нолински (Nolinski)",
-          description: "→ Денье, острая геометрия, парижский шик, брутальность"
+          name: "Нолински",
+          description: "(Nolinski)\nДенье. Острая геометрия. Парижский шик. Брутальность"
         },
         {
-          name: "Легре (Legré)",
-          description: "→ Шоу-рум как&nbsp;дом, дорогие материалы, селекция"
+          name: "Легре",
+          description: "(Legré)\nШоу-рум как&nbsp;дом. Дорогие материалы. Селекция"
         },
         {
           name: "Музей",
-          description: "→ Выбор Натальи"
+          description: "Наталья выберет и здесь сообщит"
         }
       ]
     },
@@ -53,48 +53,48 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Сен-Жермен (Saint-Germain)",
-          description: "→ Квартал антикваров, лак/хром/фанеровка, фактуры"
+          name: "Сен-Жермен",
+          description: "(Saint-Germain)\nКвартал антикваров. Лак. Хром. Фанеровка. Фактуры"
         },
         {
-          name: "Галерея Валлуа (Galerie Vallois)",
-          description: "→ Встреча с&nbsp;владелицей, 20–30-е, Эйлин Грей, эргономика, наблюдение за&nbsp;человеком"
+          name: "Галерея Валлуа",
+          description: "(Galerie Vallois)\nВстреча с&nbsp;владелицей. 20–30-е. Эйлин Грей. Эргономика. Наблюдение за&nbsp;человеком"
         },
         {
-          name: "Пале-де-Токио + Трокадеро (Palais de Tokyo + Trocadéro)",
-          description: "→ Выставка 1937, рождение имени «ар-деко», маршрут, контекст эпохи"
+          name: "Пале-де-Токио + Трокадеро",
+          description: "(Palais de Tokyo + Trocadéro)\nВыставка 1937. Рождение имени «ар-деко». Маршрут. Контекст эпохи"
         }
       ]
     },
     {
       number: "ДЕНЬ III",
-      date: "17+ января",
+      date: "17 января",
       title: "Аалто: тепло в&nbsp;модернизме",
       theme: "",
       locations: [
         {
-          name: "Мезон Луи Карре (Maison Louis Carré, 1956–59)",
-          description: "→ Аалто, дерево/объём/свет, тепло в&nbsp;модернизме, эргономика как&nbsp;забота, человечность"
+          name: "Мезон Луи Карре",
+          description: "(Maison Louis Carré, 1956–59)\nАалто. Дерево. Объём. Свет. Тепло в&nbsp;модернизме. Эргономика как&nbsp;забота. Человечность"
         },
         {
           name: "Парк",
-          description: "→ Ландшафт = продолжение архитектуры, природа+структура"
+          description: "Переплетение ландшафта и архитектуры. Природа. Структура"
         },
         {
           name: "Вечер",
-          description: "→ Разговор о&nbsp;четырёх днях, рефлексия, синтез"
+          description: "Разговор о&nbsp;четырёх днях. Рефлексия. Синтез"
         }
       ]
     },
     {
       number: "ДЕНЬ IV",
-      date: "18 января (опционально)",
-      title: "Продолжение",
+      date: "18 января",
+      title: "(опционально)",
       theme: "",
       locations: [
         {
-          name: "Авторский маршрут",
-          description: "→ Места, которые не&nbsp;успели, гайд от&nbsp;кураторов, самостоятельное продолжение"
+          name: "Гайд от&nbsp;кураторов",
+          description: "Места, которые не&nbsp;успели. Самостоятельное продолжение"
         }
       ]
     }
