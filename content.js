@@ -1,7 +1,7 @@
 const CONTENT = {
   hero: {
     title: "Индивидуальный почерк ар-деко<br><span class=\"hero-accent\">100&nbsp;лет</span><br><span class=\"hero-bullet\">•</span>",
-    subtitle: "Фактуры, материалы, атмосфера. <br><span class=\"emphasis\">Можно ли&nbsp;ощутить словами?</span> <br>4 ДНЯ<br>с Ольгой Розет и Натальей Логиновой.",
+    subtitle: "Фактуры, материалы, атмосфера. <br><span class=\"emphasis\">Можно ли&nbsp;ощутить словами?</span> <br>4 ДНЯ<br>с Ольгой Розет и Натальей Логиновой",
     dates: "15–18+ января 2026",
     group: "до&nbsp;12 человек",
     price: "1 550&nbsp;€"
@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "61"
+    version: "62"
   },
   program: {
     intro: [
