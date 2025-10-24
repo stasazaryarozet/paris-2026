@@ -63,6 +63,29 @@
 
 ---
 
+## Аудит от GPT-5 (24 октября 2025)
+
+### P0 (Критично) — 4/4 выполнено
+1. ✅ Статические мета-теги (SEO/OG, title, canonical, JSON-LD)
+2. ✅ .day-title читаемость (темный на desktop, белый на mobile)
+3. ✅ node --check вместо node -c (с fallback)
+4. ✅ Formspree ID единый (xvgwnvkb)
+
+### P1 (Высокий) — 5/5 выполнено
+1. ✅ Canonical + JSON-LD (TouristTrip) + preconnect
+2. ✅ Форма: honeypot (_honey) + _subject
+3. ✅ A11y аккордеонов (aria-controls/id)
+4. ✅ robots.txt + sitemap.xml
+5. ✅ Pre-commit для HTML/CSS
+
+**Коммиты:**
+- `b762ef7` — P0+P1 аудит: SEO/OG статические, A11y, honeypot, robots.txt, sitemap.xml, node --check
+- `2fd1ad9` — Отчёт по внедрению аудита: 9/9 P0+P1 выполнено
+
+**Полный отчет:** `AUDIT_IMPLEMENTATION.md`
+
+---
+
 ## Статус: Готов к запуску кампании
 
-Все элементы конгруэнтны на всех уровнях.
+Все элементы конгруэнтны на всех уровнях. Аудит P0+P1 выполнен полностью.
