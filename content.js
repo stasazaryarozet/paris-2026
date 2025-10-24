@@ -62,7 +62,7 @@ const CONTENT = {
         },
         {
           name: "Пале-де-Токио + Трокадеро",
-          description: "(Palais de Tokyo + Trocadéro)\nExpo 1937. Palais de Chaillot. «Рабочий и колхозница». «Фея Электричества» Дюфи. Термин придуман в&nbsp;1966. Контекст: канун войны"
+          description: "(Palais de Tokyo + Trocadéro)\nЗдания Expo 1937. «Фея Электричества» Дюфи&nbsp;— 250 панелей. Цвет. Электричество. Лебединая песня стиля. Маршрут выставки"
         }
       ]
     },
