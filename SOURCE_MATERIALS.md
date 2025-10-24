@@ -746,19 +746,123 @@ source_materials/
 - Принятые решения и их обоснования
 - Альтернативы, которые были отвергнуты
 
-### 8. `Programme - Maison&Objet.pdf`
-**Размер:** 4.4 MB  
-**Назначение:** Официальная программа выставки Maison & Objet  
-**Содержание:**
-- Расписание выставки (15–19 января 2026)
-- Список участников
-- Тема года: "Прошлое раскрывает будущее"
-- Информация о трендах и курации
+### 8. `Programme - Maison&Objet.pdf` — ПОЛНОЕ СОДЕРЖАНИЕ
 
-**Использовано для:**
-- Точные даты и локации
-- Имена кураторов (Элизабет Лериш, Томас Хаарманн)
-- Информация о дизайнере года (Гарри Нуриев)
+**Размер:** 4.4 MB  
+**Даты:** 15–19 января 2026  
+**Место:** Paris Nord Villepinte exhibition center  
+**Формат:** 2,300 брендов, 500 новых брендов, 6 секторов, 7 залов, 25 конференций
+
+---
+
+#### ТЕМА: "PAST REVEALS FUTURE"
+
+**Философия:**  
+"Maison&Objet returns to its roots and celebrates furniture synonymous with craftsmanship and excellence. In a global context shaken by the ecological crisis, overconsumption, and homogenization, the fair responds with a design full of soul!"
+
+**4 ТЕМАТИЧЕСКИХ ТРЕНДА:**
+1. **METAMORPHOSIS** (Метаморфоза)
+2. **MUTATION** (Мутация)
+3. **REVISITED BAROQUE** (Переосмысленное барокко)
+4. **NEO FOLKLORE** (Нео-фольклор)
+
+---
+
+#### КЛЮЧЕВЫЕ ЭКСПОЗИЦИИ И КУРАТОРЫ:
+
+**1. TRANSFORMISM BY HARRY NURIEV — Hall 3**  
+*Designer of the Year 2026*
+
+- **Концепция:** "Transformism" — visionary manifesto
+- **Идея:** Everyday objects transcend function to become coveted collectors' pieces
+- **Связь с темой:** "Past Reveals Future, where heritage and innovation dance in harmony"
+- **Подход:** Futuristic narrative, objects as art
+
+**2. WHAT'S NEW? IN DECOR — Elizabeth Leriche**  
+- **Концепция:** "Between references and emergences"
+- **Подход:** Journey through time where each era dialogues with the next
+- **Фокус:** Each historical style is hybridized and reinvented
+
+**3. SUITE 2046 (HOSPITALITY) — Rudy Guénaire**  
+- **Концепция:** "Through a past, future, and dreamlike room"
+- **Фокус:** Codes of a future hospitality capable of inspiring dreams once again
+- **Формат:** Комната будущего
+
+**4. WHAT'S NEW? IN RETAIL — François Delclaux**  
+- **Концепция:** "Paleo-futuristic approach"
+- **Фокус:** Current trends in commerce, blending physical and digital retail
+- **Формат:** Experiential manifesto
+
+**5. CURATIO — Thomas Haarmann**  
+*Season 2*
+
+- **Формат:** 60 international members
+- **Концепция:** "True village" — деревня дизайна
+- **Фокус:** Sensitive immersion in contemporary design
+- **Цель:** Invites visitors to a sensitive immersion
+
+**6. MANUFACTURES OF EXCELLENCE**  
+- **Партнерство:** Excellence Network of the National Association of Living Heritage Companies (EPV)
+- **Формат:** 20 exceptional artisans
+- **Фокус:** "The finest French heritage craftsmanship dedicated to the contract sector"
+- **Философия:** Сохранение мастерства и excellence
+
+**7. THE ART OF ENHANCING OUTDOOR LIVING**  
+- **Формат:** 50 of the most prestigious international names
+- **Фокус:** Outdoor areas as extension of the home
+- **Концепция:** Redefines the art of outdoor living
+
+**8. CONFERENCES: THE TALKS — Hall 3**  
+- **Темы:** From hospitality to retail, cutting-edge solutions for interior design
+- **Формат:** Exceptional designers + analysis of the latest trends
+- **Количество:** 25 конференций
+
+**9. THE MOM VILLAGE — Entrance Hall 6**  
+- **Формат:** Carefully selected by big names in the world of decor + trend team
+- **Фокус:** Most popular furniture and objects from MOM platform
+
+---
+
+#### СЕКТОРЫ ВЫСТАВКИ:
+
+1. **SIGNATURE & PROJECTS** — проектная мебель
+2. **CRAFT – MÉTIERS D'ART** — ремесленное мастерство
+3. **DECOR & DESIGN** — декор и дизайн
+4. **FASHION & ACCESSORIES** — мода и аксессуары
+5. **FRAGRANCE & WELLNESS** — ароматы и велнес
+6. **GIFT & PLAY** — подарки и игрушки
+
+---
+
+#### MAISON & OBJET IN THE CITY (14–19 января)
+
+**Формат:** B-to-B event designed for professionals  
+**Охват:** 100 spots that make up the Parisian ecosystem of excellence in decor  
+**Участники:** Decorators, interior designers, galleries, great maisons, exceptional craftspeople  
+**Цель:** Business connections and inspiration
+
+---
+
+#### РЕЛЕВАНТНОСТЬ ПРОГРАММЕ "100 ЛЕТ":
+
+**✓ Craftsmanship and excellence** — конгруэтно "индивидуальному почерку"  
+**✓ "Design full of soul"** — против homogenization  
+**✓ "Past Reveals Future"** — ар-деко как прошлое, раскрывающее будущее  
+**✓ French heritage** — EPV, Manufactures of Excellence  
+**✓ Material focus** — хотя не эксплицитно, но через craftsmanship  
+**✓ "Each historical style is hybridized"** — Elizabeth Leriche
+
+**⚠️ ПРОБЛЕМЫ:**
+- Массовость (2,300 брендов vs малая группа до 12 человек)
+- Generic trends vs индивидуальный почерк конкретных мастеров
+- Villepinte (пригород) vs центр Парижа
+- Commercial fair vs кураторская программа
+
+**💡 ВОЗМОЖНОСТИ:**
+- Harry Nuriev — если его подход релевантен ар-деко
+- Elizabeth Leriche — "hybridized historical styles"
+- Manufactures of Excellence — 20 artisans с EPV
+- IN THE CITY — 100 адресов в Париже (альтернативный маршрут?)
 
 ---
 
