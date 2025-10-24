@@ -13,7 +13,8 @@ const CONTENT = {
     ogTitle: "Индивидуальный почерк ар-деко. 100&nbsp;лет",
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
-    url: "https://parisinjanuary.ru"
+    url: "https://parisinjanuary.ru",
+    version: "51"
   },
   program: {
     intro: [

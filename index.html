@@ -443,9 +443,20 @@
       });
     }
 
+    // Version badge
+    function renderVersionBadge() {
+      if (CONTENT.meta.version) {
+        const badge = document.createElement('div');
+        badge.className = 'version-badge';
+        badge.textContent = `v${CONTENT.meta.version}`;
+        document.body.appendChild(badge);
+      }
+    }
+
     // Initialize
     render();
     updateFloatingCTA();
+    renderVersionBadge();
   </script>
 
 </body>

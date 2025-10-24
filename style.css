@@ -1015,6 +1015,22 @@ section {
   transform: translateY(-2px);
 }
 
+/* === VERSION BADGE === */
+.version-badge {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(26, 35, 50, 0.3);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-family: monospace;
+  z-index: 9999;
+  pointer-events: none;
+  user-select: none;
+}
+
 /* === FLOATING CTA === */
 .floating-cta {
   position: fixed;

@@ -213,7 +213,8 @@ def parse_content(md_path):
         'ogTitle': meta.get('og_title', ''),
         'ogDescription': meta.get('og_description', ''),
         'ogImage': meta.get('og_image', ''),
-        'url': meta.get('og_url', '')
+        'url': meta.get('og_url', ''),
+        'version': meta.get('version', '1')
     }
     
     # PROGRAM
