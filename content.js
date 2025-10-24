@@ -47,8 +47,8 @@ const CONTENT = {
           description: "(Legré)\nПалисандр, слоновая кость, лак&nbsp;— пышное ар-деко. Салоны 1920−30-х"
         },
         {
-          name: "Musée des Arts Décoratifs",
-          description: "(MAD, 107 Rue de Rivoli)\nВыставка «100&nbsp;лет ар-деко». Ванная Ланвен (Рато). Лаки Дюнана. Эрбст. Шаро. Руки мастеров"
+          name: "Музей",
+          description: "Наталья выберет и сообщит ~здесь."
         }
       ]
     },
@@ -68,18 +68,18 @@ const CONTENT = {
         },
         {
           name: "Пале-де-Токио + Трокадеро",
-          description: "(Palais de Tokyo + Trocadéro)\nМаршрут выставки Expo 1937. «Фея Электричества» Дюфи&nbsp;— 250 панелей, крупнейшая картина эпохи. «Лебединая песня» стиля"
+          description: "(Palais de Tokyo + Trocadéro)\nМаршрут выставки Expo 1937. «Фея Электричества» Дюфи&nbsp;— 250 панелей&nbsp;— крупнейшая картина эпохи. «Лебединая песня» стиля"
         }
       ]
     },
     {
       number: "ДЕНЬ III",
       date: "17 января",
-      title: "Villepinte: От&nbsp;архива к&nbsp;почерку",
+      title: "Villepinte: материал в&nbsp;действии",
       theme: "",
       locations: [
         {
-          name: "What's New? In Decor",
+          name: "Новое в&nbsp;декоре",
           description: "(Куратор: Elizabeth Leriche)\nГлянцевый лак. Матовая керамика. Архивные паттерны в&nbsp;новых материалах. Тактильность"
         },
         {
@@ -92,7 +92,7 @@ const CONTENT = {
         },
         {
           name: "Transformism",
-          description: "(Harry Nuriev)\nЦвет как&nbsp;высказывание. Объект как&nbsp;мир. Будущее из&nbsp;прошлого"
+          description: "(Harry Nuriev)\nЦвет&nbsp;— высказывание.\nТрадиция вещи."
         }
       ]
     },
