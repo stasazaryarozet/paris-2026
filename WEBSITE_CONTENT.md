@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "64"
+version: "65"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -17,7 +17,11 @@ version: "64"
 
 15–18+ января 2026 | до 12 человек | 1 550 €
 
----
+<div class="days-divider">
+  <span class="divider-dot">•</span>
+  <span class="divider-dot">•</span>
+  <span class="divider-dot">•</span>
+</div>
 
 ## Программа
 
