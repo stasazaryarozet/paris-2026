@@ -184,8 +184,17 @@
     </div>
   </div>
 
-  <script src="content.js"></script>
   <script>
+    // Load content.js with cache busting
+    (function() {
+      const script = document.createElement('script');
+      script.src = 'content.js?v=' + Date.now();
+      document.head.appendChild(script);
+      script.onload = function() {
+        init();
+      };
+    })();
+    
     // Render content
     function render() {
       // Hero
@@ -454,9 +463,11 @@
     }
 
     // Initialize
-    render();
-    updateFloatingCTA();
-    renderVersionBadge();
+    function init() {
+      render();
+      updateFloatingCTA();
+      renderVersionBadge();
+    }
   </script>
 
 </body>
