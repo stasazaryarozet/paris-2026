@@ -19,11 +19,10 @@ const CONTENT = {
     intro: [
       "Денье, Легре (Legré), <span class=\"emphasis\">Эйлин Грей</span>, Аалто. У&nbsp;каждого свой <span class=\"emphasis\">почерк</span>.",
       "В&nbsp;интерьерах видны соотношения фактур, тонкости цвета, работа с&nbsp;материалами.",
-      "Необходим ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
-      "<div class=\"section-divider\">• • •</div>",
+      "Не|обход|им ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
       "<h2 class=\"material-title\"><strong>Материал</strong>&nbsp;— главный источник вдохновения</h2>",
       "Не&nbsp;идея&nbsp;— физическая работа.",
-      "Соотношения фактур. \nТонкости цвета. \nКак&nbsp;сделано?"
+      "Соотношения фактур. \nТонкости цвета. \nсделано *как?*"
     ],
     approach: {
       title: "",
@@ -138,7 +137,7 @@ const CONTENT = {
         "Работала на&nbsp;телеканале «Культура», редактировала «Московское наследие», руководила Центром моды и дизайна Музея декоративного искусства",
         "Иммигрировала в&nbsp;Париж по&nbsp;любви к&nbsp;городу"
       ],
-      inProgram: "<span class=\"emphasis\">Открывает Париж</span>"
+      inProgram: "<span class=\"emphasis\">Открывает Париж</span>\n\n<div class=\"curator-separator\">•</div>"
     }
   ],
   inclusions: [

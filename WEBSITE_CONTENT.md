@@ -27,9 +27,7 @@ og_url: "https://parisinjanuary.ru"
 
 В интерьерах видны соотношения фактур, тонкости цвета, работа с материалами.
 
-Необходим ли<br><span class="emphasis">контакт с Реальностью</span><br>?
-
-<div class="section-divider">• • •</div>
+Не|обход|им ли<br><span class="emphasis">контакт с Реальностью</span><br>?
 
 <h2 class="material-title"><strong>Материал</strong> — главный источник вдохновения</h2>
 
@@ -37,7 +35,7 @@ og_url: "https://parisinjanuary.ru"
 
 Соотношения фактур.  
 Тонкости цвета.  
-Как сделано? 
+сделано *как?* 
 
 ---
 
@@ -146,6 +144,8 @@ Rue de Seine. Квартал антикваров с 1970-х. Лак. Хром. 
 
 **В программе:**  
 <span class="emphasis">Открывает Париж</span>
+
+<div class="curator-separator">•</div>
 
 ---
 

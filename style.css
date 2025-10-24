@@ -52,6 +52,8 @@ html {
 }
 
 body { 
+  margin: 0;
+  padding: 0;
   font-family: var(--font-body);
   background-color: var(--bg-primary); 
   color: var(--text-primary); 
@@ -373,13 +375,12 @@ section {
   font-weight: 700;
 }
 
-.section-divider {
+.curator-separator {
   text-align: center;
   color: var(--copper);
-  font-size: 1.5rem;
-  margin: 3rem 0;
-  letter-spacing: 0.5rem;
-  opacity: 0.4;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
 }
 
 .philosophy-highlight {
@@ -834,8 +835,9 @@ section {
 /* === FOOTER === */
 .main-footer {
   background-color: #ffffff;
-  padding: 2rem 0 0;
+  padding: 2rem 0;
   text-align: center;
+  margin: 0;
 }
 
 .footer-top {
