@@ -822,8 +822,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 3rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer-email {
@@ -843,16 +843,16 @@ section {
 
 .back-to-top {
   display: inline-block;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
   text-align: center;
   color: var(--text-gray);
   background: transparent;
   border: 1px solid rgba(45, 55, 72, 0.2);
   border-radius: 50%;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   transition: all 0.3s ease;
   opacity: 0.6;
 }
@@ -888,7 +888,15 @@ section {
   }
   
   .footer-top {
-    margin-bottom: 2rem;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .back-to-top {
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 1.3rem;
   }
   
   .mirror-container {
