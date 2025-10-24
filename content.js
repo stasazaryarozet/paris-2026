@@ -22,7 +22,17 @@ const CONTENT = {
       "Не|обход|им ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
       "<h2 class=\"material-title\"><strong>Материал</strong>&nbsp;— главный источник вдохновения</h2>",
       "Не&nbsp;идея&nbsp;— физическая работа.",
-      "<div class=\"question-accent\">сделано <em>как</em>?</div>"
+      "<div class=\"question-accent\">сделано <em>как</em>?</div>",
+      "<div class=\"section-divider\">• • •</div>",
+      "## ДЕНЬ I • 15 января\n### Правый берег",
+      "**Прантан** \n(Printemps)",
+      "Купол 1923&nbsp;— 20&nbsp;метров. Свет сквозь 3185 панелей. Кованое железо Брандта. Primavera. Expo 1925",
+      "**Нолински** \n(Nolinski)",
+      "Латунь и мрамор&nbsp;— Каррара, Nero Marquina. Контраст фактур. Нео-деко",
+      "**Легре** \n(Legré)",
+      "Палисандр, слоновая кость, лак&nbsp;— пышное ар-деко. Салоны 1920−30-х",
+      "**Музей**",
+      "Наталья выберет и сообщит ~здесь."
     ],
     approach: {
       title: "",

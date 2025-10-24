@@ -385,16 +385,18 @@ section {
 
 .question-accent {
   text-align: center;
-  font-size: 1.75rem;
-  margin: 2.5rem 0;
+  font-size: 1.1rem;
+  margin: 1.5rem 0 2rem 0;
   color: var(--text-gray);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
+  font-style: italic;
+  opacity: 0.85;
 }
 
 .question-accent em {
   color: var(--copper);
-  font-style: normal;
-  font-weight: 600;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .philosophy-highlight {

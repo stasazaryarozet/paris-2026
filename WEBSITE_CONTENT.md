@@ -35,7 +35,7 @@ og_url: "https://parisinjanuary.ru"
 
 <div class="question-accent">сделано <em>как</em>?</div> 
 
----
+<div class="section-divider">• • •</div>
 
 ## ДЕНЬ I • 15 января
 ### Правый берег
