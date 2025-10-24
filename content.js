@@ -1,7 +1,7 @@
 const CONTENT = {
   hero: {
     title: "Индивидуальный почерк ар-деко<br><span class=\"hero-accent\">100&nbsp;лет</span><br><span class=\"hero-bullet\">•</span>",
-    subtitle: "Фактуры, материалы, атмосфера. <br><span class=\"emphasis\">Можно ли&nbsp;ощутить словами?</span> <br>4&nbsp;дня с&nbsp;Ольгой Розет и Натальей Логиновой.",
+    subtitle: "Фактуры, материалы, атмосфера. <br><span class=\"emphasis\">Можно ли&nbsp;ощутить словами?</span> <br>4&nbsp;дня<br>с Ольгой Розет и Натальей Логиновой.",
     dates: "15–18+ января 2026",
     group: "до&nbsp;12 человек",
     price: "1 550&nbsp;€"
@@ -19,7 +19,11 @@ const CONTENT = {
     intro: [
       "Денье, Легре (Legré), <span class=\"emphasis\">Эйлин Грей</span>, Аалто. У&nbsp;каждого свой <em>почерк</em>.",
       "В&nbsp;интерьерах видны соотношения фактур, тонкости цвета, работа с&nbsp;материалами.",
-      "Не|обход|им ли&nbsp;<span class=\"emphasis\">контакт с&nbsp;Реальностью</span>?"
+      "Не|обход|им ли&nbsp;<span class=\"emphasis\">контакт с&nbsp;Реальностью</span>?",
+      "* * *",
+      "## **Материал**&nbsp;— главный источник вдохновения",
+      "Не&nbsp;идея&nbsp;— физическая работа.",
+      "Соотношения фактур. \nТонкости цвета. \nКак&nbsp;сделано?"
     ],
     approach: {
       title: "",
