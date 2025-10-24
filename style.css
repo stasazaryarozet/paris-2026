@@ -407,6 +407,20 @@ section {
   display: none;
 }
 
+.days-divider {
+  text-align: center;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.divider-dot {
+  color: var(--copper);
+  font-size: 0.5rem;
+  opacity: 0.4;
+}
+
 .question-accent {
   text-align: center;
   font-size: 1.1rem;

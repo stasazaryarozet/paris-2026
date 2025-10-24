@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "62"
+version: "63"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -30,6 +30,12 @@ version: "62"
 <h2 class="material-title"><strong>Материал</strong> — главный источник вдохновения</h2>
 
 Парижские дизайнеры смешивают новое со старым. Интерьер без предметов с историей выглядит неживо.
+
+<div class="days-divider">
+  <span class="divider-dot">•</span>
+  <span class="divider-dot">•</span>
+  <span class="divider-dot">•</span>
+</div>
 
 ## ДЕНЬ I • 15 января
 ### Правый берег
