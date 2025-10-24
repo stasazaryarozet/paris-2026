@@ -1,7 +1,7 @@
 const CONTENT = {
   hero: {
     title: "Индивидуальный почерк ар-деко<br><span class=\"hero-accent\">100&nbsp;лет</span><br><span class=\"hero-bullet\">•</span>",
-    subtitle: "Фактуры, материалы, атмосфера. <br><em>Можно ли&nbsp;ощутить словами?</em> <br>4&nbsp;дня с&nbsp;Ольгой Розет и Натальей Логиновой.",
+    subtitle: "Фактуры, материалы, атмосфера. <br><span class=\"emphasis\">Можно ли&nbsp;ощутить словами?</span> <br>4&nbsp;дня с&nbsp;Ольгой Розет и Натальей Логиновой.",
     dates: "15–18+ января 2026",
     group: "до&nbsp;12 человек",
     price: "1 550&nbsp;€"
@@ -17,9 +17,9 @@ const CONTENT = {
   },
   program: {
     intro: [
-      "Денье, Легре (Legré), <em>Эйлин Грей</em>, Аалто. У&nbsp;каждого свой <em>почерк</em>.",
+      "Денье, Легре (Legré), <span class=\"emphasis\">Эйлин Грей</span>, Аалто. У&nbsp;каждого свой <em>почерк</em>.",
       "В&nbsp;интерьерах видны соотношения фактур, тонкости цвета, работа с&nbsp;материалами.",
-      "Не|обход|им ли&nbsp;<em>контакт с&nbsp;Реальностью</em>?"
+      "Не|обход|им ли&nbsp;<span class=\"emphasis\">контакт с&nbsp;Реальностью</span>?"
     ],
     approach: {
       title: "",
@@ -63,7 +63,7 @@ const CONTENT = {
         },
         {
           name: "Галерея Валлуа",
-          description: "(Galerie Vallois, 41 rue de Seine)\nРобер Валлуа, 1971. Рульманн, Дюнан, <em>Эйлин Грей</em>&nbsp;— столик E-1027. Оригиналы"
+          description: "(Galerie Vallois, 41 rue de Seine)\nРобер Валлуа, 1971. Рульманн, Дюнан, <span class=\"emphasis\">Эйлин Грей</span>&nbsp;— столик E-1027. Оригиналы"
         },
         {
           name: "Пале-де-Токио + Трокадеро",
@@ -74,7 +74,7 @@ const CONTENT = {
     {
       number: "ДЕНЬ III",
       date: "17 января",
-      title: "Maison & Objet: материал в&nbsp;действии",
+      title: "Maison & Objet:<br>материал в&nbsp;действии",
       theme: "",
       locations: [
         {
@@ -98,7 +98,7 @@ const CONTENT = {
     {
       number: "ДЕНЬ IV",
       date: "18 января",
-      title: "Аалто: эргономика как&nbsp;забота",
+      title: "Аалто:<br>эргономика как&nbsp;забота",
       theme: "",
       locations: [
         {
@@ -122,7 +122,8 @@ const CONTENT = {
       role: "",
       bio: [
         "Работает в&nbsp;дизайне интерьеров 30+ лет",
-        "Курирует программы в&nbsp;Высшей Британской школе дизайна"
+        "Курирует программы в&nbsp;Высшей Британской школе дизайна",
+        "Ведёт авторские путешествия с&nbsp;2008&nbsp;года"
       ],
       inProgram: "<em>Раскрывает работу мастеров: фактуры, цвет, индивидуальный почерк</em>"
     },

@@ -236,6 +236,13 @@ section {
   opacity: 0.95;
   font-family: var(--font-body);
   font-weight: 500;
+}
+
+/* Emphasis styling */
+.emphasis {
+  color: var(--copper);
+  font-weight: 600;
+  letter-spacing: 0.02em;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   line-height: 1.8;
