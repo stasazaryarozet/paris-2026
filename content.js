@@ -74,7 +74,7 @@ const CONTENT = {
       locations: [
         {
           name: "Мезон Луи Карре",
-          description: "(Maison Louis Carré, 1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Тепло в&nbsp;модернизме. Эргономика как&nbsp;забота"
+          description: "(Maison Louis Carré, 1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Эргономика как&nbsp;забота"
         },
         {
           name: "Парк",
