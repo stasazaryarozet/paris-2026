@@ -36,7 +36,7 @@ const CONTENT = {
       locations: [
         {
           name: "Прантан",
-          description: "(Printemps)\nКупол 1923&nbsp;— 20&nbsp;метров, 3185 панелей. Кованое железо Брандта. Primavera. Expo 1925"
+          description: "(Printemps)\nКупол 1923&nbsp;— 20&nbsp;метров. Свет сквозь 3185 панелей. Кованое железо Брандта. Primavera. Expo 1925"
         },
         {
           name: "Нолински",
@@ -48,7 +48,7 @@ const CONTENT = {
         },
         {
           name: "Musée des Arts Décoratifs",
-          description: "(MAD, 107 Rue de Rivoli)\nВыставка «100&nbsp;лет ар-деко». Ванная Ланвен (Рато). Лаки Дюнана. Эрбст. Шаро. Эталонные техники"
+          description: "(MAD, 107 Rue de Rivoli)\nВыставка «100&nbsp;лет ар-деко». Ванная Ланвен (Рато). Лаки Дюнана. Эрбст. Шаро. Руки мастеров"
         }
       ]
     },
@@ -60,7 +60,7 @@ const CONTENT = {
       locations: [
         {
           name: "Сен-Жермен",
-          description: "(Saint-Germain-des-Prés)\nRue de Seine. Квартал антикваров с&nbsp;1970-х. Лак. Хром. Фанеровка. «Воскрешение» ар-деко"
+          description: "(Saint-Germain-des-Prés)\nRue de Seine. Квартал антикваров с&nbsp;1970-х. Лак. Хром. Фанеровка&nbsp;— руки мастеров. «Воскрешение» ар-деко"
         },
         {
           name: "Галерея Валлуа",
@@ -92,7 +92,7 @@ const CONTENT = {
         },
         {
           name: "Transformism",
-          description: "(Harry Nuriev)\nРадикальный цвет. Тотальный дизайн. Будущее из&nbsp;прошлого"
+          description: "(Harry Nuriev)\nЦвет как&nbsp;высказывание. Объект как&nbsp;мир. Будущее из&nbsp;прошлого"
         }
       ]
     },
@@ -104,7 +104,7 @@ const CONTENT = {
       locations: [
         {
           name: "Мезон Луи Карре",
-          description: "(Maison Louis Carré, 1956–59)\nСосна. Кожаные ручки. Волнистый потолок"
+          description: "(Maison Louis Carré, 1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Тепло дерева"
         },
         {
           name: "Парк",
