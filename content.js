@@ -75,32 +75,44 @@ const CONTENT = {
     {
       number: "ДЕНЬ III",
       date: "17 января",
-      title: "Аалто: тепло в&nbsp;модернизме",
+      title: "Maison & Objet\nParis Nord Villepinte",
       theme: "",
       locations: [
         {
-          name: "Мезон Луи Карре",
-          description: "(Maison Louis Carré, 1956–59)\nСосна, кожаные ручки, волнистый потолок&nbsp;— эргономика как&nbsp;забота"
+          name: "What's New? In Decor",
+          description: "(Куратор: Elizabeth Leriche)\nГлянцевый лак. Матовая керамика. Архивные паттерны в&nbsp;новых материалах. Тактильность"
         },
         {
-          name: "Парк",
-          description: "Ландшафт и Архитектура\nв&nbsp;ансамбле."
+          name: "Craft&nbsp;— Métiers d'Art",
+          description: "(Павильон 5А)\nМаркетри. Эмаль. Стекло. След резца. Уникальная техника каждого мастера"
         },
         {
-          name: "Вечер",
-          description: "Разговор"
+          name: "Signature",
+          description: "(Павильон 7)\nЛатунь полированная. Патинированная. Сатинированная. Три&nbsp;интерпретации одного материала. Авторский почерк"
+        },
+        {
+          name: "Transformism",
+          description: "(Harry Nuriev)\nРадикальный цвет. Тотальный дизайн. Будущее из&nbsp;прошлого"
         }
       ]
     },
     {
       number: "ДЕНЬ IV",
       date: "18 января",
-      title: "(опционально)",
+      title: "Аалто: эргономика как&nbsp;забота",
       theme: "",
       locations: [
         {
-          name: "Гайд от&nbsp;кураторов",
-          description: "Самостоятельное продолжение"
+          name: "Мезон Луи Карре",
+          description: "(Maison Louis Carré, 1956–59)\nСосна. Кожаные ручки. Волнистый потолок"
+        },
+        {
+          name: "Парк",
+          description: "Ландшафт и Архитектура\nв&nbsp;ансамбле"
+        },
+        {
+          name: "Вечер",
+          description: "Разговор"
         }
       ]
     }
