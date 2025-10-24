@@ -829,16 +829,42 @@ section {
 .main-footer {
   background-color: var(--midnight-blue);
   color: white;
-  padding: 2rem 0;
+  padding: 0;
   text-align: center;
   min-height: 0;
   margin: 0;
+}
+
+.footer-email {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.email-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: -0.011em;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.email-link:hover,
+.email-link:focus {
+  color: #CD7F32;
+}
+
+.email-icon {
+  font-size: 1.3rem;
 }
 
 .footer-content {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  padding: 1rem 0 2rem;
 }
 
 .back-to-top {
