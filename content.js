@@ -30,19 +30,19 @@ const CONTENT = {
       locations: [
         {
           name: "Прантан",
-          description: "(Printemps)\nКупол Бриера. 1923. 20&nbsp;метров. 3185 панелей. Кованое железо Брандта. Студия Primavera. Павильон Expo 1925"
+          description: "(Printemps)\nКупол 1923. 20&nbsp;метров. 3185 панелей. Кованое железо Брандта. Студия Primavera. Павильон Expo 1925"
         },
         {
           name: "Нолински",
-          description: "(Nolinski)\nДенье. Латунь. Мрамор Каррара и Nero Marquina. Контраст фактур. Нео-деко"
+          description: "(Nolinski)\nЛатунь. Мрамор Каррара и Nero Marquina. Контраст фактур. Нео-деко"
         },
         {
           name: "Легре",
-          description: "(Legré)\nРобер Легре. Палисандр. Слоновая кость. Лак. Пышное ар-деко. Салоны 1920−30-х"
+          description: "(Legré)\nПалисандр. Слоновая кость. Лак. Пышное ар-деко. Салоны 1920−30-х"
         },
         {
           name: "Музей",
-          description: "Наталья выберет и здесь сообщит"
+          description: "Наталья выберет и сообщит\n~здесь."
         }
       ]
     },
@@ -54,15 +54,15 @@ const CONTENT = {
       locations: [
         {
           name: "Сен-Жермен",
-          description: "(Saint-Germain)\nКвартал антикваров. Лак. Хром. Фанеровка. Фактуры"
+          description: "(Saint-Germain-des-Prés)\nRue de Seine. Квартал антикваров с&nbsp;1970-х. Лак. Хром. Фанеровка. «Переоткрытие» ар-деко"
         },
         {
           name: "Галерея Валлуа",
-          description: "(Galerie Vallois)\nРобер Валлуа. Эйлин Грей. Столик E-1027. Наблюдение за&nbsp;человеком. Музейный уровень"
+          description: "(Galerie Vallois, 41 rue de Seine)\nРобер Валлуа. 1971. Рульманн. Дюнан. Эйлин Грей. Столик E-1027. Музейный уровень. Провенанс"
         },
         {
           name: "Пале-де-Токио + Трокадеро",
-          description: "(Palais de Tokyo + Trocadéro)\nExpo 1937. Термин придуман в&nbsp;1966. «Фея Электричества» Дюфи. Контекст: канун войны"
+          description: "(Palais de Tokyo + Trocadéro)\nExpo 1937. Palais de Chaillot. «Рабочий и колхозница». «Фея Электричества» Дюфи. Термин придуман в&nbsp;1966. Контекст: канун войны"
         }
       ]
     },
@@ -74,7 +74,7 @@ const CONTENT = {
       locations: [
         {
           name: "Мезон Луи Карре",
-          description: "(Maison Louis Carré, 1956–59)\nАалто. Сосна. Кожаные ручки. Волнистый потолок. Тепло в&nbsp;модернизме. Эргономика как&nbsp;забота"
+          description: "(Maison Louis Carré, 1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Тепло в&nbsp;модернизме. Эргономика как&nbsp;забота"
         },
         {
           name: "Парк",
