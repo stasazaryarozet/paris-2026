@@ -811,99 +811,90 @@ section {
   margin-top: 2rem;
 }
 
-/* === MIRROR SECTION === */
-.mirror-section {
+/* === FOOTER === */
+.main-footer {
   background-color: #ffffff;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  padding: 4rem 0 2rem;
+  text-align: center;
 }
 
 .mirror-container {
-  text-align: center;
-  padding: 4rem 0;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
+  padding: 0 2rem;
 }
 
 .mirror-image {
   max-width: 100%;
-  width: auto;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-  .mirror-container {
-    padding: 2rem 0;
-  }
-  
-  .mirror-image {
-    max-width: 100%;
-  }
-}
-
-/* === FOOTER === */
-.main-footer {
-  background-color: var(--midnight-blue);
-  color: white;
-  padding: 0;
-  text-align: center;
-  min-height: 0;
-  margin: 0;
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 2rem;
 }
 
 .footer-email {
-  padding: 1.5rem 0 0;
-  text-align: center;
-}
-
-.email-link {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--text-gray);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   letter-spacing: 0.02em;
-  transition: color 0.3s ease;
-  font-weight: 300;
+  opacity: 0.7;
+  transition: all 0.3s ease;
 }
 
-.email-link:hover,
-.email-link:focus {
-  color: #CD7F32;
-}
-
-.footer-content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 1rem 0 2rem;
+.footer-email:hover,
+.footer-email:focus-visible {
+  opacity: 1;
+  color: var(--copper);
 }
 
 .back-to-top {
   display: inline-block;
-  width: 48px;
-  height: 48px;
-  line-height: 48px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
-  color: var(--chrome);
+  color: var(--text-gray);
   background: transparent;
-  border: 1px solid var(--chrome);
+  border: 1px solid rgba(45, 55, 72, 0.2);
   border-radius: 50%;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: all 0.3s ease;
+  opacity: 0.6;
 }
 
 .back-to-top:hover {
-  color: white;
-  border-color: white;
+  opacity: 1;
+  border-color: var(--copper);
+  color: var(--copper);
   transform: translateY(-2px);
 }
 
 .back-to-top:focus-visible {
-  outline: 2px solid var(--chrome);
+  outline: 2px solid var(--copper);
   outline-offset: 3px;
+}
+
+@media (max-width: 768px) {
+  .main-footer {
+    padding: 2rem 0 1.5rem;
+  }
+  
+  .mirror-container {
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .footer-bottom {
+    gap: 1.5rem;
+  }
 }
 
 /* === MODAL === */
