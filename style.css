@@ -360,14 +360,19 @@ section {
 }
 
 .material-title {
-  font-size: 1.5rem;
+  font-family: var(--font-display);
+  font-size: 2rem;
   font-weight: 400;
-  margin: 2rem 0 1.5rem;
-  text-align: left;
+  margin: 3rem 0 2.5rem;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .material-title strong {
-  font-weight: 700;
+  color: var(--copper);
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 .curator-separator {
