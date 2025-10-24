@@ -14,14 +14,13 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "60"
+    version: "61"
   },
   program: {
     intro: [
       "Денье, Легре (Legré), <span class=\"emphasis\">Эйлин Грей</span>, Аалто. У&nbsp;каждого свой <span class=\"emphasis\">почерк</span>.",
       "В&nbsp;интерьерах видны соотношения фактур, тонкости цвета, работа с&nbsp;материалами.",
       "Не&#124;обход&#124;им ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
-      "<div class=\"philosophy-divider\">\n <span class=\"divider-ornament\">◆</span>\n <span class=\"divider-line\"></span>\n <span class=\"divider-ornament\">◆</span>\n</div>",
       "<h2 class=\"material-title\"><strong>Материал</strong>&nbsp;— главный источник вдохновения</h2>",
       "Парижские дизайнеры смешивают новое со&nbsp;старым. Интерьер без&nbsp;предметов с&nbsp;историей выглядит неживо."
     ],
