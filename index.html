@@ -157,14 +157,13 @@
 
   <footer class="main-footer">
     <div class="container">
-      <div class="mirror-container">
-        <img src="mirror.png" alt="Art Deco Mirror Reflection" class="mirror-image">
-      </div>
       <div class="footer-email">
         <a href="mailto:o.g.rozet@gmail.com" class="email-link">
-          <span class="email-icon">✉</span>
           o.g.rozet@gmail.com
         </a>
+      </div>
+      <div class="mirror-container">
+        <img src="mirror.png" alt="Art Deco Mirror Reflection" class="mirror-image">
       </div>
       <div class="footer-content">
         <a href="#top" class="back-to-top" aria-label="Наверх">↑</a>
@@ -281,7 +280,7 @@
         curatorEl.className = 'curator-card';
         
         const bioHTML = curator.bio.map(item => `<li>${item}</li>`).join('');
-        const inProgramHTML = curator.inProgram ? `<div class="curator-in-program"><strong>В программе:</strong> ${curator.inProgram}</div>` : '';
+        const inProgramHTML = curator.inProgram ? `<div class="curator-in-program">${curator.inProgram}</div>` : '';
         
         curatorEl.innerHTML = `
           <h3 class="curator-name">${curator.name}</h3>

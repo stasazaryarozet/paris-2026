@@ -132,6 +132,13 @@ h1 {
   font-size: 0.65em;
 }
 
+.hero-bullet {
+  color: var(--chrome);
+  font-size: 2rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
 @keyframes bronzeShine {
   0%, 100% { filter: brightness(1.2); }
   50% { filter: brightness(1.4); }
@@ -254,6 +261,7 @@ section {
 .hero-meta-item::before {
   content: '◆';
   color: var(--chrome);
+  font-size: 0.75em;
 }
 
 /* === BUTTONS === */
@@ -666,10 +674,6 @@ section {
   letter-spacing: -0.011em;
 }
 
-.curator-in-program strong {
-  color: #CD7F32;
-}
-
 /* === INCLUSIONS === */
 .inclusions {
   background-color: white;
@@ -836,28 +840,22 @@ section {
 }
 
 .footer-email {
-  padding: 2rem 0;
+  padding: 1.5rem 0 0;
   text-align: center;
 }
 
 .email-link {
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  font-size: 1.1rem;
-  letter-spacing: -0.011em;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
   transition: color 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
+  font-weight: 300;
 }
 
 .email-link:hover,
 .email-link:focus {
   color: #CD7F32;
-}
-
-.email-icon {
-  font-size: 1.3rem;
 }
 
 .footer-content {
