@@ -1,0 +1,34 @@
+=== ПРОМПТ v3 — БЕЛЫЙ ФОН ===
+
+Two Art Deco mirrors facing each other creating infinite recursion,
+geometric frames in midnight blue (#1a2332) with copper accents,
+BACKGROUND must be pure white (#ffffff),
+mirrors reflecting white space between them,
+subtle copper details on frame corners,
+minimalist 1920s geometric aesthetic,
+clean professional composition,
+aspect ratio 16:9,
+white background creates lightness and openness
+
+=== КОРОТКАЯ ВЕРСИЯ ===
+
+Art Deco mirrors infinite recursion,
+midnight blue #1a2332 frames + copper accents,
+PURE WHITE BACKGROUND #ffffff,
+16:9 minimalist clean
+
+=== КРИТИЧНО ===
+
+Фон ДОЛЖЕН быть БЕЛЫМ (#ffffff)
+Рамы зеркал: midnight blue #1a2332
+Акценты: медь (copper), НЕ золото
+Минимализм, чистота, воздух
+
+=== КОНЦЕПЦИЯ ДЛЯ РАЗМЕЩЕНИЯ ===
+
+Зеркало будет в самом низу страницы на белом фоне.
+Создает ощущение завершения, воздуха, открытости.
+Метафора: одно отражается в одном, бесконечная рекурсия.
+100 лет ар-деко — линия, смотрящаяся в себя.
+
+
