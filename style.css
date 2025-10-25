@@ -92,7 +92,6 @@ iframe {
 
 .container,
 section,
-.hero-content,
 .days-container,
 .curators-grid,
 .inclusions-grid {
@@ -244,9 +243,9 @@ section {
   z-index: 1;
   max-width: 900px;
   padding: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
+  width: 100%;
 }
 
 .hero-subtitle {
