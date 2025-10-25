@@ -391,8 +391,11 @@
     // Form AJAX submission
     const bookingForm = document.getElementById('bookingForm');
     if (bookingForm) {
+      console.log('Booking form found. Action:', bookingForm.action);
+      
       bookingForm.addEventListener('submit', async function(e) {
         e.preventDefault();
+        console.log('Form submission started');
         
         const formData = new FormData(this);
         const button = this.querySelector('button[type="submit"]');
@@ -402,12 +405,21 @@
           return;
         }
         
+        // Log form data
+        console.log('Form data:');
+        for (let [key, value] of formData.entries()) {
+          if (key !== '_honey') {
+            console.log(`  ${key}: ${value}`);
+          }
+        }
+        
         const originalText = button.textContent;
         
         button.textContent = 'Отправка...';
         button.disabled = true;
         
         try {
+          console.log('Sending request to:', this.action);
           const response = await fetch(this.action, {
             method: 'POST',
             body: formData,
@@ -416,16 +428,22 @@
             }
           });
           
+          console.log('Response status:', response.status);
+          console.log('Response ok:', response.ok);
+          
           if (response.ok) {
+            console.log('Form submitted successfully');
             this.reset();
             showModal();
           } else {
             const data = await response.json().catch(() => null);
-            console.error('Form submission error:', data);
+            console.error('Form submission error. Status:', response.status);
+            console.error('Error data:', data);
             alert('Ошибка отправки. Попробуйте позже или напишите на info@parisinjanuary.ru');
           }
         } catch (error) {
-          console.error('Form submission failed:', error);
+          console.error('Form submission failed with exception:', error);
+          console.error('Error details:', error.message, error.stack);
           alert('Ошибка отправки. Попробуйте позже или напишите на info@parisinjanuary.ru');
         } finally {
           button.textContent = originalText;
