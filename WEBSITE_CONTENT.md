@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "116"
+version: "117"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
