@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "70"
+    version: "71"
   },
   program: {
     intro: [
@@ -48,11 +48,11 @@ const CONTENT = {
         },
         {
           name: "Christian Liaigre",
-          description: "Антипод ар-деко в&nbsp;форме, но&nbsp;прямой наследник в&nbsp;философии ремесла. Редукция пышности 1920-х до&nbsp;аскетичной роскоши. Тактильный минимализм: безупречная работа с&nbsp;деревом, кожей, камнем"
+          description: "Антипод ар-деко в&nbsp;форме, но&nbsp;прямой наследник в&nbsp;ремесле. Редукция пышности 1920-х до&nbsp;аскетичной роскоши. Тактильный минимализм: безупречная работа с&nbsp;деревом, кожей, камнем"
         },
         {
           name: "Музей",
-          description: "Наталья выберет и сообщит ~здесь."
+          description: "На&nbsp;выбор куратора"
         }
       ]
     },

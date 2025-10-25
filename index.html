@@ -51,6 +51,8 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body id="top">
+  <!-- Version Badge -->
+  <div class="version-badge" id="version-badge">v—</div>
 
   <section class="hero">
     <div class="hero-content">
@@ -197,6 +199,9 @@
     
     // Render content
     function render() {
+      // Version badge
+      document.getElementById('version-badge').textContent = 'v' + CONTENT.meta.version;
+      
       // Hero
       document.getElementById('hero-title').innerHTML = CONTENT.hero.title;
       document.getElementById('hero-subtitle').innerHTML = CONTENT.hero.subtitle;

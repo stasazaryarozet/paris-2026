@@ -1,6 +1,19 @@
 /* === FONTS === */
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* === VERSION BADGE === */
+.version-badge {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  opacity: 0.4;
+  z-index: 1000;
+  pointer-events: none;
+}
+
 /* === MINIMAL COLOR PALETTE === */
 :root {
   --accent-red: #E31B1B;
