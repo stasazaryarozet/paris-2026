@@ -68,8 +68,8 @@ else:
 # Критические секции
 required_sections = [
     (r'# Индивидуальный почерк ар-деко', 'Hero заголовок'),
-    (r'\*\*Subtitle:\*\*', 'Hero subtitle'),
-    (r'\*\*Dates:\*\*', 'Hero dates'),
+    (r'Фактуры, материалы, атмосфера', 'Hero subtitle (контент)'),
+    (r'15–18\+ января 2026', 'Hero dates (контент)'),
     (r'## Программа', 'Программа секция'),
     (r'## ДЕНЬ I', 'День 1'),
     (r'## ДЕНЬ II', 'День 2'),
@@ -218,8 +218,8 @@ print_success("index.html существует")
 index_html = Path('index.html').read_text(encoding='utf-8')
 
 print_info("Проверка подключения content.js...")
-if 'script src="content.js"' in index_html or 'script src=\\"content.js\\"' in index_html:
-    print_success("content.js подключен")
+if 'content.js' in index_html and ('script.src' in index_html or 'script src' in index_html):
+    print_success("content.js подключен (динамически или статически)")
 else:
     print_error("content.js не подключен!")
     errors.append("Level 4: content.js not linked")
