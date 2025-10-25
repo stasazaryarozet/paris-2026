@@ -927,6 +927,10 @@ section {
   font-size: 0.95em;
 }
 
+.program hr {
+  display: none;
+}
+
 .footer-email {
   color: var(--text-gray);
   text-decoration: none;
