@@ -895,8 +895,12 @@ section {
 }
 
 .form-submit {
-  text-align: center;
   margin-top: 2rem;
+}
+
+.form-submit .btn-primary {
+  width: 100%;
+  display: block;
 }
 
 /* === FOOTER === */
