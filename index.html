@@ -388,14 +388,44 @@
       }
     });
 
+    // Form validation
+    function validateContact(contact) {
+      // Email regex
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      // Phone regex (accepts +, digits, spaces, dashes, parentheses)
+      const phoneRegex = /^[\d\s\-\+\(\)]{7,}$/;
+      
+      return emailRegex.test(contact) || phoneRegex.test(contact);
+    }
+
     // Form AJAX submission
     const bookingForm = document.getElementById('bookingForm');
     if (bookingForm) {
       console.log('Booking form found. Action:', bookingForm.action);
       
+      // Add real-time validation
+      const contactInput = document.getElementById('contact');
+      if (contactInput) {
+        contactInput.addEventListener('input', function() {
+          const value = this.value.trim();
+          if (value.length > 0 && !validateContact(value)) {
+            this.setCustomValidity('Укажите корректный email или телефон');
+          } else {
+            this.setCustomValidity('');
+          }
+        });
+      }
+      
       bookingForm.addEventListener('submit', async function(e) {
         e.preventDefault();
         console.log('Form submission started');
+        
+        // Validate contact field
+        const contactValue = contactInput ? contactInput.value.trim() : '';
+        if (contactValue && !validateContact(contactValue)) {
+          alert('Пожалуйста, укажите корректный email или телефон');
+          return;
+        }
         
         const formData = new FormData(this);
         const button = this.querySelector('button[type="submit"]');
