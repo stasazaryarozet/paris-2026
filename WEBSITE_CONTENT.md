@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "81"
+version: "82"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -80,7 +80,7 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 ### Maison & Objet:<br>материал в действии
 
 **Новое в Декоре**  
-Elizabeth Leriche
+<span class="pavilion-number">Elizabeth Leriche</span>
 
 Глянцевый лак. Матовая керамика. Архивные паттерны. Тактильность
 
@@ -95,7 +95,7 @@ Elizabeth Leriche
 Латунь. Полированная. Патинированная. Сатинированная
 
 **Трансформизм**  
-Harry Nuriev
+<span class="pavilion-number">Harry Nuriev</span>
 
 Цвет — высказывание. Традиция вещи.
 

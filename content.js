@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "81"
+    version: "82"
   },
   program: {
     intro: [
@@ -83,7 +83,7 @@ const CONTENT = {
       locations: [
         {
           name: "Новое в&nbsp;Декоре",
-          description: "Elizabeth Leriche\nГлянцевый лак. Матовая керамика. Архивные паттерны. Тактильность"
+          description: "<span class=\"pavilion-number\">Elizabeth Leriche</span>\nГлянцевый лак. Матовая керамика. Архивные паттерны. Тактильность"
         },
         {
           name: "Ремесло",
@@ -95,7 +95,7 @@ const CONTENT = {
         },
         {
           name: "Трансформизм",
-          description: "Harry Nuriev\nЦвет&nbsp;— высказывание. Традиция вещи."
+          description: "<span class=\"pavilion-number\">Harry Nuriev</span>\nЦвет&nbsp;— высказывание. Традиция вещи."
         }
       ]
     },
