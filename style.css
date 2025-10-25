@@ -332,6 +332,14 @@ section {
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-cta .btn {
+  flex: 1;
+  min-width: 200px;
 }
 
 /* === SECTION TITLE === */
