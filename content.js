@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "93"
+    version: "94"
   },
   program: {
     intro: [
@@ -107,7 +107,7 @@ const CONTENT = {
       locations: [
         {
           name: "Maison Louis Carré",
-          description: "Волна потолка: свет и геометрия.\nГнутые под&nbsp;человека формы.\nДверная ручка с&nbsp;полоской кожи&nbsp;— на&nbsp;ощупь&nbsp;— теплая."
+          description: "Волна потолка: свет и геометрия. Гнутые под&nbsp;человека формы. Теплая дверная ручка.&nbsp;— Человеческий Модернизм."
         },
         {
           name: "Парк",
