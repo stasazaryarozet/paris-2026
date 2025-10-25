@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "75"
+version: "76"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -81,7 +81,7 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 ## ДЕНЬ III • 17 января
 ### Maison & Objet:<br>материал в действии
 
-**What's New in Decor**  
+**Новое в Декоре**  
 Куратор: Elizabeth Leriche
 
 Глянцевый лак. Матовая керамика. Архивные паттерны. Тактильность
@@ -96,7 +96,7 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 
 Латунь. Полированная. Патинированная. Сатинированная
 
-**Transformism**  
+**Трансформизм**  
 Harry Nuriev
 
 Цвет — высказывание. Традиция вещи.
