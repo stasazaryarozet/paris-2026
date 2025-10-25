@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "85"
+    version: "86"
   },
   program: {
     intro: [
@@ -63,7 +63,7 @@ const CONTENT = {
       locations: [
         {
           name: "Saint-Germain-des-Prés",
-          description: "Rue de Seine. Квартал антикваров с&nbsp;1970-х. Лак. Хром. Фанеровка&nbsp;— руки мастеров. «Воскрешение» ар-деко"
+          description: "Rue de Seine. Квартал антикваров с&nbsp;1970-х. Лак. Хром. Фанеровка. Руки мастеров. «Воскрешение» ар-деко"
         },
         {
           name: "Galerie Vallois",
