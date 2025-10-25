@@ -307,9 +307,7 @@ section {
 }
 
 .btn-primary:hover {
-  background-color: #c71717;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 30px rgba(227, 27, 27, 0.4);
+  opacity: 0.9;
 }
 
 .btn:focus-visible {

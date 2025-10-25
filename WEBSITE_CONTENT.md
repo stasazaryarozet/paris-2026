@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "104"
+version: "105"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -51,7 +51,7 @@ Deniot, Liaigre, <span class="emphasis">Eileen Gray</span>, Aalto. У каждо
 **Christian Liaigre**
 
 Шлифовка дерева до шелковистости.
-Глухой блеск и отточенные кромки камня. Чистота, точность, тишина формы
+Глухой блеск и отточенные кромки камня. Чистота, точность — тишина формы
 
 **Музей**
 
