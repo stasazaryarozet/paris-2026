@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "97"
+    version: "98"
   },
   program: {
     intro: [
@@ -47,7 +47,7 @@ const CONTENT = {
         },
         {
           name: "Christian Liaigre",
-          description: "Идеальные пропорции и шлифовка до&nbsp;шелковистости дерева.\nГлухой блеск и отточенные кромки камня. Чистота, точность, тишина формы"
+          description: "Шлифовка дерева до&nbsp;шелковистости.\nГлухой блеск и отточенные кромки камня. Чистота, точность, тишина формы"
         },
         {
           name: "Музей",
