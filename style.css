@@ -145,8 +145,11 @@ h1 {
 .hero-bullet {
   color: var(--chrome);
   font-size: 2rem;
-  display: inline-block;
-  margin-top: 0.5rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  margin: 0.75rem 0 0 0;
 }
 
 @keyframes bronzeShine {
@@ -404,12 +407,15 @@ section {
 }
 
 .curator-separator {
-  text-align: center;
   color: var(--copper);
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  /* Центрируем буллит по вертикальной середине собственного блока */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  margin: 0 auto;
 }
 
 .philosophy-divider {
@@ -1107,7 +1113,7 @@ section {
 /* === FLOATING CTA === */
 .floating-cta {
   position: fixed;
-  bottom: 12rem;
+  bottom: 8rem;
   right: 2rem;
   z-index: 100;
   opacity: 0;
@@ -1127,23 +1133,22 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 1rem 1.5rem;
-  background: rgba(227, 27, 27, 0.4);
+  background: rgba(227, 27, 27, 0.85);
   color: white;
-  border: 1px solid rgba(227, 27, 27, 0.6);
-  border-radius: 2px;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
-  box-shadow: none;
-  backdrop-filter: blur(20px);
-  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(227, 27, 27, 0.35);
+  backdrop-filter: blur(12px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
   font-family: var(--font-body);
   text-decoration: none;
 }
 
 .floating-cta-btn:hover {
-  background: rgba(227, 27, 27, 0.6);
-  border-color: rgba(227, 27, 27, 0.8);
-  transform: none;
-  box-shadow: none;
+  background: rgba(227, 27, 27, 0.92);
+  transform: translateY(-2px);
+  box-shadow: 0 14px 36px rgba(227, 27, 27, 0.45);
 }
 
 .floating-cta-btn:focus-visible {
@@ -1214,6 +1219,7 @@ section {
 
   .floating-cta-btn {
     padding: 0.875rem 1.25rem;
+    border-radius: 6px;
   }
 
   .floating-cta-text {
@@ -1223,5 +1229,21 @@ section {
   .floating-cta-hint {
     font-size: 0.7rem;
   }
+}
+
+/* Desktop enhancements for CTA */
+@media (min-width: 1024px) {
+  .floating-cta {
+    bottom: 4rem;
+    right: 3rem;
+  }
+
+  .floating-cta-btn {
+    padding: 1rem 1.75rem;
+  }
+
+  .floating-cta-line1 { font-size: 1.05rem; }
+  .floating-cta-line2 { font-size: 0.8rem; opacity: 0.95; }
+  .floating-cta-line3 { font-size: 0.75rem; opacity: 0.85; }
 }
 
