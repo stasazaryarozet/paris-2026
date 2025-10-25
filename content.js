@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "90"
+    version: "91"
   },
   program: {
     intro: [
@@ -102,7 +102,7 @@ const CONTENT = {
     {
       number: "ДЕНЬ IV",
       date: "18 января",
-      title: "Эргономика&nbsp;— это&nbsp;забота",
+      title: "Эргономика —<br>это забота",
       theme: "",
       locations: [
         {
