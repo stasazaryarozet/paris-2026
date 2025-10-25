@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "108"
+    version: "109"
   },
   program: {
     intro: [
@@ -138,7 +138,7 @@ const CONTENT = {
         "Работала на&nbsp;телеканале «Культура», редактировала «Московское наследие», руководила Центром моды и дизайна Музея декоративного искусства",
         "Иммигрировала в&nbsp;Париж по&nbsp;любви к&nbsp;городу"
       ],
-      inProgram: "<span class=\"emphasis\">Открывает Париж</span>\n\n<div class=\"curator-separator\">•</div>"
+      inProgram: "<span class=\"emphasis\">Открывает Париж</span>"
     }
   ],
   inclusions: [

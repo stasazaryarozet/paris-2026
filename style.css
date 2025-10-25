@@ -394,7 +394,8 @@ section {
   color: var(--copper);
   font-size: 2rem;
   font-weight: 700;
-  margin-top: 4rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
 }
 
 .philosophy-divider {
