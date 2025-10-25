@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "80"
+    version: "81"
   },
   program: {
     intro: [
@@ -107,7 +107,7 @@ const CONTENT = {
       locations: [
         {
           name: "Maison Louis Carré",
-          description: "(1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Тепло дерева"
+          description: "Alvar Aalto (1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Тепло дерева"
         },
         {
           name: "Парк",

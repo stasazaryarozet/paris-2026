@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "80"
+version: "81"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -105,7 +105,7 @@ Harry Nuriev
 ### Aalto:<br>эргономика как забота
 
 **Maison Louis Carré**  
-(1956–59)
+Alvar Aalto (1956–59)
 
 Сосна. Кожаные ручки. Волнистый потолок. Тепло дерева
 
