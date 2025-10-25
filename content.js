@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "84"
+    version: "85"
   },
   program: {
     intro: [
@@ -43,7 +43,7 @@ const CONTENT = {
         },
         {
           name: "Nolinski",
-          description: "Латунь и мрамор&nbsp;— Каррара, Неро Маркина. Контраст фактур. Нео-деко"
+          description: "Латунь. Мрамор: Каррара, Неро Маркина. Контраст фактур. Нео-деко"
         },
         {
           name: "Christian Liaigre",
