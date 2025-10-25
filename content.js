@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "110"
+    version: "111"
   },
   program: {
     intro: [
@@ -144,8 +144,8 @@ const CONTENT = {
   inclusions: [
     {
       icon: "+",
-      title: "Кураторы:",
-      description: "4&nbsp;дня. Материалы, чат"
+      title: "Кураторы",
+      description: "Материалы, чат"
     },
     {
       icon: "±",
