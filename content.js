@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "73"
+    version: "74"
   },
   program: {
     intro: [
@@ -52,7 +52,7 @@ const CONTENT = {
         },
         {
           name: "Музей",
-          description: "Выставка к&nbsp;100-летию стиля. Оригинальные работы Ruhlmann, Chareau, Dunand. Тактильность фактур, виртуозность ремесла&nbsp;— «исходный код» 1920-х"
+          description: "Выставка к&nbsp;100-летию стиля"
         }
       ]
     },
