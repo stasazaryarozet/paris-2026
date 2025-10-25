@@ -100,7 +100,7 @@ def test_build():
         '1 550&nbsp;€',  # Типографика между числом и единицей
         'Palais de Tokyo',
         'Maison Louis Carré',
-        'Эйлин Грей'
+        'Eileen Gray'
     ]
     for item in critical_content:
         if item not in content_js:

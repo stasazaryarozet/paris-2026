@@ -1,12 +1,12 @@
 ---
 title: "Индивидуальный почерк ар-деко. 100 лет — 4 дня в Париже (январь 2026)"
 description: "4 дня в Париже. Фактуры, материалы, атмосфера. Ольга Розет и Наталья Логинова. Галереи, отели, шоу-румы. Малая группа."
-keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Эйлин Грей, Алвар Аалто, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026"
+keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Eileen Gray, Alvar Aalto, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026"
 og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "67"
+version: "68"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -78,7 +78,7 @@ Rue de Seine. Квартал антикваров с 1970-х. Лак. Хром. 
 **Галерея Валлуа**  
 (Galerie Vallois, 41 rue de Seine)
 
-Робер Валлуа, 1971. Рульманн, Дюнан, <span class="emphasis">Эйлин Грей</span> — столик E-1027. Оригиналы
+Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span> — столик E-1027. Оригиналы
 
 **Пале-де-Токио + Трокадеро**  
 (Palais de Tokyo + Trocadéro)
@@ -113,7 +113,7 @@ Rue de Seine. Квартал антикваров с 1970-х. Лак. Хром. 
 ---
 
 ## ДЕНЬ IV • 18 января
-### Аалто:<br>эргономика как забота
+### Aalto:<br>эргономика как забота
 
 **Мезон Луи Карре**  
 (Maison Louis Carré, 1956–59)

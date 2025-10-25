@@ -9,12 +9,12 @@ const CONTENT = {
   meta: {
     title: "Индивидуальный почерк ар-деко. 100&nbsp;лет&nbsp;— 4&nbsp;дня в&nbsp;Париже (январь 2026)",
     description: "4&nbsp;дня в&nbsp;Париже. Фактуры, материалы, атмосфера. Ольга Розет и Наталья Логинова. Галереи, отели, шоу-румы. Малая группа.",
-    keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Эйлин Грей, Алвар Аалто, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026",
+    keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Eileen Gray, Alvar Aalto, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026",
     ogTitle: "Индивидуальный почерк ар-деко. 100&nbsp;лет",
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "67"
+    version: "68"
   },
   program: {
     intro: [
@@ -68,7 +68,7 @@ const CONTENT = {
         },
         {
           name: "Галерея Валлуа",
-          description: "(Galerie Vallois, 41 rue de Seine)\nРобер Валлуа, 1971. Рульманн, Дюнан, <span class=\"emphasis\">Эйлин Грей</span>&nbsp;— столик E-1027. Оригиналы"
+          description: "(Galerie Vallois, 41 rue de Seine)\nRobert Vallois, 1971. Ruhlmann, Dunand, <span class=\"emphasis\">Eileen Gray</span>&nbsp;— столик E-1027. Оригиналы"
         },
         {
           name: "Пале-де-Токио + Трокадеро",
@@ -103,7 +103,7 @@ const CONTENT = {
     {
       number: "ДЕНЬ IV",
       date: "18 января",
-      title: "Аалто:<br>эргономика как&nbsp;забота",
+      title: "Aalto:<br>эргономика как&nbsp;забота",
       theme: "",
       locations: [
         {
