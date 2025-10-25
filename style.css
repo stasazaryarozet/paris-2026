@@ -241,6 +241,9 @@ section {
   z-index: 1;
   max-width: 900px;
   padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .hero-subtitle {
@@ -347,6 +350,9 @@ section {
   text-align: center;
   margin-bottom: 3rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-title h2 {
@@ -361,7 +367,7 @@ section {
   width: 80px;
   height: 3px;
   background: linear-gradient(90deg, var(--accent-red), var(--chrome));
-  margin: 1rem auto 0;
+  margin-top: 1rem;
 }
 
 /* === PHILOSOPHY SECTION === */
