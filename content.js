@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "77"
+    version: "78"
   },
   program: {
     intro: [
@@ -44,7 +44,7 @@ const CONTENT = {
         },
         {
           name: "Nolinski",
-          description: "Латунь и мрамор&nbsp;— Каррара, Nero Marquina. Контраст фактур. Нео-деко"
+          description: "Латунь и мрамор&nbsp;— Каррара, Неро Маркина. Контраст фактур. Нео-деко"
         },
         {
           name: "Christian Liaigre",
@@ -84,7 +84,7 @@ const CONTENT = {
       locations: [
         {
           name: "Новое в&nbsp;Декоре",
-          description: "Куратор: Elizabeth Leriche\nГлянцевый лак. Матовая керамика. Архивные паттерны. Тактильность"
+          description: "Elizabeth Leriche\nГлянцевый лак. Матовая керамика. Архивные паттерны. Тактильность"
         },
         {
           name: "Ремесло",

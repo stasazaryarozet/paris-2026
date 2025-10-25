@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "77"
+version: "78"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -48,7 +48,7 @@ Deniot, Liaigre, <span class="emphasis">Eileen Gray</span>, Aalto. У каждо
 
 **Nolinski**
 
-Латунь и мрамор — Каррара, Nero Marquina. Контраст фактур. Нео-деко
+Латунь и мрамор — Каррара, Неро Маркина. Контраст фактур. Нео-деко
 
 **Christian Liaigre**
 
@@ -82,7 +82,7 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 ### Maison & Objet:<br>материал в действии
 
 **Новое в Декоре**  
-Куратор: Elizabeth Leriche
+Elizabeth Leriche
 
 Глянцевый лак. Матовая керамика. Архивные паттерны. Тактильность
 
