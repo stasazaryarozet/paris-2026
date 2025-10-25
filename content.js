@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "100"
+    version: "101"
   },
   program: {
     intro: [
@@ -67,7 +67,7 @@ const CONTENT = {
         },
         {
           name: "Galerie Vallois",
-          description: "(41 rue de Seine)\nRobert Vallois, 1971. Ruhlmann, Dunand, <span class=\"emphasis\">Eileen Gray</span>&nbsp;— столик E-1027. Оригиналы"
+          description: "(41 rue de Seine)\nКонтакт с&nbsp;оригиналами. Глубина лака Dunand. Патина Ruhlmann. Столик E-1027&nbsp;— <span class=\"emphasis\">Eileen Gray</span>"
         },
         {
           name: "Palais de Tokyo + Trocadéro",
