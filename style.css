@@ -479,6 +479,7 @@ section {
   margin-bottom: 2.5rem;
   letter-spacing: -0.015em;
   color: var(--text-primary);
+  text-align: center;
 }
 
 .approach-items {
@@ -783,7 +784,6 @@ section {
 }
 
 .inclusion-card {
-  text-align: center;
   padding: 2rem 1.5rem;
   border: 2px solid var(--border-light);
   border-radius: 8px;
@@ -805,11 +805,13 @@ section {
   font-weight: 700;
   margin-bottom: 0.75rem;
   color: var(--midnight-blue);
+  text-align: left;
 }
 
 .inclusion-description {
   font-size: 0.95rem;
   color: var(--text-muted);
+  text-align: left;
   line-height: 1.7;
   letter-spacing: -0.011em;
 }
