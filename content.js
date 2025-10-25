@@ -14,11 +14,11 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "66"
+    version: "67"
   },
   program: {
     intro: [
-      "Денье, Легре (Legré), <span class=\"emphasis\">Эйлин Грей</span>, Аалто. У&nbsp;каждого свой <span class=\"emphasis\">почерк</span>.",
+      "Deniot, Liaigre, <span class=\"emphasis\">Eileen Gray</span>, Aalto. У&nbsp;каждого свой <span class=\"emphasis\">почерк</span>.",
       "В&nbsp;интерьерах видны соотношения фактур, тонкости цвета, работа с&nbsp;материалами.",
       "Не&#124;обход&#124;им ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
       "<div class=\"curator-separator\">•</div>",
@@ -47,8 +47,8 @@ const CONTENT = {
           description: "(Nolinski)\nЛатунь и мрамор&nbsp;— Каррара, Nero Marquina. Контраст фактур. Нео-деко"
         },
         {
-          name: "Легре",
-          description: "(Legré)\nПалисандр, слоновая кость, лак&nbsp;— пышное ар-деко. Салоны 1920−30-х"
+          name: "Лиэгр",
+          description: "(Christian Liaigre)\nАнтипод ар-деко в&nbsp;форме, но&nbsp;прямой наследник в&nbsp;философии ремесла. Редукция пышности 1920-х до&nbsp;аскетичной роскоши. Тактильный минимализм: безупречная работа с&nbsp;деревом, кожей, камнем. Атмосфера, не&nbsp;демонстрация"
         },
         {
           name: "Музей",
