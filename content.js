@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "69"
+    version: "70"
   },
   program: {
     intro: [
@@ -39,16 +39,16 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Прантан",
-          description: "(Printemps)\nКупол 1923&nbsp;— 20&nbsp;метров. Свет сквозь 3185 панелей. Кованое железо Брандта. Primavera. Expo 1925"
+          name: "Printemps",
+          description: "Купол 1923&nbsp;— 20&nbsp;метров. Свет сквозь 3185 панелей. Кованое железо Брандта. Primavera. Expo 1925"
         },
         {
-          name: "Нолински",
-          description: "(Nolinski)\nЛатунь и мрамор&nbsp;— Каррара, Nero Marquina. Контраст фактур. Нео-деко"
+          name: "Nolinski",
+          description: "Латунь и мрамор&nbsp;— Каррара, Nero Marquina. Контраст фактур. Нео-деко"
         },
         {
-          name: "Лиэгр",
-          description: "(Christian Liaigre)\nАнтипод ар-деко в&nbsp;форме, но&nbsp;прямой наследник в&nbsp;философии ремесла. Редукция пышности 1920-х до&nbsp;аскетичной роскоши. Тактильный минимализм: безупречная работа с&nbsp;деревом, кожей, камнем"
+          name: "Christian Liaigre",
+          description: "Антипод ар-деко в&nbsp;форме, но&nbsp;прямой наследник в&nbsp;философии ремесла. Редукция пышности 1920-х до&nbsp;аскетичной роскоши. Тактильный минимализм: безупречная работа с&nbsp;деревом, кожей, камнем"
         },
         {
           name: "Музей",
@@ -63,16 +63,16 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Сен-Жермен",
-          description: "(Saint-Germain-des-Prés)\nRue de Seine. Квартал антикваров с&nbsp;1970-х. Лак. Хром. Фанеровка&nbsp;— руки мастеров. «Воскрешение» ар-деко"
+          name: "Saint-Germain-des-Prés",
+          description: "Rue de Seine. Квартал антикваров с&nbsp;1970-х. Лак. Хром. Фанеровка&nbsp;— руки мастеров. «Воскрешение» ар-деко"
         },
         {
-          name: "Галерея Валлуа",
-          description: "(Galerie Vallois, 41 rue de Seine)\nRobert Vallois, 1971. Ruhlmann, Dunand, <span class=\"emphasis\">Eileen Gray</span>&nbsp;— столик E-1027. Оригиналы"
+          name: "Galerie Vallois",
+          description: "(41 rue de Seine)\nRobert Vallois, 1971. Ruhlmann, Dunand, <span class=\"emphasis\">Eileen Gray</span>&nbsp;— столик E-1027. Оригиналы"
         },
         {
-          name: "Пале-де-Токио + Трокадеро",
-          description: "(Palais de Tokyo + Trocadéro)\nМаршрут выставки Expo 1937. «Фея Электричества» Дюфи&nbsp;— 250 панелей&nbsp;— крупнейшая картина эпохи. «Лебединая песня» стиля"
+          name: "Palais de Tokyo + Trocadéro",
+          description: "Маршрут выставки Expo 1937. «Фея Электричества» Дюфи&nbsp;— 250 панелей&nbsp;— крупнейшая картина эпохи. «Лебединая песня» стиля"
         }
       ]
     },
@@ -83,8 +83,8 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Новое в&nbsp;декоре",
-          description: "Куратор: Элизабет Лериш (Elizabeth Leriche)\nГлянцевый лак. Матовая керамика. Архивные паттерны. Тактильность"
+          name: "What's New in Decor",
+          description: "Куратор: Elizabeth Leriche\nГлянцевый лак. Матовая керамика. Архивные паттерны. Тактильность"
         },
         {
           name: "Ремесло",
@@ -95,8 +95,8 @@ const CONTENT = {
           description: "Павильон 7\nЛатунь. Полированная. Патинированная. Сатинированная"
         },
         {
-          name: "Трансформизм",
-          description: "Гарри Нуриев (Harry Nuriev)\nЦвет&nbsp;— высказывание. Традиция вещи."
+          name: "Transformism",
+          description: "Harry Nuriev\nЦвет&nbsp;— высказывание. Традиция вещи."
         }
       ]
     },
@@ -107,8 +107,8 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "Мезон Луи Карре",
-          description: "(Maison Louis Carré, 1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Тепло дерева"
+          name: "Maison Louis Carré",
+          description: "(1956–59)\nСосна. Кожаные ручки. Волнистый потолок. Тепло дерева"
         },
         {
           name: "Парк",

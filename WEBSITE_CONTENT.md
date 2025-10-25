@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "69"
+version: "70"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -46,18 +46,15 @@ Deniot, Liaigre, <span class="emphasis">Eileen Gray</span>, Aalto. У каждо
 ## ДЕНЬ I • 15 января
 ### Правый берег
 
-**Прантан**  
-(Printemps)
+**Printemps**
 
 Купол 1923 — 20 метров. Свет сквозь 3185 панелей. Кованое железо Брандта. Primavera. Expo 1925
 
-**Нолински**  
-(Nolinski)
+**Nolinski**
 
 Латунь и мрамор — Каррара, Nero Marquina. Контраст фактур. Нео-деко
 
-**Лиэгр**  
-(Christian Liaigre)
+**Christian Liaigre**
 
 Антипод ар-деко в форме, но прямой наследник в философии ремесла. Редукция пышности 1920-х до аскетичной роскоши. Тактильный минимализм: безупречная работа с деревом, кожей, камнем
 
@@ -70,18 +67,16 @@ Deniot, Liaigre, <span class="emphasis">Eileen Gray</span>, Aalto. У каждо
 ## ДЕНЬ II • 16 января
 ### Левый берег
 
-**Сен-Жермен**  
-(Saint-Germain-des-Prés)
+**Saint-Germain-des-Prés**
 
 Rue de Seine. Квартал антикваров с 1970-х. Лак. Хром. Фанеровка — руки мастеров. "Воскрешение" ар-деко
 
-**Галерея Валлуа**  
-(Galerie Vallois, 41 rue de Seine)
+**Galerie Vallois**  
+(41 rue de Seine)
 
 Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span> — столик E-1027. Оригиналы
 
-**Пале-де-Токио + Трокадеро**  
-(Palais de Tokyo + Trocadéro)
+**Palais de Tokyo + Trocadéro**
 
 Маршрут выставки Expo 1937. «Фея Электричества» Дюфи — 250 панелей — крупнейшая картина эпохи. "Лебединая песня" стиля
 
@@ -90,8 +85,8 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 ## ДЕНЬ III • 17 января
 ### Maison & Objet:<br>материал в действии
 
-**Новое в декоре**  
-Куратор: Элизабет Лериш (Elizabeth Leriche)
+**What's New in Decor**  
+Куратор: Elizabeth Leriche
 
 Глянцевый лак. Матовая керамика. Архивные паттерны. Тактильность
 
@@ -105,8 +100,8 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 
 Латунь. Полированная. Патинированная. Сатинированная
 
-**Трансформизм**  
-Гарри Нуриев (Harry Nuriev)
+**Transformism**  
+Harry Nuriev
 
 Цвет — высказывание. Традиция вещи.
 
@@ -115,8 +110,8 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 ## ДЕНЬ IV • 18 января
 ### Aalto:<br>эргономика как забота
 
-**Мезон Луи Карре**  
-(Maison Louis Carré, 1956–59)
+**Maison Louis Carré**  
+(1956–59)
 
 Сосна. Кожаные ручки. Волнистый потолок. Тепло дерева
 
