@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "79"
+    version: "80"
   },
   program: {
     intro: [
@@ -23,8 +23,7 @@ const CONTENT = {
       "Не&#124;обход&#124;им ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
       "<div class=\"curator-separator\">•</div>",
       "<h2 class=\"material-title\"><strong>Материал</strong>&nbsp;— главный источник вдохновения</h2>",
-      "Парижские дизайнеры смешивают новое со&nbsp;старым. Интерьер без&nbsp;предметов с&nbsp;историей выглядит неживо.",
-      "---"
+      "Парижские дизайнеры смешивают новое со&nbsp;старым. Интерьер без&nbsp;предметов с&nbsp;историей выглядит неживо."
     ],
     approach: {
       title: "",
