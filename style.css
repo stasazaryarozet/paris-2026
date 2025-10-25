@@ -922,6 +922,11 @@ section {
   margin-bottom: 2rem;
 }
 
+.pavilion-number {
+  opacity: 0.65;
+  font-size: 0.95em;
+}
+
 .footer-email {
   color: var(--text-gray);
   text-decoration: none;

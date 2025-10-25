@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "78"
+    version: "79"
   },
   program: {
     intro: [
@@ -88,11 +88,11 @@ const CONTENT = {
         },
         {
           name: "Ремесло",
-          description: "Павильон 5А\nМаркетри. Эмаль. Стекло. След резца"
+          description: "<span class=\"pavilion-number\">Павильон 5А</span>\nМаркетри. Эмаль. Стекло. След резца"
         },
         {
           name: "Авторский почерк",
-          description: "Павильон 7\nЛатунь. Полированная. Патинированная. Сатинированная"
+          description: "<span class=\"pavilion-number\">Павильон 7</span>\nЛатунь. Полированная. Патинированная. Сатинированная"
         },
         {
           name: "Трансформизм",
