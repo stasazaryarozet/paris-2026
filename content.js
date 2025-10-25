@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "107"
+    version: "108"
   },
   program: {
     intro: [
@@ -95,7 +95,7 @@ const CONTENT = {
         },
         {
           name: "«Трансформизм»",
-          description: "<span class=\"pavilion-number\">Harry Nuriev</span>\nЦвет&nbsp;— высказывание. Традиция вещи."
+          description: "<span class=\"pavilion-number\">Harry Nuriev</span>\nЦвет как&nbsp;высказывание. Традиция вещи."
         }
       ]
     },
