@@ -557,8 +557,7 @@ section {
 }
 
 .day-header:hover {
-  background: linear-gradient(to right, rgba(184, 115, 51, 0.03), rgba(255, 255, 255, 0));
-  border-bottom-color: var(--copper);
+  border-bottom-color: rgba(184, 115, 51, 0.4);
 }
 
 .day-header:active {
@@ -579,7 +578,7 @@ section {
   }
   
   .day-header:hover {
-    background: linear-gradient(135deg, var(--midnight-blue) 0%, #2a4a6a 100%);
+    border-bottom-color: rgba(184, 115, 51, 0.4);
   }
   
   .day-number {
@@ -931,6 +930,10 @@ section {
 }
 
 .program hr {
+  display: none;
+}
+
+.program .section-title::after {
   display: none;
 }
 
