@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "72"
+version: "73"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -60,7 +60,7 @@ Deniot, Liaigre, <span class="emphasis">Eileen Gray</span>, Aalto. У каждо
 
 **Музей**
 
-На выбор куратора
+Выставка к 100-летию стиля. Оригинальные работы Ruhlmann, Chareau, Dunand. Тактильность фактур, виртуозность ремесла — "исходный код" 1920-х
 
 ---
 
