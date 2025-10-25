@@ -396,6 +396,12 @@
         
         const formData = new FormData(this);
         const button = this.querySelector('button[type="submit"]');
+        
+        if (!button) {
+          console.error('Submit button not found');
+          return;
+        }
+        
         const originalText = button.textContent;
         
         button.textContent = 'Отправка...';
@@ -414,15 +420,20 @@
             this.reset();
             showModal();
           } else {
-            alert('Ошибка отправки. Попробуйте позже или напишите напрямую.');
+            const data = await response.json().catch(() => null);
+            console.error('Form submission error:', data);
+            alert('Ошибка отправки. Попробуйте позже или напишите на info@parisinjanuary.ru');
           }
         } catch (error) {
-          alert('Ошибка отправки. Попробуйте позже.');
+          console.error('Form submission failed:', error);
+          alert('Ошибка отправки. Попробуйте позже или напишите на info@parisinjanuary.ru');
         } finally {
           button.textContent = originalText;
           button.disabled = false;
         }
       });
+    } else {
+      console.error('Booking form not found');
     }
 
     // Modal functions
