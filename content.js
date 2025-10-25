@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "86"
+    version: "87"
   },
   program: {
     intro: [
@@ -71,7 +71,7 @@ const CONTENT = {
         },
         {
           name: "Palais de Tokyo + Trocadéro",
-          description: "Маршрут выставки Expo 1937. «Фея Электричества» Дюфи&nbsp;— 250 панелей&nbsp;— крупнейшая картина эпохи. «Лебединая песня» стиля"
+          description: "Маршрут выставки Expo 1937. «Фея Электричества» Raoul Dufy&nbsp;— 250 панелей&nbsp;— крупнейшая картина эпохи. «Лебединая песня» стиля"
         }
       ]
     },
@@ -94,7 +94,7 @@ const CONTENT = {
           description: "<span class=\"pavilion-number\">Павильон 7</span>\nЛатунь. Полированная. Патинированная. Сатинированная"
         },
         {
-          name: "Трансформизм",
+          name: "«Трансформизм»",
           description: "<span class=\"pavilion-number\">Harry Nuriev</span>\nЦвет&nbsp;— высказывание. Традиция вещи."
         }
       ]

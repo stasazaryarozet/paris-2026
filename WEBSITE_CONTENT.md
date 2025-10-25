@@ -6,7 +6,7 @@ og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "86"
+version: "87"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -72,7 +72,7 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 
 **Palais de Tokyo + Trocadéro**
 
-Маршрут выставки Expo 1937. «Фея Электричества» Дюфи — 250 панелей — крупнейшая картина эпохи. "Лебединая песня" стиля
+Маршрут выставки Expo 1937. «Фея Электричества» Raoul Dufy — 250 панелей — крупнейшая картина эпохи. «Лебединая песня» стиля
 
 ---
 
@@ -94,7 +94,7 @@ Robert Vallois, 1971. Ruhlmann, Dunand, <span class="emphasis">Eileen Gray</span
 
 Латунь. Полированная. Патинированная. Сатинированная
 
-**Трансформизм**  
+**«Трансформизм»**  
 <span class="pavilion-number">Harry Nuriev</span>
 
 Цвет — высказывание. Традиция вещи.
