@@ -14,7 +14,7 @@ const CONTENT = {
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "98"
+    version: "99"
   },
   program: {
     intro: [
@@ -39,7 +39,7 @@ const CONTENT = {
       locations: [
         {
           name: "Printemps",
-          description: "Купол 1923&nbsp;— 20&nbsp;метров. Свет сквозь 3185 панелей. Кованое железо Брандта. Primavera. Expo 1925"
+          description: "Купол 1923&nbsp;— 20&nbsp;метров. Свет сквозь 3 185 панелей. Кованое железо Брандта. Primavera. Expo 1925"
         },
         {
           name: "Nolinski",
