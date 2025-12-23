@@ -125,44 +125,38 @@
     </section>
 
   <section id="booking" class="booking">
-      <div class="container">
+    <div class="container">
       <div class="section-title">
         <h2>Бронь</h2>
       </div>
 
-      <p style="text-align:center;font-size:0.9rem;color:#666;margin:1.5rem auto 2rem;max-width:32rem;line-height:1.6">
-        Нет денег? Возможно, что-нибудь придумаем. Пожалуйста, пишите.
-      </p>
-
-      <div class="booking-form">
-        <form id="bookingForm" action="https://api.parisinjanuary.ru/api/submit" method="POST">
-          
-          <div class="form-group">
-              <label for="name">Имя</label>
-            <input type="text" id="name" name="name" autocomplete="name" required>
-            </div>
-
-          <div class="form-group">
-            <label for="contact">Эл. почта или телефон</label>
-            <input type="text" id="contact" name="contact" placeholder="your@email.com + ..." required aria-describedby="contact-hint">
-            <small id="contact-hint" style="display: block; margin-top: 0.5rem; opacity: 0.7; font-size: 0.85rem;">Укажите email или телефон для связи</small>
-            </div>
-
-          <input type="text" name="_honey" id="_honey" value="" style="position:absolute;left:-5000px;opacity:0;" tabindex="-1" autocomplete="off">
-          <input type="hidden" name="_tstart" id="_tstart" value="">
-
-          <div class="form-consent">
-            <input type="checkbox" id="consent" name="consent" required>
-            <label for="consent">Согласиться с обработкой персональных данных и&nbsp;получением информации от&nbsp;кураторов</label>
-          </div>
-
-          <div class="form-submit">
-            <button type="submit" class="btn btn-primary">Забронировать место</button>
-          </div>
-        </form>
+      <div class="booking-form" style="text-align: center;">
+        <a href="https://docs.google.com/forms/d/e/1BUQQ6acmiVLDhv-t8pp1PfFRmcykQKaIbCe6-DfqKjM/viewform" 
+           target="_blank"
+           rel="noopener noreferrer"
+           style="display: inline-block; padding: 1rem 2.5rem; background: var(--accent); color: white; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 1.05rem; transition: opacity .15s;">
+          Записаться
+        </a>
+        
+        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #666;">
+          Нет денег? Возможно, что-нибудь придумаем. Пожалуйста, пишите.
+        </p>
       </div>
-      </div>
-    </section>
+    </div>
+  </section>
+
+<!-- Fallback для no-JS -->
+<noscript>
+  <div style="background: #fff3cd; padding: 1.5rem; border-radius: 4px; margin: 2rem auto; max-width: 32rem;">
+    <p style="margin-bottom: 1rem;">
+      <strong>Для регистрации напишите Ольге:</strong>
+    </p>
+    <p>
+      Telegram: <a href="https://t.me/olgarozet">@olgarozet</a><br>
+      Email: <a href="mailto:o.g.rozet@gmail.com">o.g.rozet@gmail.com</a>
+    </p>
+  </div>
+</noscript>
 
   <footer class="main-footer">
     <div class="footer-top">
