@@ -169,7 +169,7 @@ const CONTENT = {
     contact_placeholder: "your@email.com или&nbsp;+7…",
     contact_hint: "Укажите email или&nbsp;телефон для&nbsp;связи",
     consent_label: "Согласиться<br> с&nbsp;обработкой персональных данных и&nbsp;получением информации от&nbsp;кураторов",
-    submit_button: "Забронировать место",
+    submit_button: "Записаться в лист ожидания",
     modal_title: "Спасибо!",
     modal_text: "Заявка принята. С&nbsp;Вами свяжутся.",
     modal_close: "Закрыть"
