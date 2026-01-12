@@ -110,8 +110,8 @@ const CONTENT = {
       theme: "",
       locations: [
         {
-          name: "<span class=\"caps\">Маршрут по&nbsp;14&nbsp;точкам</span>",
-          description: "Оптимизированный маршрут от&nbsp;Hall 1 до&nbsp;Hall 7. Тема: «Трансформизм» и&nbsp;«Прошлое раскрывает будущее»"
+          name: "<span class=\"caps\">PAST REVEALS FUTURE</span>",
+          description: "**Маршрут по&nbsp;14&nbsp;точкам**\nОптимизированный маршрут от&nbsp;Hall 1 до&nbsp;Hall 7. Тема: «Трансформизм» и&nbsp;«Прошлое раскрывает будущее»"
         },
         {
           name: "<span class=\"caps\">Harry Nuriev&nbsp;— Designer of the Year</span>",

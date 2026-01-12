@@ -106,7 +106,7 @@ Deniot, Liaigre, Eileen Gray, Aalto. У каждого свой <span class="emp
 ## ДЕНЬ IV • 18 января
 ### MAISON & OBJET
 
-<h2 class="material-title"><strong>PAST REVEALS FUTURE</strong></h2>
+**PAST REVEALS FUTURE**
 
 **Маршрут по 14 точкам**
 
