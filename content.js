@@ -106,7 +106,7 @@ const CONTENT = {
     {
       number: "ДЕНЬ IV",
       date: "18 января",
-      title: "MAISON & OBJET\n<h2 class=\"material-title\"><strong>PAST REVEALS FUTURE</strong></h2>",
+      title: "MAISON & OBJET",
       theme: "",
       locations: [
         {
