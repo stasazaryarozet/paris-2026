@@ -1387,3 +1387,11 @@ section {
   .floating-cta-line3 { font-size: 0.75rem; opacity: 0.85; }
 }
 
+
+/* === UTILITY: WARNING === */
+.warning {
+  color: var(--accent-red);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}

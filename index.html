@@ -1,20 +1,23 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
+
   <!-- Preconnect для Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
+
   <!-- Статические SEO мета-теги (для ботов/краулеров) -->
   <title>Индивидуальный почерк ар-деко. 100 лет — 4 дня в Париже (январь 2026)</title>
   <link rel="canonical" href="https://parisinjanuary.ru" />
-  
-  <meta name="description" content="4 дня в Париже. Фактуры, материалы, атмосфера. Ольга и Наталья. Галереи, отели, шоу-румы. Малые группы.">
-  <meta name="keywords" content="Paris Art Deco, ар-деко Париж, Palais de Tokyo, Nolinski, Galerie Vallois, Maison Louis Carré">
-  
+
+  <meta name="description"
+    content="4 дня в Париже. Фактуры, материалы, атмосфера. Ольга и Наталья. Галереи, отели, шоу-румы. Малые группы.">
+  <meta name="keywords"
+    content="Paris Art Deco, ар-деко Париж, Palais de Tokyo, Nolinski, Galerie Vallois, Maison Louis Carré">
+
   <meta property="og:title" content="Индивидуальный почерк ар-деко. 100 лет">
   <meta property="og:description" content="4 дня. Фактуры, материалы, атмосфера. То, что не видно в публикациях.">
   <meta property="og:type" content="website">
@@ -24,12 +27,12 @@
   <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="Индивидуальный почерк ар-деко">
   <meta property="og:locale" content="ru_RU">
-  
+
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Индивидуальный почерк ар-деко. 100 лет">
   <meta name="twitter:description" content="4 дня. Фактуры, материалы, атмосфера. То, что не видно в публикациях.">
   <meta name="twitter:image" content="https://parisinjanuary.ru/og-image.jpg">
-  
+
   <!-- JSON-LD для Rich Results -->
   <script type="application/ld+json">
   {
@@ -42,15 +45,16 @@
     "inLanguage": "ru-RU",
     "url": "https://parisinjanuary.ru",
     "provider": { "@type": "Organization", "name": "Ольга Розет" },
-    "offers": { "@type": "Offer", "price": "1550", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" }
+    "offers": { "@type": "Offer", "price": "1550", "priceCurrency": "EUR", "availability": "https://schema.org/OutOfStock" }
   }
   </script>
-  
+
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  
+
   <link id="style-link" rel="stylesheet" href="style.css" />
   <!-- CSS версионируется после загрузки content.js -->
 </head>
+
 <body id="top">
   <!-- Version Badge -->
   <div class="version-badge" id="version-badge">v—</div>
@@ -59,48 +63,48 @@
     <div class="hero-content">
       <h1 id="hero-title"></h1>
       <p class="hero-subtitle" id="hero-subtitle"></p>
-      
+
       <div class="hero-meta" id="hero-meta"></div>
 
       <div class="hero-cta">
         <a href="#booking" class="btn btn-primary">Лист ожидания</a>
         <a href="#program" class="btn btn-secondary">Программа по дням</a>
-          </div>
-        </div>
+      </div>
+    </div>
   </section>
 
   <section class="philosophy">
     <div class="container-narrow">
       <div class="section-title">
-            <h2>Программа</h2>
-          </div>
-      
+        <h2>Программа</h2>
+      </div>
+
       <div class="philosophy-content" id="program-intro"></div>
-        </div>
+    </div>
   </section>
 
   <section class="approach">
     <div class="container-narrow">
       <div class="section-title">
-            <h2 id="approach-title"></h2>
-          </div>
-      
+        <h2 id="approach-title"></h2>
+      </div>
+
       <div class="approach-content">
         <p class="approach-thesis" id="approach-thesis"></p>
         <div class="approach-items" id="approach-items"></div>
-          </div>
-        </div>
+      </div>
+    </div>
   </section>
 
   <section id="program" class="program">
     <div class="container">
       <div class="section-title">
         <h2>По дням</h2>
-          </div>
+      </div>
 
       <div class="days-container" id="days-container"></div>
-      </div>
-    </section>
+    </div>
+  </section>
 
   <section class="curators">
     <div class="container">
@@ -109,20 +113,20 @@
       </div>
 
       <div class="curators-grid" id="curators-grid"></div>
-      
+
       <div class="curator-separator">•</div>
-      </div>
-    </section>
+    </div>
+  </section>
 
   <section class="inclusions">
     <div class="container">
       <div class="section-title">
         <h2>Что в(ы)ключено</h2>
-        </div>
+      </div>
 
       <div class="inclusions-grid" id="inclusions-grid"></div>
-      </div>
-    </section>
+    </div>
+  </section>
 
   <section id="booking" class="booking">
     <div class="container">
@@ -130,33 +134,45 @@
         <h2>Лист ожидания</h2>
       </div>
 
-      <div class="booking-form" style="text-align: center;">
-        <a href="https://docs.google.com/forms/d/e/1BUQQ6acmiVLDhv-t8pp1PfFRmcykQKaIbCe6-DfqKjM/viewform" 
-           target="_blank"
-           rel="noopener noreferrer"
-           style="display: inline-block; padding: 1rem 2.5rem; background: var(--accent); color: white; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 1.05rem; transition: opacity .15s;">
-          Записаться
-        </a>
-        
-        <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #666;">
-          Нет денег? Возможно, что-нибудь придумаем. Пожалуйста, пишите.
-        </p>
-      </div>
+      <form id="bookingForm" class="booking-form" action="https://formspree.io/f/xvgwnvkb" method="POST">
+        <!-- Anti-bot timing field -->
+        <input type="hidden" name="_tstart" id="_tstart" value="">
+
+        <div class="form-group">
+          <label for="name" class="form-label">Имя</label>
+          <input type="text" id="name" name="name" class="form-input" placeholder="Ваше имя" required>
+        </div>
+
+        <div class="form-group">
+          <label for="contact" class="form-label">Контакт</label>
+          <input type="text" id="contact" name="contact" class="form-input" placeholder="" required>
+          <div id="contact-hint" class="form-hint"></div>
+        </div>
+
+        <div class="form-consent">
+          <input type="checkbox" id="consent" name="consent" required checked>
+          <label for="consent">Согласие</label>
+        </div>
+
+        <div class="form-submit" style="text-align: center; margin-top: 1.5rem;">
+          <button type="submit" class="btn btn-primary" style="width: 100%; max-width: 300px;">Отправить</button>
+        </div>
+      </form>
     </div>
   </section>
 
-<!-- Fallback для no-JS -->
-<noscript>
-  <div style="background: #fff3cd; padding: 1.5rem; border-radius: 4px; margin: 2rem auto; max-width: 32rem;">
-    <p style="margin-bottom: 1rem;">
-      <strong>Для регистрации напишите Ольге:</strong>
-    </p>
-    <p>
-      Telegram: <a href="https://t.me/olgarozet">@olgarozet</a><br>
-      Email: <a href="mailto:o.g.rozet@gmail.com">o.g.rozet@gmail.com</a>
-    </p>
-  </div>
-</noscript>
+  <!-- Fallback для no-JS -->
+  <noscript>
+    <div style="background: #fff3cd; padding: 1.5rem; border-radius: 4px; margin: 2rem auto; max-width: 32rem;">
+      <p style="margin-bottom: 1rem;">
+        <strong>Для регистрации напишите Ольге:</strong>
+      </p>
+      <p>
+        Telegram: <a href="https://t.me/olgarozet">@olgarozet</a><br>
+        Email: <a href="mailto:o.g.rozet@gmail.com">o.g.rozet@gmail.com</a>
+      </p>
+    </div>
+  </noscript>
 
   <footer class="main-footer">
     <div class="footer-top">
@@ -172,7 +188,7 @@
   <div class="floating-cta" id="floatingCta">
     <a href="#booking" class="floating-cta-btn" aria-label="Лист ожидания">
       <span class="floating-cta-line1">ЛИСТ ОЖИДАНИЯ</span>
-      <span class="floating-cta-line3">ВИЗЫ ТРЕБУЮТ ЗНАЧИТЕЛЬНОГО ВРЕМЕНИ</span>
+      <span class="floating-cta-line3">ГРУППА НАБРАНА. ЗАПИСЬ В РЕЗЕРВ</span>
     </a>
   </div>
 
@@ -188,13 +204,13 @@
 
   <script>
     // Versioned cache busting: load content.js first, then apply version to CSS
-    (function() {
+    (function () {
       const script = document.createElement('script');
       // Initial load with Date.now() to ensure fresh content
       script.src = 'content.js?v=' + Date.now();
       document.head.appendChild(script);
-      
-      script.onload = function() {
+
+      script.onload = function () {
         // set form start time for basic anti-bot timing
         const tstart = document.getElementById('_tstart');
         if (tstart) tstart.value = String(Date.now());
@@ -204,58 +220,58 @@
         if (styleLink) {
           styleLink.href = 'style.css?v=' + version;
         }
-        
+
         // Update dynamic SEO meta from CONTENT
         applyMetaFromContent();
-        
+
         // Initialize app
         init();
       };
     })();
-    
+
     // Synchronize SEO/OG/Twitter meta tags from CONTENT.meta
     function applyMetaFromContent() {
       const M = (window.CONTENT && CONTENT.meta) || {};
-      
+
       // Update document title
       if (M.title) {
         document.title = M.title + ' — ' + (M.ogTitle || 'Париж январь 2026');
       }
-      
+
       // Helper to set meta content
       const setMeta = (selector, value) => {
         if (!value) return;
         const el = document.querySelector(selector);
         if (el) el.setAttribute('content', value);
       };
-      
+
       // Basic meta
       setMeta('meta[name="description"]', M.description);
       setMeta('meta[name="keywords"]', M.keywords);
-      
+
       // Open Graph
       setMeta('meta[property="og:title"]', M.ogTitle || M.title);
       setMeta('meta[property="og:description"]', M.ogDescription || M.description);
       setMeta('meta[property="og:image"]', M.ogImage);
       setMeta('meta[property="og:url"]', M.url);
-      
+
       // Twitter
       setMeta('meta[name="twitter:title"]', M.ogTitle || M.title);
       setMeta('meta[name="twitter:description"]', M.ogDescription || M.description);
       setMeta('meta[name="twitter:image"]', M.ogImage);
-      
+
       // Canonical URL
       const canonical = document.querySelector('link[rel="canonical"]');
       if (canonical && M.url) {
         canonical.setAttribute('href', M.url);
       }
     }
-    
+
     // Render content
     function render() {
       // Version badge - отключено
       // document.getElementById('version-badge').textContent = 'v' + CONTENT.meta.version;
-      
+
       // Hero
       document.getElementById('hero-title').innerHTML = CONTENT.hero.title;
       document.getElementById('hero-subtitle').innerHTML = CONTENT.hero.subtitle;
@@ -284,7 +300,7 @@
       if (CONTENT.program.approach && CONTENT.program.approach.title) {
         document.getElementById('approach-title').innerHTML = CONTENT.program.approach.title;
         document.getElementById('approach-thesis').innerHTML = CONTENT.program.approach.thesis || '';
-        
+
         const approachItems = document.getElementById('approach-items');
         CONTENT.program.approach.items.forEach(item => {
           const p = document.createElement('p');
@@ -298,9 +314,9 @@
       CONTENT.days.forEach((day, index) => {
         const dayEl = document.createElement('div');
         dayEl.className = 'day';
-        
+
         const contentId = `day-content-${index}`;
-        
+
         const locationsHTML = day.locations.map(loc => `
           <li class="location-item">
             <div class="location-name">${loc.name}</div>
@@ -331,7 +347,7 @@
             ${eveningHTML}
           </div>
         `;
-        
+
         daysContainer.appendChild(dayEl);
       });
 
@@ -340,10 +356,10 @@
       CONTENT.curators.forEach(curator => {
         const curatorEl = document.createElement('div');
         curatorEl.className = 'curator-card';
-        
+
         const bioHTML = curator.bio.map(item => `<li>${item}</li>`).join('');
         const inProgramHTML = curator.inProgram ? `<div class="curator-in-program">${curator.inProgram}</div>` : '';
-        
+
         curatorEl.innerHTML = `
           <h3 class="curator-name">${curator.name}</h3>
           <div class="curator-role">${curator.role}</div>
@@ -352,7 +368,7 @@
           </ul>
           ${inProgramHTML}
         `;
-        
+
         curatorsGrid.appendChild(curatorEl);
       });
 
@@ -361,16 +377,16 @@
       CONTENT.inclusions.forEach(inc => {
         const incEl = document.createElement('div');
         incEl.className = 'inclusion-card';
-        
+
         const priceHTML = inc.price ? `<div class="price-highlight">${inc.price}</div>` : '';
-        
+
         incEl.innerHTML = `
           <div class="inclusion-icon">${inc.icon}</div>
           <div class="inclusion-title">${inc.title}</div>
           ${priceHTML}
           <div class="inclusion-description">${inc.description}</div>
         `;
-        
+
         inclusionsGrid.appendChild(incEl);
       });
 
@@ -419,14 +435,14 @@
     function toggleDay(header) {
       const day = header.parentElement;
       const isActive = day.classList.contains('active');
-      
+
       // Close all days
       document.querySelectorAll('.day').forEach(d => {
         d.classList.remove('active');
         const dayHeader = d.querySelector('.day-header');
         if (dayHeader) dayHeader.setAttribute('aria-expanded', 'false');
       });
-      
+
       // Open clicked day if it wasn't active
       if (!isActive) {
         day.classList.add('active');
@@ -442,14 +458,14 @@
       const floatingCta = document.getElementById('floatingCta');
       const hero = document.querySelector('.hero');
       const booking = document.getElementById('booking');
-      
+
       if (!floatingCta || !hero || !booking) return;
-      
+
       const scrollY = window.scrollY;
       const heroBottom = hero.offsetTop + hero.offsetHeight;
       const bookingTop = booking.offsetTop;
       const bookingVisible = scrollY + window.innerHeight > bookingTop + 100;
-      
+
       // Show CTA when: past hero AND before booking is visible
       if (scrollY > heroBottom && !bookingVisible) {
         floatingCta.classList.add('visible');
@@ -476,7 +492,7 @@
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       // Phone regex (accepts +, digits, spaces, dashes, parentheses)
       const phoneRegex = /^[\d\s\-\+\(\)]{7,}$/;
-      
+
       return emailRegex.test(contact) || phoneRegex.test(contact);
     }
 
@@ -487,7 +503,7 @@
       // Add real-time validation
       const contactInput = document.getElementById('contact');
       if (contactInput) {
-        contactInput.addEventListener('input', function() {
+        contactInput.addEventListener('input', function () {
           const value = this.value.trim();
           if (value.length > 0 && !validateContact(value)) {
             this.setCustomValidity('Укажите корректный email или телефон');
@@ -496,30 +512,30 @@
           }
         });
       }
-      
-      bookingForm.addEventListener('submit', async function(e) {
+
+      bookingForm.addEventListener('submit', async function (e) {
         e.preventDefault();
-        
+
         // Validate contact field
         const contactValue = contactInput ? contactInput.value.trim() : '';
         if (contactValue && !validateContact(contactValue)) {
           alert('Пожалуйста, укажите корректный email или телефон');
           return;
         }
-        
+
         const formData = new FormData(this);
         const button = this.querySelector('button[type="submit"]');
-        
+
         if (!button) {
           console.error('Submit button not found');
           return;
         }
-        
+
         const originalText = button.textContent;
-        
+
         button.textContent = 'Отправка...';
         button.disabled = true;
-        
+
         let primaryOk = false;
         try {
           const resPrimary = await fetch(this.action, {
@@ -585,7 +601,7 @@
     }
 
     // Close modal on Esc
-    document.addEventListener('keydown', function(e) {
+    document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
         closeModal();
       }
@@ -594,7 +610,7 @@
     // Close modal on backdrop click
     const modal = document.getElementById('thankYouModal');
     if (modal) {
-      modal.addEventListener('click', function(e) {
+      modal.addEventListener('click', function (e) {
         if (e.target === this) {
           closeModal();
         }
@@ -609,4 +625,5 @@
   </script>
 
 </body>
+
 </html>
