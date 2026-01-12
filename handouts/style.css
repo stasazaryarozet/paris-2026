@@ -1,0 +1,197 @@
+:root {
+    --bg-color: #fcfcfc;
+    --text-color: #1a1a1a;
+    --accent-color: #c41e3a;
+    /* Deep Red for Curatorial accents */
+    --secondary-color: #666;
+    --border-color: #eee;
+    --font-serif: "Outfit", "Inter", -apple-system, sans-serif;
+    --max-width: 800px;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-serif);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    background: white;
+    padding: 60px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        padding: 30px 20px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 1.5em;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--secondary-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 1.2em;
+}
+
+ul {
+    padding-left: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--border-color);
+    margin: 2em 0;
+}
+
+strong {
+    font-weight: 600;
+}
+
+/* Specific styling for the professional sections */
+.agenda-item {
+    margin-bottom: 2em;
+    padding-left: 15px;
+    border-left: 3px solid var(--border-color);
+}
+
+.task-box {
+    background: #fffafa;
+    border: 1px solid #ffe4e1;
+    padding: 20px;
+    margin: 2em 0;
+    border-radius: 4px;
+}
+
+.task-box h3 {
+    border-bottom: none;
+    color: var(--accent-color);
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: 4em;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    text-align: center;
+    font-style: italic;
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+}
+
+.nav-links {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}
+
+.nav-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.nav-links a:hover {
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+/* Print optimizations */
+@media print {
+    body {
+        background: white;
+        padding: 0;
+        font-size: 12pt;
+    }
+
+    .container {
+        box-shadow: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .no-print {
+        display: none !important;
+    }
+
+    h1,
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+
+    p,
+    li {
+        orphans: 3;
+        widows: 3;
+    }
+
+    @page {
+        margin: 2cm;
+    }
+
+    .task-box {
+        border: 1px solid #ccc;
+        background: none;
+    }
+}
