@@ -125,7 +125,7 @@ Deniot, Liaigre, Eileen Gray. У каждого свой <span class="emphasis">
 **Ремесло и Сигнатура**  
 <span class="pavilion-number">Hall 5A & 7</span>
 
-Французские мануфактуры EPV: Verrerie de Biot (стекло), Bronzes de France (фурнитура), Pierre Frey (текстиль).
+Французские мануфактуры EPV: Verrerie de Biot, Bronzes de France, Pierre Frey.
 
 **Signature & Craft Highlights**:
 • **Makino Urushi Design** (Hall 7): Традиционный японский лак.
