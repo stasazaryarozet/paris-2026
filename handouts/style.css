@@ -145,6 +145,37 @@ strong {
     color: var(--secondary-color);
 }
 
+.bio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 2em 0;
+}
+
+.bio-item {
+    font-size: 0.95rem;
+}
+
+.bio-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.bio-item p {
+    margin: 0;
+    color: var(--secondary-color);
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .bio-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
 .nav-links a {
     color: var(--secondary-color);
     text-decoration: none;
