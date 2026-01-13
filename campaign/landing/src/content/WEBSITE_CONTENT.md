@@ -1,12 +1,12 @@
 ---
 title: "Индивидуальный почерк ар-деко. 100 лет — 4 дня в Париже (январь 2026)"
 description: "4 дня в Париже. Фактуры, материалы, атмосфера. Ольга Розет и Наталья Логинова. Галереи, отели, шоу-румы. Малая группа."
-keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Eileen Gray, Alvar Aalto, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026"
+keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Eileen Gray, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026"
 og_title: "Индивидуальный почерк ар-деко. 100 лет"
 og_description: "4 дня. Фактуры, материалы, атмосфера. Можно ли ощутить словами?"
 og_image: "https://parisinjanuary.ru/og-image.jpg"
 og_url: "https://parisinjanuary.ru"
-version: "v181.1-natalia-program-update"
+version: "v182.1-pdf-sync"
 ---
 
 # Индивидуальный почерк ар-деко<br><span class="hero-accent">100 лет</span><br><span class="hero-bullet">•</span>
@@ -25,7 +25,7 @@ version: "v181.1-natalia-program-update"
 
 ## Программа
 
-Deniot, Liaigre, Eileen Gray, Aalto. У каждого свой <span class="emphasis">почерк</span>.
+Deniot, Liaigre, Eileen Gray. У каждого свой <span class="emphasis">почерк</span>.
 
 В интерьерах видны соотношения фактур, тонкости цвета, работа с материалами.
 
@@ -44,92 +44,96 @@ Deniot, Liaigre, Eileen Gray, Aalto. У каждого свой <span class="emp
 
 Выставка века: «100 лет ар-деко». 1000 объектов. Реконструкция вагонов Orient Express — лаковые панели, маркетри, стекло Lalique
 
+**Printemps & Nolinski**
+
+Купол 1923 года (20 метров). Кованое железо Брандта. Нео-деко в интерьерах Nolinski: латунь и мрамор.
+
 **Ключевые персоналии**
 
-Рульманн • Дюнан • Эйлин Грей • Жан-Мишель Франк • Пьер Шаро • Картье (80 ювелирных изделий)
-
-**Хронология**
-
-1910-е → 1925 → 2025. Эволюция стиля через век. Сценография Maxime d'Angeac
+Рульманн • Дюнан • Эйлин Грей • Жан-Мишель Франк • Пьер Шаро • Картье (80 шедевров)
 
 **Библиотека Ришелье**
 
-Графические архивы эпохи. Пассаж Colbert. Архитектурная жемчужина
+Архитектурная жемчужина. Пассаж Colbert. Генезис орнаментальной логики.
 
 ---
 
 ## ДЕНЬ II • 16 января
-### ЛЕГЕНДЫ ПАРИЖСКОГО СТИЛЯ
+### ЛЕВЫЙ БЕРЕГ: ЛЕГЕНДЫ ПАРИЖСКОГО СТИЛЯ
 
-**Louis Vuitton Dreams**
+**Saint-Germain-des-Prés**
 
-Погружение в мир ар-деко в пространстве Louis Vuitton. Выставка Art Deco
-
-**Samaritaine**
-
-Легендарный универмаг. Фасад Анри Соважа (1926–1928). Переход от ар-нуво к ар-деко в городской среде
+Квартал антикваров. Лак, хром, фанеровка. «Воскрешение» ар-деко через руки современных мастеров.
 
 **Galerie Vallois**  
 <span class="pavilion-number">41 rue de Seine</span>
 
-Контакт с оригиналами. Глубина лака Dunand. Патина Ruhlmann. Шедевры Эйлин Грей и Lalique
+Контакт с оригиналами. Глубина лака Dunand. Патина Ruhlmann. Столик E-1027 Эйлин Грей. Скульптуры Чипаруса.
 
-**Улица Mail — Pierre Frey**
+**Louis Vuitton Dreams & Samaritaine**
 
-Сердце парижского текстильного мира. Геометрические узоры, бархаты, шёлк эпохи ар-деко
+Погружение в мир ар-деко. Фасад Анри Соважа (1926–28). Переход от ар-нуво к индустриальной эстетике.
+
+**Palais de Tokyo & Trocadéro**
+
+Маршрут 1925–37. «Фея Электричества» Рауля Дюфи — 250 панелей. Крупнейшее полотно эпохи.
 
 ---
 
 ## ДЕНЬ III • 17 января
-### ЛАБОРАТОРИЯ ФОРМЫ: ИНТЕРБЕЛЛУМ И МОДЕРНИЗМ
+### INTERBELLUM: КУЛЬТ ФУНКЦИИ
 
-**Музей 1930-х**  
-<span class="pavilion-number">Булонь-Бийанкур</span>
+**Музей 30-х годов**  
+<span class="pavilion-number">Boulogne-Billancourt</span>
 
-Искусство интербеллума (1925–1939). Эволюция стиля после выставки 1925 года. Трансформация материалов
+Искусство интербеллума. Эволюция стиля. Трансформация материалов от дерева к стали.
 
 **Christie's**
 
-Аукционный дом — витрина мирового антиквариата. Превью январских торгов
+Аукционный дом — витрина мирового антиквариата. Превью январских торгов.
 
 **Galerie Kreo**
 
-Иконы дизайна XXI века. Коллекционный дизайн: Ron Arad, Ronan & Erwan Bouroullec
+Иконы дизайна XXI века. Коллекционный дизайн: Ron Arad, Bouroullec.
 
-**Liègre + Palais de Tokyo**
+**Christian Liaigre**
 
-Мост между историей и современностью. «Фея Электричества» Raoul Dufy — 250 панелей
+Шлифовка дерева до шелковистости. Чистота, точность — тишина формы. Мост между историей и современностью.
 
 ---
-
 
 ## ДЕНЬ IV • 18 января
 ### MAISON & OBJET
 
 **PAST REVEALS FUTURE**
 
-**Маршрут по 14 точкам**
+**Elizabeth Leriche — Trend Zone**  
+<span class="pavilion-number">Hall 2 & 5A</span>
 
-Оптимизированный маршрут от Hall 1 до Hall 7. Тема: «Трансформизм» и «Прошлое раскрывает будущее»
+«What’s New? In Decor»: Иммерсивное путешествие через четыре стилистические капсулы: Neo-Greek, Neo-Roman, Revisited Art Deco и Neo-Futurist. Поиск будущего в архетипах прошлого.
 
 **Harry Nuriev — Designer of the Year**  
 <span class="pavilion-number">Hall 3</span>
 
-Манифест «Трансформизм». Коллекция для Baccarat. «Не создавать больше, а видеть яснее»
+Манифест «Transformism». Визуальная медитация на тему превращения повседневных вещей в иконы дизайна. Новая коллекция для Baccarat.
 
-**Suite 2046 — Rudy Guénaire**  
-<span class="pavilion-number">Hall 4</span>
+**Тренды 2026: Аналитика**  
+<span class="pavilion-number">Hall 4 & 6</span>
 
-Вдохновение: «Любовное настроение» Вонга Кар-вая. Эстетика 1920–30-х в чистых линиях
+Исследование четырех векторов: Metamorphosis, Mutation, Revisited Baroque и Neo-Folklore.
 
-**Manufactures of Excellence**  
-<span class="pavilion-number">Hall 2</span>
+**Ремесло и Сигнатура**  
+<span class="pavilion-number">Hall 5A & 7</span>
 
-«Деревня мастеров». Французские дома EPV: Pierre Frey, Verrerie de Biot, Bronzes de France
+Французские мануфактуры EPV: Verrerie de Biot (стекло), Bronzes de France (фурнитура), Pierre Frey (текстиль).
+
+**Signature & Craft Highlights**:
+• **Makino Urushi Design** (Hall 7): Традиционный японский лак.
+• **Elie Hirsch** (Hall 5A): Монументальная металлическая скульптура и «след резца».
 
 **Прощальный ужин**
 
-19:30 — Торжественный ужин. Итоги путешествия
+19:30 — Торжественный ужин в стиле ар-деко. Итоги путешествия.
 
 ---
 

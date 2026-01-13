@@ -9,16 +9,16 @@ const CONTENT = {
   meta: {
     title: "Индивидуальный почерк ар-деко. 100&nbsp;лет&nbsp;— 4&nbsp;дня в&nbsp;Париже (январь 2026)",
     description: "4&nbsp;дня в&nbsp;Париже. Фактуры, материалы, атмосфера. Ольга Розет и&nbsp;Наталья Логинова. Галереи, отели, шоу-румы. Малая группа.",
-    keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Eileen Gray, Alvar Aalto, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026",
+    keywords: "ар-деко Париж, art deco Paris, Jean-Louis Deniot, Eileen Gray, Nolinski Paris, Palais de Tokyo, Galerie Vallois, авторские туры Париж, кураторская программа, дизайн интерьеров, малая группа Париж, январь 2026",
     ogTitle: "Индивидуальный почерк ар-деко. 100&nbsp;лет",
     ogDescription: "4&nbsp;дня. Фактуры, материалы, атмосфера. Можно ли&nbsp;ощутить словами?",
     ogImage: "https://parisinjanuary.ru/og-image.jpg",
     url: "https://parisinjanuary.ru",
-    version: "v181.1-natalia-program-update"
+    version: "v182.1-pdf-sync"
   },
   program: {
     intro: [
-      "Deniot, Liaigre, Eileen Gray, Aalto. У&nbsp;каждого свой <span class=\"emphasis\">почерк</span>.",
+      "Deniot, Liaigre, Eileen Gray. У&nbsp;каждого свой <span class=\"emphasis\">почерк</span>.",
       "В&nbsp;интерьерах видны соотношения фактур, тонкости цвета, работа с&nbsp;материалами.",
       "Не&#124;обход&#124;им ли<br><span class=\"emphasis\">контакт с&nbsp;Реальностью</span><br>?",
       "<div class=\"curator-separator\">•</div>",
@@ -42,64 +42,64 @@ const CONTENT = {
           description: "Выставка века: «100&nbsp;лет ар-деко». 1000 объектов. Реконструкция вагонов Orient Express&nbsp;— лаковые панели, маркетри, стекло Lalique"
         },
         {
-          name: "<span class=\"caps\">Ключевые персоналии</span>",
-          description: "Рульманн • Дюнан • Эйлин Грей • Жан-Мишель Франк • Пьер Шаро • Картье (80 ювелирных изделий)"
+          name: "<span class=\"caps\">Printemps & Nolinski</span>",
+          description: "Купол 1923&nbsp;года (20&nbsp;метров). Кованое железо Брандта. Нео-деко в&nbsp;интерьерах Nolinski: латунь и&nbsp;мрамор."
         },
         {
-          name: "<span class=\"caps\">Хронология</span>",
-          description: "1910-е → 1925 → 2025. Эволюция стиля через век. Сценография Maxime d'Angeac"
+          name: "<span class=\"caps\">Ключевые персоналии</span>",
+          description: "Рульманн • Дюнан • Эйлин Грей • Жан-Мишель Франк • Пьер Шаро • Картье (80 шедевров)"
         },
         {
           name: "<span class=\"caps\">Библиотека Ришелье</span>",
-          description: "Графические архивы эпохи. Пассаж Colbert. Архитектурная жемчужина"
+          description: "Архитектурная жемчужина. Пассаж Colbert. Генезис орнаментальной логики."
         }
       ]
     },
     {
       number: "ДЕНЬ II",
       date: "16 января",
-      title: "ЛЕГЕНДЫ ПАРИЖСКОГО СТИЛЯ",
+      title: "ЛЕВЫЙ БЕРЕГ: ЛЕГЕНДЫ ПАРИЖСКОГО СТИЛЯ",
       theme: "",
       locations: [
         {
-          name: "<span class=\"caps\">Louis Vuitton Dreams</span>",
-          description: "Погружение в&nbsp;мир ар-деко в&nbsp;пространстве Louis Vuitton. Выставка Art Deco"
-        },
-        {
-          name: "<span class=\"caps\">Samaritaine</span>",
-          description: "Легендарный универмаг. Фасад Анри Соважа (1926–1928). Переход от&nbsp;ар-нуво к&nbsp;ар-деко в&nbsp;городской среде"
+          name: "<span class=\"caps\">Saint-Germain-des-Prés</span>",
+          description: "Квартал антикваров. Лак, хром, фанеровка. «Воскрешение» ар-деко через руки современных мастеров."
         },
         {
           name: "<span class=\"caps\">Galerie Vallois</span>",
-          description: "<span class=\"pavilion-number\">41 rue de Seine</span>\nКонтакт с&nbsp;оригиналами. Глубина лака Dunand. Патина Ruhlmann. Шедевры Эйлин Грей и&nbsp;Lalique"
+          description: "<span class=\"pavilion-number\">41 rue de Seine</span>\nКонтакт с&nbsp;оригиналами. Глубина лака Dunand. Патина Ruhlmann. Столик E-1027 Эйлин Грей. Скульптуры Чипаруса."
         },
         {
-          name: "<span class=\"caps\">Улица Mail&nbsp;— Pierre Frey</span>",
-          description: "Сердце парижского текстильного мира. Геометрические узоры, бархаты, шёлк эпохи ар-деко"
+          name: "<span class=\"caps\">Louis Vuitton Dreams & Samaritaine</span>",
+          description: "Погружение в&nbsp;мир ар-деко. Фасад Анри Соважа (1926–28). Переход от&nbsp;ар-нуво к&nbsp;индустриальной эстетике."
+        },
+        {
+          name: "<span class=\"caps\">Palais de Tokyo & Trocadéro</span>",
+          description: "Маршрут 1925–37. «Фея Электричества» Рауля Дюфи&nbsp;— 250 панелей. Крупнейшее полотно эпохи."
         }
       ]
     },
     {
       number: "ДЕНЬ III",
       date: "17 января",
-      title: "ЛАБОРАТОРИЯ ФОРМЫ: ИНТЕРБЕЛЛУМ И&nbsp;МОДЕРНИЗМ",
+      title: "INTERBELLUM: КУЛЬТ ФУНКЦИИ",
       theme: "",
       locations: [
         {
-          name: "<span class=\"caps\">Музей 1930-х</span>",
-          description: "<span class=\"pavilion-number\">Булонь-Бийанкур</span>\nИскусство интербеллума (1925–1939). Эволюция стиля после выставки 1925&nbsp;года. Трансформация материалов"
+          name: "<span class=\"caps\">Музей 30-х годов</span>",
+          description: "<span class=\"pavilion-number\">Boulogne-Billancourt</span>\nИскусство интербеллума. Эволюция стиля. Трансформация материалов от&nbsp;дерева к&nbsp;стали."
         },
         {
           name: "<span class=\"caps\">Christie's</span>",
-          description: "Аукционный дом&nbsp;— витрина мирового антиквариата. Превью январских торгов"
+          description: "Аукционный дом&nbsp;— витрина мирового антиквариата. Превью январских торгов."
         },
         {
           name: "<span class=\"caps\">Galerie Kreo</span>",
-          description: "Иконы дизайна XXI века. Коллекционный дизайн: Ron Arad, Ronan & Erwan Bouroullec"
+          description: "Иконы дизайна XXI века. Коллекционный дизайн: Ron Arad, Bouroullec."
         },
         {
-          name: "<span class=\"caps\">Liègre + Palais de Tokyo</span>",
-          description: "Мост между историей и&nbsp;современностью. «Фея Электричества» Raoul Dufy&nbsp;— 250 панелей"
+          name: "<span class=\"caps\">Christian Liaigre</span>",
+          description: "Шлифовка дерева до&nbsp;шелковистости. Чистота, точность&nbsp;— тишина формы. Мост между историей и&nbsp;современностью."
         }
       ]
     },
@@ -111,23 +111,23 @@ const CONTENT = {
       locations: [
         {
           name: "<span class=\"caps\">PAST REVEALS FUTURE</span>",
-          description: "**Маршрут по&nbsp;14&nbsp;точкам**\nОптимизированный маршрут от&nbsp;Hall 1 до&nbsp;Hall 7. Тема: «Трансформизм» и&nbsp;«Прошлое раскрывает будущее»"
+          description: "**Elizabeth Leriche&nbsp;— Trend Zone** \n<span class=\"pavilion-number\">Hall 2 & 5A</span>\n«What’s New? In Decor»: Иммерсивное путешествие через четыре стилистические капсулы: Neo-Greek, Neo-Roman, Revisited Art Deco и&nbsp;Neo-Futurist. Поиск будущего в&nbsp;архетипах прошлого."
         },
         {
           name: "<span class=\"caps\">Harry Nuriev&nbsp;— Designer of the Year</span>",
-          description: "<span class=\"pavilion-number\">Hall 3</span>\nМанифест «Трансформизм». Коллекция для&nbsp;Baccarat. «Не&nbsp;создавать больше, а&nbsp;видеть яснее»"
+          description: "<span class=\"pavilion-number\">Hall 3</span>\nМанифест «Transformism». Визуальная медитация на&nbsp;тему превращения повседневных вещей в&nbsp;иконы дизайна. Новая коллекция для&nbsp;Baccarat."
         },
         {
-          name: "<span class=\"caps\">Suite 2046&nbsp;— Rudy Guénaire</span>",
-          description: "<span class=\"pavilion-number\">Hall 4</span>\nВдохновение: «Любовное настроение» Вонга Кар-вая. Эстетика 1920–30-х в&nbsp;чистых линиях"
+          name: "<span class=\"caps\">Тренды 2026: Аналитика</span>",
+          description: "<span class=\"pavilion-number\">Hall 4 & 6</span>\nИсследование четырех векторов: Metamorphosis, Mutation, Revisited Baroque и&nbsp;Neo-Folklore."
         },
         {
-          name: "<span class=\"caps\">Manufactures of Excellence</span>",
-          description: "<span class=\"pavilion-number\">Hall 2</span>\n«Деревня мастеров». Французские дома EPV: Pierre Frey, Verrerie de Biot, Bronzes de France"
+          name: "<span class=\"caps\">Ремесло и&nbsp;Сигнатура</span>",
+          description: "<span class=\"pavilion-number\">Hall 5A & 7</span>\nФранцузские мануфактуры EPV: Verrerie de Biot (стекло), Bronzes de France (фурнитура), Pierre Frey (текстиль)."
         },
         {
-          name: "<span class=\"caps\">Прощальный ужин</span>",
-          description: "19:30&nbsp;— Торжественный ужин. Итоги путешествия"
+          name: "<span class=\"caps\">Signature & Craft Highlights:\n• Makino Urushi Design (Hall 7): Традиционный японский лак.\n• Elie Hirsch (Hall 5A): Монументальная металлическая скульптура и&nbsp;«след резца».\n\nПрощальный ужин</span>",
+          description: "19:30&nbsp;— Торжественный ужин в&nbsp;стиле ар-деко. Итоги путешествия."
         }
       ]
     }
