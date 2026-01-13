@@ -123,7 +123,7 @@ const CONTENT = {
         },
         {
           name: "<span class=\"caps\">Ремесло и&nbsp;Сигнатура</span>",
-          description: "<span class=\"pavilion-number\">Hall 5A & 7</span>\nФранцузские мануфактуры EPV: Verrerie de Biot (стекло), Bronzes de France (фурнитура), Pierre Frey (текстиль)."
+          description: "<span class=\"pavilion-number\">Hall 5A & 7</span>\nФранцузские мануфактуры EPV: Verrerie de Biot, Bronzes de France, Pierre Frey."
         },
         {
           name: "<span class=\"caps\">Signature & Craft Highlights:\n• Makino Urushi Design (Hall 7): Традиционный японский лак.\n• Elie Hirsch (Hall 5A): Монументальная металлическая скульптура и&nbsp;«след резца».\n\nПрощальный ужин</span>",
